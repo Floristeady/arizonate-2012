@@ -1,0 +1,91 @@
+/*
+ZET Arts&Facts
+Versión 1.0
+Date: 9 - Enero - 2009
+*/
+
+/*This are the basics style sheet. We use it in all sites */
+/*@import "print.css";*/
+
+/*
+Style Sheet
+This Style contains all the css imports and the basics id-class to manage all the site css
+*/
+html, body{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	background-position: top;
+	font-size: 11px;
+	line-height: 16px;
+	background-color:#73c7c7;
+}
+#container {
+	margin-left:auto;
+	margin-right: auto;
+	width: 866px;
+	background-color:#FFFFFF;
+	position: relative;
+	/*min-height: 100%;*/
+}
+
+#content {
+	padding-bottom:30px;   /* Height of the footer */
+	width: 100%;
+	float: left;
+	position: relative;
+}
+
+#footer {
+	color: #FFFFFF;
+	font-size: 11px;
+	line-height: 14px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	height: 30px;
+	background-color:#73c7c7;
+	padding-bottom: 20px;
+}
+#footer a.zet{
+	background-image:url(../img/CSS_sprite.png);
+	background-repeat:no-repeat;
+	background-position: -100px -250px;
+	width:40px;
+	height:25px;
+	float:right;
+	margin-top:5px;
+}
+
+#footer p {
+	color: #FFFFFF;
+}
+
+#footer ul {
+	z-index: 2;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 550px;
+}
+#footer ul li {
+	float: left;
+	list-style-type: none;
+}
+#footer ul li a {
+	color: #e1dfdf;
+	padding-top: 2px;
+	padding-right: 7px;
+	padding-bottom: 2px;
+	padding-left: 7px;
+}
+#footer ul li a:hover {
+	text-decoration: underline;
+}
+
+
+

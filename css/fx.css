@@ -1,0 +1,149 @@
+.reset_margin {
+	margin: 0px;
+}
+.reset_padding {
+	padding: 0px;
+}
+.reset_all {
+	margin: 0px;
+	padding: 0px;
+}
+.separador-H_1 {
+	height: 1px;
+	clear: both;
+	float: left;
+	padding-top: 10px;
+	display: block;
+	width: 100%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	margin-bottom: 10px;
+}
+.separador-V_1 {
+	height: 1px;
+	clear: both;
+	float: left;
+	padding-top: 10px;
+	display: block;
+	width: 100%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	margin-bottom: 10px;
+}
+.sub_line {
+	margin-bottom: 10px;
+	background-image: url(fx/dot.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.sup_line {
+	margin-top:10px;
+	background-image: url(fx/dot.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.sub_line_nomargin {
+	background-image: url(fx/dot.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.sup_line_nomargin {
+	background-image: url(fx/dot.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.resize_600 {
+	width: 600px;
+}
+.dots_down_1{
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCCCCC;
+	width: auto;
+	padding-bottom: 3px;
+}
+.solid_down_1{
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #E1E1E1;
+}
+.solid_left_1{
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #E1E1E1;
+}
+
+
+
+
+/* COLORES
+-------------------------------------------------------------- */
+.red  {	color: #CC0000;}
+.black{	color: #000000;}
+.green{	color: #669933;}
+.yellow {	color: #ED6703;}
+.gray_333 {	color: #333333;}
+.gray_555 {	color: #555555;}
+.gray_777 {	color: #777777;}
+.gray_999 {	color: #999999;}
+.cyan_1 {
+	color: #009baa;
+}
+.cyan_2 {color: #51abcb}
+.cyan_3 {color: #00aeef}
+.magenta {color: #ec008c;}
+.par {
+	background-color: #F4F4F4;
+}
+
+
+
+/* ROUNDED CORNERS
+-------------------------------------------------------------- */
+.tl-gris, .tr-gris, .bl-gris, .br-gris {
+	position: absolute;
+	display: block;
+	height: 8px;
+	width: 8px;
+}
+.tl-gris {
+	background-image: url(../img/CSS_sprite.png);
+	background-position: -100px -450px;
+	top: -1px;
+	left: -1px;
+}
+.tr-gris {
+	background-image: url(../img/CSS_sprite.png);
+	background-position: -125px -450px;
+	top: -1px;
+	right: -1px
+}
+.bl-gris {
+	background-image: url(../img/CSS_sprite.png);
+	background-position: -100px -475px;
+	bottom: -1px;
+	left: -1px;
+}
+.br-gris {
+	background-image: url(../img/CSS_sprite.png);
+	background-position: -125px -475px;
+	bottom: -1px;
+	right: -1px;
+}
+.tl-menu_IZ {
+	position: absolute;
+	display: block;
+	height: 9px;
+	width: 9px;
+}
+.tl-menu_IZ {
+	background-image: url(../img/CSS_sprite.png);
+	background-position: -150px -450px;
+	top: -1px;
+	left: -1px;
+}
+
+
+

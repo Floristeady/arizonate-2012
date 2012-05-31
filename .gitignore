@@ -1,0 +1,14 @@
+# For any project
+
+*.tmp
+*.log
+.DS_Store
+.db
+desktop.ini
+*.sqlite3 
+frontbase
+frontbase/**/*
+
+# For PP projects
+site
+site/**/*

@@ -1,0 +1,3 @@
+[submodule "frontbase"]
+	path = frontbase
+	url = git@github.com:helloguille/frontbase.git

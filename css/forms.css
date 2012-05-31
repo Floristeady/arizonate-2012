@@ -1,0 +1,157 @@
+
+
+/* Custom items
+-------------------------------------------------------------- */
+.acceso_inputs  {
+	color: #264409;
+	font-size: 11px;
+	line-height: 14px;
+	padding: 1px;
+	width: 115px;
+}
+
+
+/* Success, notice and error boxes
+-------------------------------------------------------------- */
+
+.error,
+.notice, 
+.success    {
+	border: 1px solid #dddddd;
+}
+
+.error      { background: #FBE3E4; color: #8a1f11; border-color: #FBC2C4; }
+.error a    { color: #8a1f11; }
+fieldset    { padding:1.4em; margin: 0 0 1.5em 0; border: 1px solid #ccc; }
+
+.errors  {
+	background: #FBE3E4;
+	color: #8a1f11;
+	border-color: #FBC2C4;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 1.1em;
+	width: 350px;
+	margin-top: 10px;
+	float: left;
+}
+.errors  li{
+	margin-bottom: 3px;
+}
+.errors   a, .errors a    { color: #8a1f11; }
+
+
+/* Form fields
+-------------------------------------------------------------- */
+
+select{
+	margin-left:9px;
+	margin-top:10px;
+	margin-right:9px;
+}
+
+input, input.text, input.title,
+textarea, select {
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 1px solid #CCCCCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+	padding: 0px;
+}
+
+input:focus, input.text:focus, input.title:focus,
+textarea:focus, select:focus {
+	border: 1px solid #666;
+}
+.textarea {
+	height: 100px;
+	width: 300px;
+}
+input.text, 
+input.title   {
+	width: 300px;
+	padding: 5px;
+}
+input.title   {
+	font-size:11px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 14px;
+}
+/* -------------------------------------------------------------- 
+   
+   forms.css
+   * Sets up some default styling for forms
+   * Gives you classes to enhance your forms
+   
+   Usage:
+   * For text fields, use class .title or .text
+   
+-------------------------------------------------------------- */
+
+label       {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 0.7em;
+	line-height: 1.1em;
+	color: #333333;
+	margin-right: 5px;
+	margin-bottom:15px;
+}
+legend      { font-weight: bold; font-size:1.2em; }
+.notice     { background: #FFF6BF; color: #514721; border-color: #FFD324; }
+.notice a   { color: #514721; }
+.success    { background: #E6EFC2; color: #264409; border-color: #C6D880; }
+.success a  { color: #264409; }
+.submit {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.filtro_listado {
+	padding: 0px;
+	float: right;
+	margin-right: 4px;
+}
+
+.formulario  {
+	float: left;
+	clear: left;
+	margin-bottom: 15px;
+	margin-top:10px;
+}
+
+.formulario .modulo {
+	float: left;
+	clear: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.formulario div {
+	float: left;
+	clear: left;
+	width: 400px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.formulario label {
+	float: left;
+	width: 80px;
+}
+.formulario .radio {
+	float: left;
+	margin-right: 20px;
+	width: 0px;
+	width: auto;
+	clear: none;
+}
+.formulario input, .formulario h6, .formulario p {
+}
+.formulario select {
+	margin-right: 5px;
+}
+
+
+
