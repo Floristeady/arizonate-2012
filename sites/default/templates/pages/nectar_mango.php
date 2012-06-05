@@ -1,4 +1,4 @@
-<?php include("partials/nav_2_tediet.php"); ?>
+<?php include("partials/submenu.php"); ?>
 
 <div id="detalle_1" >
 

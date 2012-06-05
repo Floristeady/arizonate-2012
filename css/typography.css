@@ -71,17 +71,25 @@ h3 {
 
 h4 {
 	font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'LucidaSansStdRegular', sans-serif;
-	font-weight: bold;
 	color: #464646;
 	font-size: 13px;
 	line-height: 15px;
 	margin-bottom: 5px;
 }
 
+h5, h6 {
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'LucidaSansStdRegular', sans-serif;
+}
+
 
 h1 img, h2 img, h3 img, 
 h4 img, h5 img, h6 img {
   margin: 0;
+}
+
+small {
+	font-size: 11px;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'LucidaSansStdRegular', sans-serif;
 }
 
 
@@ -229,24 +237,5 @@ a:hover {
 
 a:focus, a:visited {
 	
-}
-
-input.enviar {
-	background-image: url(/img/CSS_sprite.png);
-	background-position: -325px -125px;
-	height: 19px;
-	width: 132px;
-	text-transform: uppercase;
-	color: #FFFFFF;
-	text-decoration: none;
-	display: block;
-	font-size: 11px;
-	line-height: 20px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	border-top-style: none;
-	border-right-style: none;
-	border-bottom-style: none;
-	border-left-style: none;
 }
 

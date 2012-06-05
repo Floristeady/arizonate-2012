@@ -70,8 +70,6 @@ input.enviar {
 }
 
 input.boton{
-	background:url(../img/CSS_sprite.png);
-	background-position:-575px -125px;
 	margin-top:20px;
 	color:#FFF;
 	border:none;

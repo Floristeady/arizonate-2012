@@ -67,6 +67,11 @@ input[type=text], .textarea {
 	width: 200px;
 }
 
+#detalle_3 select{
+	padding: 0px;
+	border: 1px solid #cccccc;
+}
+
 input:focus, input.text:focus, input.title:focus,
 textarea:focus, select:focus {
 	border: 1px solid #666;
@@ -85,6 +90,25 @@ input.title   {
 	font-family: Arial, Helvetica, sans-serif;
 	line-height: 14px;
 }
+
+
+input.enviar {
+	height: 19px;
+	width: 132px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	font-size: 11px;
+	line-height: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
 /* -------------------------------------------------------------- 
    
    forms.css
@@ -153,8 +177,12 @@ legend      { font-weight: bold; font-size:1.2em; }
 	width: auto;
 	clear: none;
 }
-.formulario input, .formulario h6, .formulario p {
+
+#detalle_3 .formulario input {
+	width: 200px;
+	padding: 2px;
 }
+
 .formulario select {
 	margin-right: 5px;
 }

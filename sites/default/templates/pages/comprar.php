@@ -29,48 +29,35 @@
 <div id="detalle_3" class="wrapper-a">
 	
     	
-        <h1>Comprar > Orden de Pedido</h1>
+        <h1>Comprar ><span> Orden de Pedido</span></h1>
         
         <div class="top">
-        
-	        <p>Aquí encontrarás nuestros packs de productos AriZona. </p>
-	      	<p>&nbsp;</p>
-	        <p>Todos los packs se venden en <span class="destacado">bandejas de 12 unidades</span> y vienen configurados en paquetes de un sabor o mix de 2 sabores. </p>
+        	<div class="col_IZ">
+        		<p>&nbsp;</p>
+        		<p>Aquí encontrarás nuestros packs de productos AriZona. </p>
+        		<p>Todos los packs se venden en <span class="destacado">bandejas de 12 unidades</span> y vienen configurados en paquetes de un sabor o mix de 2 sabores. </p>
+        		<p>Unidad mínima de venta:</p>
+        		<p>Bandeja de 12 unidades</p>
 	        
-	        <div class="modulo_precio">
-	        	<h6><strong>Unidad mínima de venta:</strong> </h6>
-	        	<p>Bandeja de 12 unidades. </p>
-	            <br />
-	            
-	            <h6>Listado de Valores:</h6>
-	             <br />
-	            
-	            <h5><strong>Bandeja Línea Clásica y DIET</strong></h5>
-	            <div class="precio">
-	            <p> $17.000 c/IVA</p>
-	            </div>
-	            <br />
-	
-	            <h5><strong>Bandeja Té Negro Premium</strong></h5>
-	            <div class="precio">
-	            <p> $12.000 c/IVA</p>
-	            </div>
-	            <br />
-	            
-	            <h5><strong>Bandeja Bebida RX Energy</strong></h5>
-	            <div class="precio">
-	            <p> $17.000 c/IVA</p>
-	            </div>
-	            <br />
-	            
-	      </div>
+	        </div>
+	        
+	        <div class="col_DE">
+	        
+		        <div class="modulo_precio">
+		        	<h6>Listado de valores:</h6>
+		            <br/>
+		            <ul class="list-price">
+			            <li>Bandeja Té verde y Té diet (botellas 473ml) <span>$15.000</span> </li>
+			            <li>Bandeja Té negro (lata 680ml) <span>$12.000</span> </li>
+			            <li>Bandeja RX Energy (lata 680ml) <span>$16.000</span> </li>
+			            <li>Bandeja Nectar (lata 680ml)   <span>$12.000</span> </li>
+		            </ul>		            
+		      </div>
+		   </div>
 	      
 	  </div><!--top-->
 	
 
-    
-    
-    
 
   <div class="bottom">
 	  		<? if (count($errors) > 0) { ?>
@@ -83,17 +70,22 @@
         </div>
         <? } ?>
         
+        <div class="title">
+        	<h3>Selecciona los productos para tu compra</h3>
+        </div>
+        
 	  	<!--modulos-->
 	  	<div class="modulos">
-	    	<div class="title titleimg01"></div>
-           
+
 	        <!--modulo_producto-->
 			<div class="modulo_producto">
+				<h5>Té Verde con Ginseng y Miel. </h5>
+				<h5 class="mar-bottom-28">LINEA TÉ VERDE</h5>
 	    		<img src="/img/test/botella_01_small.png" />
-	        	<p>Té Verde con <br />
-Ginseng y Miel. </p>
-	        	<p><strong>Pack 12 unidades.</strong></p>
-	        	<h6>Cantidad packs</h6>
+	        	<p class="mar-top-10">Pack 12 unidades.</p>
+	        	<p>$15.000</p>
+	        	<p>Botella 473 ml.</p>
+	        	<small>Cantidad packs</small>
 	        	<?=FormHelper::select("productos[1]", range(0,9), "", $_POST["productos"][1]);?>
 	
 	    	</div>
@@ -101,11 +93,13 @@ Ginseng y Miel. </p>
 	        
 	        <!--modulo_producto-->
 			<div class="modulo_producto">
+				<h5>Té Verde con Ginseng y jugo de Granada.</h5>
+				<h5 class="mar-bottom-10">LINEA TÉ VERDE</h5>
 	    		<img src="/img/test/botella_03_small.png" />
-	        	<p>Té Verde con Ginseng<br />
- y jugo de Granada.</p>
-	        	<p><strong>Pack 12 unidades.</strong></p>
-	        	<h6>Cantidad packs</h6>
+	        	<p class="mar-top-10">Pack 12 unidades.</p>
+	        	<p>$15.000</p>
+	        	<p>Botella 473 ml.</p>
+	        	<small>Cantidad packs</small>
 	        	<?=FormHelper::select("productos[3]", range(0,9), "", $_POST["productos"][3]);?>
 	
 	    	</div>
@@ -113,14 +107,32 @@ Ginseng y Miel. </p>
             
              <!--modulo_producto-->
 			<div class="modulo_producto">
+				<h5>Té Blanco con Ginseng y jugo de Arándano. </h5>
+				<h5 class="mar-bottom-10">LINEA TÉ VERDE</h5>
 	    		<img src="/img/test/botella_02_small.png" />
-	        	<p>Té Blanco con Ginseng<br />
- y jugo de Arándano. </p>
-	        	<p><strong>Pack 12 unidades.</strong></p>
-	        	<h6>Cantidad packs</h6>
+	    		<p class="mar-top-10">Pack 12 unidades.</p>
+	        	<p>$15.000</p>
+	        	<p>Botella 473 ml.</p>
+	        	<small>Cantidad packs</small>
 	        	<?=FormHelper::select("productos[2]", range(0,9), "", $_POST["productos"][2]);?>
 		    </div>
 	        <!--/modulo_producto-->
+	        
+	        
+	         <!--modulo_producto-->
+			<div class="modulo_producto">	
+	        	<h5>Té Verde DIET con Ginseng.</h5>
+				<h5 class="mar-bottom-28">LINEA TÉ DIET</h5>
+	    		<img src="/img/test/botella_04_small.png" />
+	    		<p class="mar-top-10">Pack 12 unidades.</p>
+	        	<p>$15.000</p>
+	        	<p>Botella 473 ml.</p>
+	        	<small>Cantidad packs</small>
+	        	<?=FormHelper::select("productos[4]", range(0,9), "", $_POST["productos"][4]);?>
+	
+	    	</div>
+	        <!--/modulo_producto-->
+
 	        
 	    </div>
 	    <!--/modulos-->
@@ -128,120 +140,170 @@ Ginseng y Miel. </p>
         
 	    <!--modulos-->
 	  	<div class="modulos">
-	    	<div class="title titleimg02"></div>
-	        
+	  	
+	       	        
 	        <!--modulo_producto-->
 			<div class="modulo_producto">
-	    		<img src="/img/test/botella_04_small.png" />
-
-	        	<p>Té Verde DIET<br />
- con Ginseng.</p>
-
-	        	<p><strong>Pack 12 unidades.</strong></p>
-	        	<h6>Cantidad packs</h6>
-	        	<?=FormHelper::select("productos[4]", range(0,9), "", $_POST["productos"][4]);?>
-	
-	    	</div>
-	        <!--/modulo_producto-->
-	        
-	        <!--modulo_producto-->
-			<div class="modulo_producto">
+				<h5>Té Negro DIET sabor Frambuesa</h5>
+				<h5 class="mar-bottom-10">LINEA TÉ DIET</h5>
 	    		<img src="/img/test/botella_05_small.png" />
-	        	<p>Té Verde DIET con Ar&aacute;ndano Blanco<br />
- y Manzana.</p>
-	        	<p><strong>Pack 12 unidades.</strong></p>
-	        	<h6>Cantidad packs</h6>
+	    		<p class="mar-top-10">Pack 12 unidades.</p>
+	        	<p>$15.000</p>
+	        	<p>Botella 473 ml.</p>
+	        	<small>Cantidad packs</small>
 	        	<?=FormHelper::select("productos[5]", range(0,9), "", $_POST["productos"][5]);?>
 	
 	    	</div>
 	        <!--/modulo_producto-->
 	        
-	           <!--modulo_producto-->
-			<div class="modulo_producto">
-	    		<img src="/img/test/botella_06_small.png" />
-	        	<p> Té Verde DIET<br />
- con jugo de Arándano.</p>
-	        	<p><strong>Pack 12 unidades.</strong></p>
-	        	<h6>Cantidad packs</h6>
-	        	<?=FormHelper::select("productos[6]", range(0,9), "", $_POST["productos"][6]);?>
-	
-	    	</div>
-	        <!--/modulo_producto-->
-	 
-	    </div>
-	    <!--/modulos-->
-	    
-        
-        
-        
-	    <!--modulos-->
-	  	<div class="modulos">
-	    	<div class="title titleimg03"></div>
-
-	        
 	        <!--modulo_producto-->
 			<div class="modulo_producto">
+				<h5>Té Negro Helado con sabor de Frambuesa.</h5>
+				<h5 class="mar-bottom-10">LINEA TÉ NEGRO</h5>
 	    		<img src="/img/test/lata_01_small.png" />
-	        	<p>Té Negro Helado con<br />
- sabor de Frambuesa.</p>
-	        	<p><strong>Pack 12 unidades.</strong></p>
-	        	<h6>Cantidad packs</h6>
+	    		<p class="mar-top-10">Pack 12 unidades.</p>
+	        	<p>$12.000</p>
+	        	<p>Lata 680 ml.</p>
+	        	<small>Cantidad packs</small>
 	        	<?=FormHelper::select("productos[7]", range(0,9), "", $_POST["productos"][7]);?>
 	    	</div>
 	        <!--/modulo_producto-->
 	        
+	        
 	        <!--modulo_producto-->
 			<div class="modulo_producto">
+				<h5>Té Negro Helado con sabor de Limón.</h5>
+				<h5 class="mar-bottom-10">LINEA TÉ NEGRO</h5>
 	    		<img src="/img/test/lata_02_small.png" />
-	        	<p>Té Negro Helado con<br />
- sabor de Limón.</p>
-	        	<p><strong>Pack 12 unidades.</strong></p>
-	        	<h6>Cantidad packs</h6>
+	    		<p class="mar-top-10">Pack 12 unidades.</p>
+	        	<p>$12.000</p>
+	        	<p>Lata 680 ml.</p>
+	        	<small>Cantidad packs</small>
 	        	<?=FormHelper::select("productos[8]", range(0,9), "", $_POST["productos"][8]);?>
 	    	</div>
 	        <!--/modulo_producto-->
 	        
-	    </div>
-	    <!--/modulos-->
-	    
-	    <!--modulos-->
-	  	<div class="modulos">
-	    	<div class="title titleimg04"></div>
-
-	        
 	        <!--modulo_producto-->
 			<div class="modulo_producto">
-	    		<img src="/img/test/lata_03_small.png" />
-	        	<p>Bebida Energética RX Herbal Tonic. </p>
-	        	<p><strong>Pack 12 unidades.</strong></p>
-	        	<h6>Cantidad packs</h6>
-	        	<?=FormHelper::select("productos[9]", range(0,9), "", $_POST["productos"][9]);?>
+				<h5>Té Negro Helado con sabor de Mango.</h5>
+				<h5 class="mar-bottom-10">LINEA TÉ NEGRO</h5>
+	    		<img src="/img/test/lata_02_small.png" />
+	    		<p class="mar-top-10">Pack 12 unidades.</p>
+	        	<p>$12.000</p>
+	        	<p>Lata 680 ml.</p>
+	        	<small>Cantidad packs</small>
+	        	<?=FormHelper::select("productos[8]", range(0,9), "", $_POST["productos"][8]);?>
 	    	</div>
 	        <!--/modulo_producto-->
-            
-       
+
 	 
 	    </div>
 	    <!--/modulos-->
-        
+	    
+	    
+	    <!--modulos-->
+	  	<div class="modulos">
+	  	
+	        <!--modulo_producto-->
+			<div class="modulo_producto">
+				<h5>Nectar sabor Mango</h5>
+				<h5 class="mar-bottom-10">LINEA NECTAR</h5>
+	    		<img src="/img/test/botella_05_small.png" />
+	    		<p class="mar-top-10">Pack 12 unidades.</p>
+	        	<p>$15.000</p>
+	        	<p>Botella 473 ml.</p>
+	        	<small>Cantidad packs</small>
+	        	<?=FormHelper::select("productos[5]", range(0,9), "", $_POST["productos"][5]);?>
+	
+	    	</div>
+	        <!--/modulo_producto-->
+	        
+	        <!--modulo_producto-->
+			<div class="modulo_producto">
+				<h5>Nectar sabor Sandia</h5>
+				<h5 class="mar-bottom-10">LINEA NECTAR</h5>
+	    		<img src="/img/test/lata_01_small.png" />
+	    		<p class="mar-top-10">Pack 12 unidades.</p>
+	        	<p>$12.000</p>
+	        	<p>Lata 680 ml.</p>
+	        	<small>Cantidad packs</small>
+	        	<?=FormHelper::select("productos[7]", range(0,9), "", $_POST["productos"][7]);?>
+	    	</div>
+	        <!--/modulo_producto-->
+	        
+	        
+	        <!--modulo_producto-->
+			<div class="modulo_producto">
+				<h5>Nectar sabor Uva</h5>
+				<h5 class="mar-bottom-10">LINEA NECTAR</h5>
+	    		<img src="/img/test/lata_02_small.png" />
+	    		<p class="mar-top-10">Pack 12 unidades.</p>
+	        	<p>$12.000</p>
+	        	<p>Lata 680 ml.</p>
+	        	<small>Cantidad packs</small>
+	        	<?=FormHelper::select("productos[8]", range(0,9), "", $_POST["productos"][8]);?>
+	    	</div>
+	        <!--/modulo_producto-->
+	        
+	        <!--modulo_producto-->
+			<div class="modulo_producto">
+				<h5>Nectar sabor Naranja</h5>
+				<h5 class="mar-bottom-10">LINEA NECTAR</h5>
+	    		<img src="/img/test/lata_02_small.png" />
+	    		<p class="mar-top-10">Pack 12 unidades.</p>
+	        	<p>$12.000</p>
+	        	<p>Lata 680 ml.</p>
+	        	<small>Cantidad packs</small>
+	        	<?=FormHelper::select("productos[8]", range(0,9), "", $_POST["productos"][8]);?>
+	    	</div>
+	        <!--/modulo_producto-->
+
+	 
+	    </div>
+	    <!--/modulos-->
+	    
+	    
+	    <!--modulos-->
+	  	<div class="modulos">
+
+	        <!--modulo_producto-->
+			<div class="modulo_producto">
+				<h5>Bebida Energética RX Herbal Tonic. </h5>
+				<h5 class="mar-bottom-10">BEBIDA ENERGÉTICA</h5>
+	    		<img src="/img/test/lata_03_small.png" />
+	    		<p class="mar-top-10">Pack 12 unidades.</p>
+	        	<p>$12.000</p>
+	        	<p>Lata 680 ml.</p>
+	        	<small>Cantidad packs</small>
+	        	<?=FormHelper::select("productos[9]", range(0,9), "", $_POST["productos"][9]);?>
+	    	</div>
+	        <!--/modulo_producto-->
         
            <!--modulos-->
-	  	<div class="modulos">
-	    	<div class="title titleimg05"></div>
-            <div class="destacado">
-     		<p>Arma tu <strong>pack de 12 unidades</strong> con los dos sabores que prefieras. Elige <strong>6 unidades</strong> de cada sabor. </p>
-</div>
+           <div class="modulo_mix">
+           	
+           		<div class="title">
+           			<h3><span>Mix de Sabores</span> / COMBINA DOS SABORES A TU ELECCIÓN</h3>
+           		</div>
+           		
+           		<div class="text">
+           			<p>Arma tu <strong>pack de 12 unidades</strong> con los dos sabores que prefieras. Elige <strong>6 unidades</strong> de cada sabor. </p>
+           		</div>
             
             <div id="Mixs" class="cerrar">
-		</div>
+		    </div>
 
-        <input class="agregar F-left"  name="Agregar" type="button" onclick="addmix()" value="AGREGAR MIX" />
+        	<input class="agregar F-left"  name="Agregar" type="button" onclick="addmix()" value="AGREGAR MIX" />
+       
+        	</div>
+
+	    </div>
+	    <!--/modulos-->
         
-       
-       </div>
-       
-  
-      <div class="title titleimg06"></div>
+	    <div class="title_2">
+           	<h3>Datos del pedido</h3>
+        </div>
+
       
     	<div class="formulario">
         
@@ -277,24 +339,24 @@ Ginseng y Miel. </p>
         
             
             <div>
-               <input class="boton" type="submit" value="ENVIAR">
+               <input class="enviar" type="submit" value="ENVIAR">
                </div>
 				
                 
             </div>
             
           
-  <div class="col_DE">
+  <div class="text_info">
   		<p><strong>Condiciones:</strong></p>
-    	<p>Unidad mínima de venta:</p>
-    	<p>Bandeja de 12 unidades.</p>
+    	<p><span>Unidad mínima de venta:</span></p>
+    	<p><span class="underline">Bandeja de 12 unidades.</span></p>
         <p>&nbsp;</p>
     	<p><strong>Contacto:</strong></p>
-    	<p>Teléfono: (+56 2) 224 37 23</p>    	
-    	<p>Av. Apoquindo 7850, Torre 3, Local 7 </p>
-    	<p>Las Condes. Santiago, Chile.</p>
+    	<p>Teléfonos: 2-224 37 23 // 2-229 66 53</p>
+    	 <p>&nbsp;</p>    	
+    	<h4>Una bebida saludable, refrescante y de gran sabor.</h4>
+    	<h2>100% Natural </h2>
         
-  <div class="bajada"></div>
 
 </div>
     <!--/col_DE-->
