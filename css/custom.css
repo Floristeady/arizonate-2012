@@ -3,17 +3,13 @@
 }
 
 #index .banner{
-	width:262px;
-	height:372px;
+	height:506px;
 	float:left;
-	padding-right:10px;
-
+	border-bottom: 1px #dfdfdf solid;
 }
 
 #index .top {
 	float: left;
-	padding-top: 10px;
-	padding-left:30px;
 }
 
 #index .bottom {
@@ -21,51 +17,203 @@
 	float:left;
 }
 
-#index .col_IZ  {
-	float:left;
-	width:226px;
-	padding-left:80px;
-	padding-right:20px;
-}
 
-#index .col_IZ  h1{
-	padding-top:10px;
-	color:#ec008c;
-	font-weight:bold;
-	text-align:right;
-}
-
-#index .col_IZ  h2{
-	font-weight:bold;
-	text-align:right;
-}
-
-#index .col_DE  {
-	float:right;
-	width:450px;
-	padding-right:80px;
-}
-
-#index .col_DE p{
-	color:#7f3536;
-	padding-bottom:10px;
-}
-
-#index .col_DE img {
-	padding-top:20px;
-}
-.cierre  {
-	position:relative;
-	margin-right: auto;
-	margin-left: auto;
-	background-image: url(../img/repeat/deco_fin.png);
-	display: block;
-	height: 50px;
-	width: 252px;
+#index .description {
+	background-image: url(../img/elements/back_description.png);
 	background-repeat: no-repeat;
-	margin-top: 20px;
+	margin-top: 30px;
+	float: left;
+	padding:10px 10px 10px;
+}
+
+#index .description .line {
+	background-image: url(../img/repeat/line.png);
+	background-repeat: repeat-x;
+	display: block;
+	height: 6px;
+	width: 950px;
+	float: left;
+	padding:10px 0px 10px;
+}
+
+#index .description .logo {
+	background: url("../img/CSS_sprite.png") no-repeat scroll -325px -50px transparent;
+	display: block;
+	float: left;
+	height: 46px;
+	margin-right: 20px;
+	margin-top: -15px;
+	width: 182px;
+}
+
+#index .description .text {
+	float: left;
+	clear: left;
+	margin: 10px;
+}
+
+
+#index .description  h1{
+	padding-top:10px;
+	color:#b43a5e;
+	text-align:left;
+	font-size: 26px;
+	font-family: 'ScalaSansBold';
+	
+}
+
+#index .description .three h1{
+	font-family: 'ScalaSansRegular';
+	font-size: 24px;
+	margin-bottom: 4px;
+}
+
+#index .description  h2{
+	font-family: 'ScalaSansRegular';
+	text-align:left;
+	color: #555555;
+	font-size: 20px;
+}
+
+#index .products {
+	padding-bottom: 40px;
+	float: left;
+}
+
+#index .products .title {
+	width: 970px;
+	position: relative;
+	float: left;
+	padding-left: 37%;
 	margin-bottom: 20px;
 }
+
+#index .products .title h3 {
+	text-align: center;
+	float: left;
+}
+
+#index .column {
+	width: 294px;
+	float: left;
+}
+
+#index .list-products {
+	display: none;
+}
+
+#index .te, #index .nectar {
+	margin-right: 42px;
+}
+
+#index .te a:hover h3, #index .nectar a:hover h3, #index .rx a:hover h3{
+	text-decoration: none;
+}
+
+#index .column .subtitle h3 {
+	font-size: 17px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#index .te .subtitle h3 {
+	color: #02322d;
+}
+
+#index .nectar .subtitle h3 {
+	color: #67510b;
+}
+
+#index .rx .subtitle h3 {
+	color: #355a0a;
+}
+
+
+
+
+
+/*Detalle 2 - Salud
+---------------------------------------*/
+
+#detalle_1, #detalle_2 , #contacto {
+	padding-top: 40px;
+}
+
+#detalle_2  {
+	background-color: #fff;
+	min-height: 1140px;
+}
+
+#detalle_2 .col_IZ{
+	width: 439px;
+	float: left;
+	padding-left:25px;
+	padding-right:42px;
+	
+}
+
+#detalle_2 .col_DE{
+	float:right;
+	width: 439px;
+	background-image: url(../img/elements/salud_back_02.png);
+	background-repeat: no-repeat;
+	background-position: 0 140px;
+	padding-top: 30px;
+	padding-right: 25px;
+}
+
+#detalle_2 h1 {
+	margin-bottom: 15px;
+	font-size: 30px;
+}
+
+#detalle_2 h2 {
+	margin-bottom: 10px;
+	font-size: 24px;
+	margin-top: 10px;
+}
+
+#detalle_2 .featured p {
+	font-size: 18px;
+	line-height: 24px;
+	color: #4a671c;
+	font-family: 'ScalaSansBold';
+	margin-top: 10px;
+}
+
+#detalle_2 h4 {
+	margin-bottom: 10px;
+	font-size: 22px;
+	line-height: 24px;
+	margin-top: 10px;
+	color: #b43a5e;
+	width: 240px;
+}
+
+#detalle_2 .big {
+	font-size: 60px;
+	float: left;
+	padding-top: 12px;
+	padding-right: 5px;
+} 
+
+
+#detalle_2 .modulo_img{
+	height:263px;
+	float: left;
+	margin-top: -50px;
+}
+
+#detalle_2 p{
+	padding-bottom:8px;
+}
+
+
+
+
+/*Detalle 1
+---------------------------------------*/
 
 #detalle_1{
 	/*background-image:url(../img/test/fondo_producto.png);
@@ -218,49 +366,9 @@
 }
 
 
-#detalle_2 .modulo_img{
-	height:350px;
-}
+/* Contacto
+---------------------------------------*/
 
-
-#detalle_2, #detalle_3, #contacto{
-	float:left;
-	padding-top:20px;
-	position:relative;
-}
-
-
-#detalle_2 .modulo_img img{
-	position:absolute;
-	top:620px;
-	left:0;
-}
-
-#detalle_2 .col_DE{
-	float:left;
-	width:400px;
-	margin-left:40px;
-}
-
-#detalle_2 .col_IZ{
-	width: 260px;
-	float: left;
-	padding-left:25px;
-	padding-right:40px;
-}
-
-#detalle_2 h3{
-	font-size:11px;
-	border-bottom: dotted 1px #600;
-}
-
-#detalle_2 p{
-	padding-bottom:8px;
-}
-#detalle_3{
-	float:left;
-	padding: 25px;
-}
 
 #detalle_3 .col_IZ{
 	width: 195px;
@@ -405,20 +513,21 @@
 	margin-top:10px;
 	padding-left:20px;
 }
-#contacto{
-	width: 816px;
-	float: left;
-	padding-right:25px;
-	padding-left: 25px;
+
+
+/* Contacto
+---------------------------------------*/
+#contacto {
+	background-color: #fff;
+	min-height: 550px;
 }
 
 #contacto .back{
-	width: 866px;
+	width:970px;
 	float: left;
-	background-image: url(../img/test/fondo_contacto.png);
+	background-image: url(../img/elements/contacto_back.png);
 	height: 223px;
 	position: relative;
-	left: -25px;
 	background-repeat: no-repeat;
 }
 #contacto .col_IZ{
@@ -432,7 +541,7 @@
 	width: 320px;
 	float: right;
 	padding-right:40px;
-	margin-top:80px;
+	margin-top:30px;
 }
 
 #contacto .col_DE a{
@@ -440,29 +549,6 @@
 	font-size:11px;
 	margin-right:235px;
 }
-
-#fondo_flash{
-	z-index:0;
-	position:absolute;
-	left: 0px;
-	top: 20px;
-}
-
-#fondo_flash_pos{
-	z-index:0;
-	position:absolute;
-	top:20px;
-	left: 0px;
-}
-
-#fondo_flash_pos2{
-	z-index:0;
-	position:absolute;
-	top:20px;
-	left: 0px;
-}
-
-
 
 
 /*tablas nutricionales__________________*/

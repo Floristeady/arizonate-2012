@@ -26,56 +26,53 @@
 }
 </script>
 
-<div id="detalle_3">
+<div id="detalle_3" class="wrapper-a">
 	
-    <!--col_IZ-->
-	<div class="col_IZ">
     	
-       <div class="titulo_pedido"></div>
-        <p>Aquí encontrarás nuestros packs de productos AriZona. </p>
-      	<p>&nbsp;</p>
-        <p>Todos los packs se venden en <span class="destacado">bandejas de 12 unidades</span> y vienen configurados en paquetes de un sabor o mix de 2 sabores. </p>
+        <h1>Comprar > Orden de Pedido</h1>
         
-        <div class="modulo_precio">
-        	<h6><strong>Unidad mínima de venta:</strong> </h6>
-        	<p>Bandeja de 12 unidades. </p>
-            <br />
-            
-            <h6>Listado de Valores:</h6>
-             <br />
-            
-            <h5><strong>Bandeja Línea Clásica y DIET</strong></h5>
-            <div class="precio">
-            <p> $17.000 c/IVA</p>
-            </div>
-            <br />
+        <div class="top">
+        
+	        <p>Aquí encontrarás nuestros packs de productos AriZona. </p>
+	      	<p>&nbsp;</p>
+	        <p>Todos los packs se venden en <span class="destacado">bandejas de 12 unidades</span> y vienen configurados en paquetes de un sabor o mix de 2 sabores. </p>
+	        
+	        <div class="modulo_precio">
+	        	<h6><strong>Unidad mínima de venta:</strong> </h6>
+	        	<p>Bandeja de 12 unidades. </p>
+	            <br />
+	            
+	            <h6>Listado de Valores:</h6>
+	             <br />
+	            
+	            <h5><strong>Bandeja Línea Clásica y DIET</strong></h5>
+	            <div class="precio">
+	            <p> $17.000 c/IVA</p>
+	            </div>
+	            <br />
+	
+	            <h5><strong>Bandeja Té Negro Premium</strong></h5>
+	            <div class="precio">
+	            <p> $12.000 c/IVA</p>
+	            </div>
+	            <br />
+	            
+	            <h5><strong>Bandeja Bebida RX Energy</strong></h5>
+	            <div class="precio">
+	            <p> $17.000 c/IVA</p>
+	            </div>
+	            <br />
+	            
+	      </div>
+	      
+	  </div><!--top-->
+	
 
-            <h5><strong>Bandeja Té Negro Premium</strong></h5>
-            <div class="precio">
-            <p> $12.000 c/IVA</p>
-            </div>
-            <br />
-            
-            <h5><strong>Bandeja Bebida RX Energy</strong></h5>
-            <div class="precio">
-            <p> $17.000 c/IVA</p>
-            </div>
-            <br />
-            
-      </div>
-</div>
-<!--/col_IZ-->
+    
+    
+    
 
-    
-    
-    
-    
-    
-    
-    
-    
-<!--col_DE-->
-  <div class="col_DE">
+  <div class="bottom">
 	  		<? if (count($errors) > 0) { ?>
         <div class="errors">
         <ul>
@@ -243,12 +240,6 @@ Ginseng y Miel. </p>
        
        </div>
        
-       
-  	
-  </div>
-    <!--/col_DE-->
-   
-   <div class="bottom">
   
       <div class="title titleimg06"></div>
       
@@ -292,7 +283,7 @@ Ginseng y Miel. </p>
                 
             </div>
             
-            <!--col_DE-->
+          
   <div class="col_DE">
   		<p><strong>Condiciones:</strong></p>
     	<p>Unidad mínima de venta:</p>
@@ -308,7 +299,7 @@ Ginseng y Miel. </p>
 </div>
     <!--/col_DE-->
     
-    </div>
+    </div><!--/bottom-->
 
 
 

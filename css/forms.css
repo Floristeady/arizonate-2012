@@ -50,15 +50,21 @@ select{
 	margin-right:9px;
 }
 
-input, input.text, input.title,
-textarea, select {
+input, input.text , input.title,
+.textarea, select {
 	color: #333333;
-	font-family: Arial, Helvetica, sans-serif;
-	border: 1px solid #CCCCCC;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
+	font-family: Helvetica, sans-serif;
+	border: 1px solid #D57692;
+	font-size: 12px;
 	line-height: 14px;
-	padding: 0px;
+	padding: 4px 0px;
+
+}
+
+input[type=text], .textarea {
+	-webkit-border-radius: 3px;
+	border-radius: 3px; 
+	width: 200px;
 }
 
 input:focus, input.text:focus, input.title:focus,
@@ -91,9 +97,9 @@ input.title   {
 -------------------------------------------------------------- */
 
 label       {
-	font-family:Arial, Helvetica, sans-serif;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'LucidaSansStdRegular', sans-serif;
 	font-weight: normal;
-	font-size: 0.7em;
+	font-size: 12px;
 	line-height: 1.1em;
 	color: #333333;
 	margin-right: 5px;
@@ -120,7 +126,7 @@ legend      { font-weight: bold; font-size:1.2em; }
 	float: left;
 	clear: left;
 	margin-bottom: 15px;
-	margin-top:10px;
+	margin-top:20px;
 }
 
 .formulario .modulo {

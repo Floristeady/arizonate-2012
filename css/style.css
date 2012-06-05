@@ -18,40 +18,58 @@ html, body{
 }
 
 body {
-	font-family:Arial, Helvetica, sans-serif;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'LucidaSansStdRegular', sans-serif;
 	background-position: top;
 	font-size: 11px;
 	line-height: 16px;
-	background-color:#73c7c7;
-}
-#container {
-	margin-left:auto;
-	margin-right: auto;
-	width: 866px;
-	background-color:#FFFFFF;
-	position: relative;
-	/*min-height: 100%;*/
+	background-color: #f8f8f8;
 }
 
-#content {
-	padding-bottom:30px;   /* Height of the footer */
-	width: 100%;
+header#master-header {
+	background-color: #c33b63;
+	background-image: url(../img/repeat/header_img.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	border-bottom: 1px solid #d57692;
+	border-top: 6px #3bbdb7 solid;
+	height: 112px;
 	float: left;
 	position: relative;
+	width: 100%;
 }
 
-#footer {
-	color: #FFFFFF;
-	font-size: 11px;
-	line-height: 14px;
-	width: 100%;
-	position: absolute;
-	bottom: 0px;
-	height: 30px;
-	background-color:#73c7c7;
-	padding-bottom: 20px;
+.wrapper-a {
+	margin-left:auto;
+	margin-right: auto;
+	width: 970px;
+	position: relative;
 }
-#footer a.zet{
+
+
+#content {
+	width: 100%;
+	position: relative;
+	float: left;
+	border-top: 2px solid #c33b63;
+}
+
+footer {
+	float: left;
+	width: 100%;
+	position: relative;
+	background-color: #34a8a3;
+	padding: 20px 0px;
+}
+
+footer .wrapper-a {
+	line-height: 14px;
+	margin-left:auto;
+	margin-right: auto;
+	width: 970px;
+	position: relative;
+}
+
+footer a.zet{
 	background-image:url(../img/CSS_sprite.png);
 	background-repeat:no-repeat;
 	background-position: -100px -250px;
@@ -61,29 +79,43 @@ body {
 	margin-top:5px;
 }
 
-#footer p {
+footer h4 {
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'LucidaSansStdRegular', sans-serif;
 	color: #FFFFFF;
+	font-size: 14px;
+	line-height: 19px;
+	font-weight: normal;
 }
 
-#footer ul {
+footer p {
+	color: #FFFFFF;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'LucidaSansStdRegular', sans-serif;
+	font-size: 12px;
+	line-height: 17px;
+}
+
+footer ul {
 	z-index: 2;
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
 	width: 550px;
 }
-#footer ul li {
+
+footer ul li {
 	float: left;
 	list-style-type: none;
 }
-#footer ul li a {
+
+footer ul li a {
 	color: #e1dfdf;
 	padding-top: 2px;
 	padding-right: 7px;
 	padding-bottom: 2px;
 	padding-left: 7px;
 }
-#footer ul li a:hover {
+
+footer ul li a:hover {
 	text-decoration: underline;
 }
 

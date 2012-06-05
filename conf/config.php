@@ -6,7 +6,7 @@
 	- test: para pruebas antes de la publicacion del sitio
 	- production: para versión de producción. Los mesnajes de depuración desaparecerán completamente del output, asi como también los errores.
 */
-	$env = "production";
+	$env = "development";
 
 	$default_lang = "es";
 
@@ -24,9 +24,9 @@
 	DATABASE
 */
 
-	$db["development"]["host"] = "db-server";
+	$db["development"]["host"] = "localhost";
 	$db["development"]["user"] = "root";
-	$db["development"]["pw"] = "mysqluser";
+	$db["development"]["pw"] = "root";
 	$db["development"]["db"] = "arizonate";
 
 	$db["test"]["host"] = "localhost";

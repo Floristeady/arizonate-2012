@@ -1,138 +1,89 @@
 
-<script src="/Scripts/swfobject_modified.js" type="text/javascript"></script>
-
-
 <div id="index">
 	
     <!--top-->
 	<div class="top">
-    	<!--img src="/img/test/home.png"/-->
-        
-        
+  
          <div class="banner">
-           <object id="FlashID3" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="262" height="372">
-             <param name="movie" value="/flash/home_teverde.swf" />
-             <param name="quality" value="high" />
-             <param name="wmode" value="opaque" />
-             <param name="swfversion" value="6.0.65.0" />
-             <!-- Esta etiqueta param indica a los usuarios de Flash Player 6.0 r65 o posterior que descarguen la versión más reciente de Flash Player. Elimínela si no desea que los usuarios vean el mensaje. -->
-             <param name="expressinstall" value="/Scripts/expressInstall.swf" />
-             <!-- La siguiente etiqueta object es para navegadores distintos de IE. Ocúltela a IE mediante IECC. -->
-             <!--[if !IE]>-->
-             <object type="application/x-shockwave-flash" data="/flash/home_teverde.swf" width="262" height="372">
-               <!--<![endif]-->
-               <param name="quality" value="high" />
-               <param name="wmode" value="opaque" />
-               <param name="swfversion" value="6.0.65.0" />
-               <param name="expressinstall" value="/Scripts/expressInstall.swf" />
-               <!-- El navegador muestra el siguiente contenido alternativo para usuarios con Flash Player 6.0 o versiones anteriores. -->
-               <div>
-                 <h4>El contenido de esta p&aacute;gina requiere una versi&oacute;n m&aacute;s reciente de Adobe Flash Player.</h4>
-                 <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Obtener Adobe Flash Player" width="112" height="33" /></a></p>
-               </div>
-               <!--[if !IE]>-->
-             </object>
-             <!--<![endif]-->
-           </object>
-         </div>
+         	<img src="/img/test/banner_test.png">
          
-         
-         <div class="banner">
-        
-        <!--FLASH TE HELADO-->
-        <object id="FlashID2" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="262" height="372">
-          <param name="movie" value="/flash/home_tenegro.swf" />
-          <param name="quality" value="high" />
-          <param name="wmode" value="opaque" />
-          <param name="swfversion" value="6.0.65.0" />
-          <!-- Esta etiqueta param indica a los usuarios de Flash Player 6.0 r65 o posterior que descarguen la versión más reciente de Flash Player. Elimínela si no desea que los usuarios vean el mensaje. -->
-          <param name="expressinstall" value="/Scripts/expressInstall.swf" />
-          <!-- La siguiente etiqueta object es para navegadores distintos de IE. Ocúltela a IE mediante IECC. -->
-          <!--[if !IE]>-->
-          <object type="application/x-shockwave-flash" data="/flash/home_tenegro.swf" width="262" height="372">
-            <!--<![endif]-->
-            <param name="quality" value="high" />
-            <param name="wmode" value="opaque" />
-            <param name="swfversion" value="6.0.65.0" />
-            <param name="expressinstall" value="/Scripts/expressInstall.swf" />
-            <!-- El navegador muestra el siguiente contenido alternativo para usuarios con Flash Player 6.0 o versiones anteriores. -->
-            <div>
-              <h4>El contenido de esta p&aacute;gina requiere una versi&oacute;n m&aacute;s reciente de Adobe Flash Player.</h4>
-              <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Obtener Adobe Flash Player" width="112" height="33" /></a></p>
-            </div>
-            <!--[if !IE]>-->
-          </object>
-          <!--<![endif]-->
-        </object>
-        </div>
-         
-         
-        
-         <div class="banner">
-			<!--FLASH BEBIDA-->
-          <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="262" height="372">
-            <param name="movie" value="/flash/home_bebida.swf" />
-            <param name="quality" value="high" />
-            <param name="wmode" value="opaque" />
-            <param name="swfversion" value="6.0.65.0" />
-            <!-- Esta etiqueta param indica a los usuarios de Flash Player 6.0 r65 o posterior que descarguen la versión más reciente de Flash Player. Elimínela si no desea que los usuarios vean el mensaje. -->
-            <param name="expressinstall" value="/Scripts/expressInstall.swf" />
-            <!-- La siguiente etiqueta object es para navegadores distintos de IE. Ocúltela a IE mediante IECC. -->
-            <!--[if !IE]>-->
-            <object type="application/x-shockwave-flash" data="/flash/home_bebida.swf" width="262" height="372">
-              <!--<![endif]-->
-              <param name="quality" value="high" />
-              <param name="wmode" value="opaque" />
-              <param name="swfversion" value="6.0.65.0" />
-              <param name="expressinstall" value="../../../../Scripts/expressInstall.swf" />
-              <!-- El navegador muestra el siguiente contenido alternativo para usuarios con Flash Player 6.0 o versiones anteriores. -->
-              <div>
-                <h4>El contenido de esta p&aacute;gina requiere una versi&oacute;n m&aacute;s reciente de Adobe Flash Player.</h4>
-                <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Obtener Adobe Flash Player" width="112" height="33" /></a></p>
-              </div>
-              <!--[if !IE]>-->
-            </object>
-            <!--<![endif]-->
-          </object>
-        </div>
+         </div> <!--/banner-->
     </div>
     <!--/top-->
     
     
     <!--bottom-->
-    <div class="bottom">
+    <div class="bootom wrapper-a">
     	
-        <!--co_IZ-->
-    	<div class="col_IZ">
-        	<h2>Una bebida saludable, refrescante y de gran sabor. </h2>
-            <h1>100% Natural</h1>             
+        <div class="description">
+        	<span class="line"></span>
+        	<div class="text">
+        		<h1><span class="logo"></span>El mejor, sano y más delicioso:<span class="magenta_1"> TE HELADO Y NECTAR</span></h1>   
+        	</div>
+        	
+        	<div class="text">
+        		<h2><span class="yellow">Auténtico té y nectar</span> - <span class="green">100% natural</span>  - Antioxidante - Bajo en sodio - Libre de gluten - Kosher - Sin preservantes - Sin colorantes artificiales - Sin sabores artificiales.</h2>  
+        	</div>
+        	<div class="text three">
+        		<h1><span class="cyan_2">RICO, ENTRETENIDO, REFRESCANTE Y MUY SALUDABLE...</span></h1>
+        		<h1><span class="cyan_2">Bebe, sientete bien y disfruta tu día con</span> <span class="cyan_1"><strong>AriZona!</strong></span></h1> 
+        	</div>
+        	<span class="line mar-top-10"></span>  
+        </div>  <!--/description--> 
+        
+        
+        <div class="products">
+	        <div class="title">
+	       		<span class="deco_cyan"></span>
+	        	<h3>LÍNEAS DE PRODUCTOS</h3>
+	        	<span class="deco_cyan"></span>
+	        </div>
+	        <div class="column te">
+		        <a class="btn_show" href="javascript:void(0);"><img src="../../../../img/elements/te_small.png" alt="te_small" width="293" height="179" />
+		        <span class="subtitle"><h3>Té Arizona</h3></span>
+		        </a>
+		        <ul class="list-products">
+			       	<li><a href="#">Té negro sabor Frambuesa</a></li>
+			       	<li><a href="#">Té negro sabor Limón</a></li>
+			       	<li><a href="#">Té negro sabor Mango</a></li>
+			       	<li><a href="#">Té verde con Ginseng y Miel</a></li>
+			       	<li><a href="#">Té verde sabor Granada</a></li>
+			       	<li><a href="#">Té blanco sabor Arándano</a></li>
+			       	<li><a href="#">Té verde diet con Ginseng </a></li>
+			       	<li><a href="#">Té negro diet sabor Frambuesa</a></li>
+		        </ul>
+		        
+	        </div>
+	        
+	        <div class="column nectar">
+		        <img src="../../../../img/elements/nectar_small.png" alt="nectar_small" width="293" height="179" />
+		        <div class="subtitle"><h3>Nectar</h3></div>
+		         <ul class="list-products">
+			       	<li><a href="#">Nectar sabor Mango</a></li>
+			       	<li><a href="#">Nectar sabor Sandia</a></li>
+			       	<li><a href="#">Nectar sabor Uva </a></li>
+			       	<li><a href="#">Nectar sabor Naranja</a></li>
+		        </ul>
+		        
+	        </div>
+	        
+	           <div class="column rx">
+		        <img src="../../../../img/elements/rx_small.png" alt="rx_small" width="293" height="179" />
+		        <div class="subtitle"><h3>Energética RX</h3></div>
+		        <ul class="list-products">
+			       	<li><a href="#">Bebida energética RX con té de hierbas</a></li>
+		        </ul>
+		        
+	        </div>
+	        
         </div>
-        <!--/co_IZ-->
-        
-        <!--co_DE-->
-        <div class="col_DE">
-        
-            <p>Desde 2007 que los extraordinarios productos de <strong>AriZona</strong> están disponibles en Chile, luego de haber conquistado el mercado Norteamericano e Inglés en el segmento de bebidas de Té nutricionalmente enriquecidas. La línea de productos de Té Verde, Té Negro, Té Blanco y las nuevas Energéticas RX de <strong>AriZona</strong> representan la perfecta combinación entre lo mejor de los ingredientes de la antigua cultura oriental, un refrescante sabor y la moderna propuesta de salud y bienestar que lo distingue.</p>
-            <h3>¡Disfrútala tú también!</h3>
-
-        </div>
-        <!--/co_DE-->
-        
     
     </div>
     <!--/bottom-->
 
 <div class="clearfix"></div>  
-            
-<div class="cierre"></div>
-
+           
 
 </div>
 <!--/index-->
-<script type="text/javascript">
-<!--
-swfobject.registerObject("FlashID");
-swfobject.registerObject("FlashID2");
-swfobject.registerObject("FlashID3");
-//-->
-</script>
+

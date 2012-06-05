@@ -1,4 +1,4 @@
-<div id="contacto">
+<div id="contacto" class="wrapper-a">
 	
     <!--col_IZ-->
 	<div class="col_IZ">
@@ -47,10 +47,12 @@
     
 <!--col_DE-->
 <div class="col_DE">
-  		<p><strong>Importa y Distribuye exclusivamente para Chile:</strong></p>
-    	<p>Big Chile Ltda.</p>
-    	<p>Teléfono: (+56 2) 224 37 23</p>
-    	<p>Fax: (+56 2) 224 37 23</p>
+  		<p><strong>Importa y Distribuye exclusivamente para Chile: </strong> Big Chile Ltda.</p>
+  		</br>
+    	<p><strong>Teléfono:</strong></p>
+    	<p>(+56 2) 224 37 23 // (+56 2) 229 66 53</p>
+    	<p><strong>Fax: </strong></p>
+    	<p>(+56 2) 224 37 23</p>
      	<p>&nbsp;</p>
     	<p>Av. Apoquindo 7850, Torre 3, Local 7 </p>
     	<p>Las Condes. Santiago, Chile.</p>
