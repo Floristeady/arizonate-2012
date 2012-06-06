@@ -43,12 +43,13 @@
 		        <span class="subtitle"><h3>Té Arizona</h3></span>
 		        </a>
 		        <ul class="list-products">
-			       	<li><a href="#">Té negro sabor Frambuesa</a></li>
-			       	<li><a href="#">Té negro sabor Limón</a></li>
-			       	<li><a href="#">Té negro sabor Mango</a></li>
+
 			       	<li><a href="#">Té verde con Ginseng y Miel</a></li>
 			       	<li><a href="#">Té verde sabor Granada</a></li>
 			       	<li><a href="#">Té blanco sabor Arándano</a></li>
+			       	<li><a href="#">Té negro sabor Frambuesa</a></li>
+			       	<li><a href="#">Té negro sabor Limón</a></li>
+			       	<li><a href="#">Té negro sabor Mango</a></li>
 			       	<li><a href="#">Té verde diet con Ginseng </a></li>
 			       	<li><a href="#">Té negro diet sabor Frambuesa</a></li>
 		        </ul>

@@ -40,7 +40,29 @@ span.deco_cyan {
 .magenta_1 {color: #911a3d;}
 .magenta_2 {color: #70243a;}
 
+.nav_te {
+	background-color: #d9ece2;
+}
 
+.nav_nectar {
+	background-color: #f6dfa8;
+}
+
+.nav_rx {
+	background-color: #fbb996;
+}
+
+
+
+.line {
+	background-image: url(../img/repeat/line.png);
+	background-repeat: repeat-x;
+	display: block;
+	height: 6px;
+	width: 950px;
+	float: left;
+	padding:10px 0px 10px;
+}
 
 
 

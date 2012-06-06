@@ -64,13 +64,13 @@ pageTracker._trackPageview();
 <!--nav primary -->
 <nav>
 <ul id="nav-primary">
-	<li><a class="inicio<? if (substr(get_current_action(), 0, 6) == "teverd" || substr(get_current_action(), 0, 6) == "tediet" ) {?>_ON<? } ?>" href="<?=url_for("main", "index")?>">Inicio</a></li> 
-	<li><a class="te<? if (substr(get_current_action(), 0, 6) == "teverd" || substr(get_current_action(), 0, 6) == "tediet" ) {?>_ON<? } ?>" href="<?=url_for("main", "teverde_miel")?>">Té Arizona</a>
+	<li><a class="inicio <? if (substr(get_current_action(), 0, 6) == "teverd" || substr(get_current_action(), 0, 6) == "tediet" ) {?>_ON<? } ?>" href="<?=url_for("main", "index")?>">Inicio</a></li> 
+	<li><a class="te <? if (substr(get_current_action(), 0, 6) == "teverd" || substr(get_current_action(), 0, 6) == "tediet" ) {?>_ON<? } ?>" href="<?=url_for("main", "teverde_miel")?>">Té Arizona</a>
 		<ul class="subnav">
 			<li class="title">Té Verde</li>  
 		    <li><a href="<?=url_for("main", "teverde_miel")?>">Té verde con Ginseng y Miel</a></li> 
 		    <li><a href="<?=url_for("main", "teverde_granada")?>">Té verde sabor Granada</a></li>   
-		    <li><a href="<?=url_for("main", "teverde_arandano")?>">Té blanco sabor Arándano</a></li>  
+		    <li><a href="<?=url_for("main", "teblanco_arandano")?>">Té blanco sabor Arándano</a></li>  
 			<li class="title">Té Negro</li>  
 		    <li><a href="<?=url_for("main", "tehelado_fram")?>">Té negro sabor Frambuesa</a></li> 
 		    <li><a href="<?=url_for("main", "tehelado_limon")?>">Té negro sabor Limón</a></li>   
@@ -80,7 +80,7 @@ pageTracker._trackPageview();
 		    <li><a href="<?=url_for("main", "tediet_fram")?>">Té negro diet sabor Frambuesa</a></li>   
 	    </ul>  
 	</li> 
-	<li><a class="nectar<? if (substr(get_current_action(), 0, 6) == "tehela" ) {?>_ON<? } ?>"  href="<?=url_for("main", "tehelado_fram")?>">Nectar</a>
+	<li><a class="nectar <? if (substr(get_current_action(), 0, 6) == "tehela" ) {?>_ON<? } ?>"  href="<?=url_for("main", "tehelado_fram")?>">Nectar</a>
 		<ul class="subnav">
 			<li><a href="<?=url_for("main", "nectar_mango")?>">Nectar sabor Mango</a></li> 
 			<li><a href="<?=url_for("main", "nectar_sandia")?>">Nectar sabor Sandia</a></li>   
@@ -89,8 +89,8 @@ pageTracker._trackPageview();
 		</ul>   
 		</li> 
 	
-	<li><a class="bebida<? if (get_current_action() == "energetica" ) {?>_ON<? } ?>" href="<?=url_for("main", "energetica")?>">Energética</a></li>
-	<li><a class="salud<? if (get_current_action() == "salud" || get_current_action() == "submit_compra") {?>_ON<? } ?>" href="<?=url_for("main", "salud")?>">Beneficios del té</a></li>
+	<li><a class="bebida <? if (get_current_action() == "energetica" ) {?>_ON<? } ?>" href="<?=url_for("main", "energetica")?>">Energética</a></li>
+	<li><a class="salud <? if (get_current_action() == "salud" || get_current_action() == "submit_compra") {?>_ON<? } ?>" href="<?=url_for("main", "salud")?>">Beneficios del té</a></li>
         <li><a class="contacto<? if (get_current_action() == "contacto" || get_current_action() == "submit_compra") {?>_ON<? } ?>" href="<?=url_for("main", "contacto")?>">Contacto</a></li>
         
 </ul><!--/nav primary -->

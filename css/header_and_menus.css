@@ -132,8 +132,8 @@ a#logo_mini_red {
 	padding-left: 30px;
 }
 
-#nav-primary li a.nectar  {
-	 background-position: 72px center;	 
+header #nav-primary li a.nectar  {
+	 background-position: 68px center;	 
 }
 
 #nav-primary li a.te, #nav-primary li a.nectar {
@@ -207,34 +207,58 @@ a#logo_mini_red {
 
 
 #nav_2 {
-	z-index: 2;
-	margin-left: 15px;
-	background-image: url(../img/repeat/nav2_dot.gif);
-	background-repeat: repeat-x;
-	background-position: left bottom;
-	width: 830px;
+	background-color: #fff;
 	float:left;
-	padding-bottom: 10px;
+	padding:10px 10px;
+	-webkit-border-radius: 4px;
+    border-radius: 4px;
+    width: 190px; 
 }
 
 #nav_2 li{
-	list-style-type: none;
+	clear: left;
+	list-style-position: inside;
 	float: left;
-	margin-right: 10px;
+	font-size: 13px;
+	color: #464646;
+	padding: 4px 0px 2px;
 }
+
 #nav_2 li a{
 	float: left;
 	list-style-type: none;
 	color: #702a2c;
 	text-decoration: none;
-	font-size: 11px;
+	font-size: 12px;
 	line-height: 14px;
-	padding: 5px;
+	color: #464646;
+	background-repeat: no-repeat;
+	 background-position: 0 0px;
+	 padding-left: 10px;
 }
 
-#nav_2 li a:hover, #nav_2 li a.ON {
-	background-color: #f5ce48;
-	color:#000000;
+.nav_te #nav_2 li a:hover,  .nav_te #nav_2 li a.ON {
+	color: #0da596;
 }
 
+.nav_nectar #nav_2 li a:hover, .nav_nectar #nav_2 li a.ON {
+	color: #fdc965;
+}
+
+.nav_rx #nav_2 li a:hover, .nav_rx #nav_2 li a.ON {
+	color: #fb915b;
+}
+
+.nav_te #nav_2 li a{ 
+	background-image: url("/img/elements/bullet_cyan.png");
+
+}
+
+.nav_nectar #nav_2 li a{ 
+	background-image: url("/img/elements/bullet_yellow.png");
+}
+
+.nav_rx #nav_2 li a{ 
+	background-image:url("/img/elements/bullet_orange.png");
+}
 

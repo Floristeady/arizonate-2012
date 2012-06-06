@@ -103,6 +103,7 @@ p, .p, li {
 	font-weight: normal;
 	color: #252525;
 }
+
 p img.left  { float: left; margin: 1.5em 1.5em 1.5em 0; padding: 0; }
 p img.right { float: right; margin: 1.5em 0 1.5em 1.5em; }
 .edit_text {
@@ -237,5 +238,14 @@ a:hover {
 
 a:focus, a:visited {
 	
+}
+
+a.btn_pedido {
+	background-color: #c33b63;
+	color: #fff;
+	clear: left;
+	float: left;
+	margin-bottom: 30px;
+	padding: 5px 10px;
 }
 

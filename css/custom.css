@@ -26,16 +26,6 @@
 	padding:10px 10px 10px;
 }
 
-#index .description .line {
-	background-image: url(../img/repeat/line.png);
-	background-repeat: repeat-x;
-	display: block;
-	height: 6px;
-	width: 950px;
-	float: left;
-	padding:10px 0px 10px;
-}
-
 #index .description .logo {
 	background: url("../img/CSS_sprite.png") no-repeat scroll -325px -50px transparent;
 	display: block;
@@ -136,7 +126,7 @@
 /*Detalle 2 - Salud
 ---------------------------------------*/
 
-#detalle_1, #detalle_2, #detalle_3 , #contacto {
+#detalle_2, #detalle_3 , #contacto {
 	padding-top: 40px;
 }
 
@@ -217,114 +207,129 @@
 
 #detalle_1{
 	position:relative;
+	padding-top: 24px;
+}
+
+#detalle_1 .col_IZ{
+	width: 230px;
+	float: left;
+	margin-right:40px;
+	position:relative;
+	margin-bottom: 20px;
+}
+
+#detalle_1 .box_nav_2 {
+	float: left;
+    margin-bottom: 8px;
+    padding: 16px 10px 10px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px; 
+    width: 210px;
+}
+
+#detalle_1 .box_nav_2 h4 {
+	text-transform: uppercase;
+	padding-bottom: 6px;
+	padding-left: 5px;
+	 color: #262626;
 }
 
 #detalle_1 .col_DE {
-	width: 280px;
-	position: absolute;
-	top: 20px;
-	right: 10px;
-}
-
-
-#detalle_1 .col_IZ{
-	width: 540px;
-	float: left;
-	padding-left:30px;
-	z-index:2;
-	position:relative;
-}
-
-#detalle_1 .col_IZ .modulo_texto01 {
-	padding-top:75px;
-	padding-left:190px;
-	width:145px;
-	height:200px;
-	text-align:right;
-	position:relative;
-	z-index:3;
-}
-
-#detalle_1 .col_IZ .modulo_texto02 {
-	padding-top:90px;
-	padding-left:130px;
-	width:145px;
-	height:200px;
-	text-align:right;
-	position:relative;
-	z-index:3;
-}
-
-#detalle_1 .col_IZ .modulo_texto03 {
-	padding-top:20px;
-	padding-left:190px;
-	width:145px;
-	height:200px;
-	text-align:right;
-	position:relative;
-	z-index:3;
-}
-
-#detalle_1 .col_IZ .modulo_texto01 p, #detalle_1 .col_IZ .modulo_texto02 p, .col_IZ .modulo_texto03 p {
-	color:#FFF;
-	padding-bottom:5px;
-}
-
-#detalle_1 .col_IZ .modulo_info{
-	padding-top:40px;
-	width:280px;
-	position:relative;
-}
-.modulo_info {
-	position: relative;
-	top: 20px;
 	float: right;
-	text-align: right;
-	margin-right: 20px;
+	width: 700px;
+}
+
+#detalle_1 .subcol_IZ {
+	float: left;
+	position: relative;
+	margin-right: 16px;
+	width: 185px;
+}
+
+#detalle_1 .subcol_DE {
+	float: right;
+	margin-top: 40px;
+	width: 500px;
+}
+
+#detalle_1 .modulo_texto01 p{
+	font-size: 14px;
+}
+
+.modulo_info {
+	background-image: url(../img/repeat/line_cyan.png);
+	background-repeat: repeat-x;
+	position: relative;
+	float: left;
+	text-align: left;
+	margin-right: 10px;
+	width: 166px;
+	clear: left;
+	padding-top: 16px;
+}
+
+#detalle_1 .modulo_info p {
+	font-size: 13px;
+	color: #464646;
+}
+
+.modulo_datos {
+	float: right;
+	position: relative;
+	margin-top: 40px;
+	width: 320px;
+}
+
+.modulo_ingredientes {
+	/*background-color: #eefcf1;*/
+    background-color: rgba(231, 254, 236, 0.6);
+	border: 1px solid #7ccdc5;
+	float:left;
+	padding: 20px 16px;
+	width: 464px;
+	position: relative;
+	margin: 20px 0px 60px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px; 
 }
 
 .modulo_botella  {
-	float:right;
+	float:left;
 	margin-top:0px;
 	position:absolute;
-	top:10px;
-	left:380px;
+	top:80px;
+	left:0px;
 }
 
 .modulo_botella_bebida  {
 	float:right;
 	margin-top:0px;
 	position:absolute;
-	top:10px;
-	left:390px;
+	top:50px;
+	left:0px;
 }
 
-.modulo_info img{
-	border-bottom: 1px dotted #333;
-	padding-bottom:20px;
-}
-
-.modulo_info .cuadro01{
+.cuadro01{
 	background:url(../img/CSS_sprite.png);
 	background-repeat:no-repeat;
 	background-position: -775px -650px;
-	border-bottom: 1px dotted #333;
-	padding-bottom:20px;
-	width:275px;
+	width:120px;
 	height:55px;
+	position: absolute;
+	bottom: 0px;
 }
 
-.modulo_info .cuadro02{
+.cuadro02{
 	background:url(../img/CSS_sprite.png);
 	background-repeat:no-repeat;
 	background-position: -775px -800px;
 	border-bottom: 1px dotted #333;
 	padding-bottom:20px;
-	width:220px;
+	width:120px;
 	height:55px;
 }
 
-.modulo_info .cuadro03{
+.cuadro03{
 	background:url(../img/CSS_sprite.png);
 	background-repeat:no-repeat;
 	background-position: -775px -725px;
@@ -334,7 +339,7 @@
 	height:55px;
 }
 
-.modulo_info .cuadro04{
+.cuadro04{
 	background:url(../img/CSS_sprite.png);
 	background-repeat:no-repeat;
 	background-position: -775px -875px;
@@ -344,21 +349,18 @@
 	height:55px;
 }
 
-
-
-.modulo_ingredientes{
-	text-align:left;
-	float:left;
-	width: 350px;
-	z-index: 9;
-	position: relative;
-}
-
 .modulo_texto01 a, .modulo_texto02 a, .modulo_texto03 a{
 	color:#FFFFFF;
 	font-size:11px;
 }
 
+
+.back_temiel {
+	background-image: url(../img/elements/back_temiel.png);
+	background-repeat: no-repeat;
+	background-position: 21px 200px;
+	float: left;
+}
 
 /* Contacto
 ---------------------------------------*/
@@ -413,6 +415,9 @@
 	background-color: #ffffff;
 	padding: 0px 8px;
 	color: #287f7b;
+	-webkit-border-radius: 4px;
+	border-radius: 4px; 
+	margin-left: 5px;
 }
 
 #detalle_3 .bottom {
@@ -606,8 +611,6 @@
 
 /*tablas nutricionales__________________*/
 .tabla_01, .tabla_02, .tabla_03, .tabla_04, .tabla_05, .tabla_06, .tabla_07, .tabla_08, .tabla_09 {
-	top: 10px;
-	right: 25px;
 	float: right;
 	position: relative;
 }
