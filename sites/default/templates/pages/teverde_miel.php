@@ -10,15 +10,17 @@
 <!--col_IZ-->
 <div class="col_DE">
 	
-    <!--titulos-->
-    <div class="titulo_teverde"></div>
+    <div class="titulo_teverde">
+    	<h1>Té Verde</h1>
+    	<h6>con ginseng y miel</h6>
+    </div>
     <!--/titulos-->
     
     
     <div class="subcol_IZ">
 
 	    <div class="modulo_botella">
-	    	<img src="/img/test/botella_01.png" />	
+	    	<img src="/img/products/botella_01.png" />	
 	    </div>
 	    <!--/modulo_botella-->
     
@@ -30,12 +32,11 @@
 		<div class="modulo_texto01">
 			<p><strong>Una bebida única, deliciosa y refrescante.</strong></p> 
 		    <p>Las cualidades y beneficios del Té Verde han sido potenciadas en esta bebida por el ginseng y la miel, presentados en un hermoso envase para tu deleite.</p>
-			<a class="azul" href="<?=url_for("main", "comprar")?>">HACER PEDIDO</a>
 		</div>
 		<!--/modulo_texto descripcion-->
 		
 		
-		<a href="/main/comprar/" class="btn_pedido">HACER PEDIDO</a>
+		 <a href="<?=url_for("main", "comprar")?>" class="btn_pedido">HACER PEDIDO</a>
 		
 			
 		<div class="modulo_info">
@@ -48,7 +49,8 @@
 		
 		<div class="modulo_datos">
 			<div class="cuadro01"></div>
-			<div class="tabla_01"></div>
+			<!--<div class="tabla_01"></div>-->
+			<?php include("partials/tabla_1.php"); ?>
 			<!--modulo_tabla-->
 		</div>
 		

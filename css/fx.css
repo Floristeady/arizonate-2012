@@ -53,6 +53,9 @@ span.deco_cyan {
 }
 
 
+/* Lines
+-------------------------------------------------------------- */
+
 
 .line {
 	background-image: url(../img/repeat/line.png);
@@ -64,6 +67,442 @@ span.deco_cyan {
 	padding:10px 0px 10px;
 }
 
+
+/* Background Products
+-------------------------------------------------------------- */
+
+
+.back_temiel {
+	background-image: url(../img/elements/back_temiel.png);
+	background-repeat: no-repeat;
+	background-position: 21px 200px;
+	float: left;
+}
+
+
+.back_tegranada {
+	background-image: url(../img/elements/back_tegranada.png);
+	background-repeat: no-repeat;
+	background-position: 21px 200px;
+	float: left;
+}
+
+.back_tearandano {
+	background-image: url(../img/elements/back_tearandano.png);
+	background-repeat: no-repeat;
+	background-position: 21px 100px;
+	float: left;
+}
+
+.back_tediet {
+	background-image: url(../img/elements/back_tediet.png);
+	background-repeat: no-repeat;
+	background-position: 21px 140px;
+	float: left;
+}
+
+.back_tedietfram{
+	background-image: url(../img/elements/back_tedietfram.png);
+	background-repeat: no-repeat;
+	background-position: 24px 176px;
+	float: left;
+}
+
+.back_rx{
+	background-image: url(../img/elements/back_rx.png);
+	background-repeat: no-repeat;
+	background-position: 20px 186px;
+	float: left;
+}
+
+.back_heladofram{
+	background-image: url(../img/elements/back_teheladofram.png);
+	background-repeat: no-repeat;
+	background-position: 20px 186px;
+	float: left;
+}
+
+.back_telimon{
+	background-image: url(../img/elements/back_teheladolimon.png);
+	background-repeat: no-repeat;
+	background-position: 18px 206px;
+	float: left;
+}
+
+.back_temango{
+	background-image: url(../img/elements/back_teheladomango.png);
+	background-repeat: no-repeat;
+	background-position: 18px 196px;
+	float: left;
+}
+
+
+/* Info Cuadros Products
+-------------------------------------------------------------- */
+
+
+.cuadro01{
+	background:url(../img/CSS_sprite.png);
+	background-repeat:no-repeat;
+	background-position: -775px -650px;
+	height: 165px;
+    position: absolute;
+    width: 110px;
+	bottom: 0px;
+}
+
+.cuadro02{
+	background: url("/img/CSS_sprite.png") no-repeat scroll -925px -650px transparent;
+    bottom: 0;
+    height: 110px;
+    position: absolute;
+    width: 110px;
+}
+
+.cuadro03{
+	background:url(../img/CSS_sprite.png);
+	background-repeat:no-repeat;
+	background-position: -775px -825px;
+	height: 165px;
+    position: absolute;
+    width: 110px;
+	bottom: 0px;
+}
+
+.cuadro04{
+	background:url(../img/CSS_sprite.png);
+	background-repeat:no-repeat;
+	background-position: -925px -825px;
+	height: 165px;
+    position: absolute;
+    width: 110px;
+	bottom: 0px;
+}
+
+.cuadro05{
+	background:url(../img/CSS_sprite.png);
+	background-repeat:no-repeat;
+	background-position: -1075px -650px;
+	bottom: 0;
+    height: 165px;
+    position: absolute;
+    width: 110px;
+}
+
+.cuadro06{
+	background:url(../img/CSS_sprite.png);
+	background-repeat:no-repeat;
+	background-position: -1075px -825px;
+	bottom: 0;
+    height: 165px;
+    position: absolute;
+    width: 110px;
+}
+
+
+
+/* Tablas Nutricionales Products
+-------------------------------------------------------------- */
+
+div#nutridiv {
+    border: 1px solid #333;
+    float: right;
+    margin: 0 0 0px;
+    padding: 0 5px;
+    width: 188px;
+    background-color: #fff;
+}
+
+div#nutridiv p {
+	font-size: 11px;
+	font-family: Tahoma;
+	line-height: 14px;
+}
+
+div#nutridiv h1 { 
+	font-family: Tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	padding: 3px 0px 2px;
+}
+
+table#nutrition {
+    border-top: 4px solid #333;
+    margin-top: 5px;
+}
+
+table#nutrition td.fat {
+    border-bottom: 1px solid #333;
+    margin: 0px 0px 2px;
+    padding-bottom: 4px;
+}
+
+table#nutrition td.up {
+    border-top: 2px solid #333;
+    margin: 0px 0px 2px;
+    padding-top: 4px;
+}
+
+td.center {
+    text-align: center;
+}
+
+
+/* Titles Products
+-------------------------------------------------------------- */
+
+/*te verde*/
+
+.titulo_teverde, 
+.titulo_tegranada,
+.titulo_teblanco,
+.titulo_tediet,
+.titulo_tedietfram,
+.titulo_tebebida,
+.titulo_tefram,
+.titulo_telimon,
+.titulo_temango {
+	margin-top: 20px;
+	 width: 100%;
+	 float: left;
+	 position: relative;
+}
+
+.titulo_teverde h1 {
+	color: #3bbdb7;
+	font-size: 36px;
+	text-shadow: 2px 2px 2px #aaaab3;
+}
+
+.titulo_teverde h6 {
+	color: #e94b75;
+	font-size: 22px;
+	margin-left: 100px;
+	margin-top: 8px;
+	text-shadow: 2px 2px 2px #aaaab3;
+}
+
+
+/*te granada*/
+
+.titulo_tegranada h1 {
+	color: #f74031;
+	font-size: 36px;
+	float: left;
+	text-shadow: 2px 2px 2px #aaaab3;
+}
+
+.titulo_tegranada h2 {
+	color: #630c00;
+	font-size: 18px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.titulo_tegranada h5 {
+	color: #b6971d;
+	font-size: 14px;
+	position: absolute;
+	right: 280px;
+    top: 30px;
+}
+
+.titulo_tegranada h6 {
+	color: #c13226;
+	font-size: 22px;
+	margin-left: 50px;
+	margin-top: 4px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	float: left;
+	clear: left;
+}
+
+/*te blanco*/
+
+.titulo_teblanco h1 {
+	color: #2a368f;
+	font-size: 36px;
+	float: left;
+	text-shadow: 2px 2px 2px #aaaab3;
+	margin-left: 180px;
+}
+
+.titulo_teblanco h2 {
+	color: #9f163c;
+	font-size: 18px;
+	float: left;
+	margin-left: 240px;
+	margin-top: 5px;
+    clear: left;
+}
+
+.titulo_teblanco h5 {
+	color: #b6971d;
+	font-size: 14px;
+	position: absolute;
+	right: 190px;
+    top: 52px;
+}
+
+.titulo_teblanco h6 {
+	color: #2a368f;
+	font-size: 22px;
+	margin-left: 7px;
+	margin-top: 4px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	float: left;
+}
+
+/*te diet*/
+
+
+.titulo_tediet h1 {
+	color: #ea5740;
+	font-size: 36px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	margin-top: 20px;
+	margin-left: 110px;
+}
+
+.titulo_tediet h5 {
+	color: #ad8849;
+	font-size: 18px;
+	margin-left: 230px;
+	margin-top: 8px;
+	text-shadow: 2px 2px 2px #aaaab3;
+}
+
+/*te dietfram*/
+
+
+.titulo_tedietfram h1 {
+	color: #91496a;
+	font-size: 36px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+
+.titulo_tedietfram h6 {
+	color: #d14533;
+	font-size: 20px;
+	margin-left: 120px;
+	margin-top: 10px;
+	text-shadow: 2px 2px 2px #aaaab3;
+}
+
+/*te bebida*/
+
+.titulo_tebebida h1 {
+	color: #fb5d0d;
+	font-size: 36px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	margin-top: 15px;
+	margin-left: 0px;
+	float: left;
+}
+
+.titulo_tebebida h6 {
+	color: #0b572c;
+	font-size: 24px;
+	margin-left: 10px;
+	margin-top: 20px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	float: left;
+}
+
+.titulo_tebebida h5 {
+	color: #737478;
+	font-size: 18px;
+	margin-top: 8px;
+	margin-left: 380px;
+	float: left;
+	clear: left;
+}
+
+/*te te fram*/
+
+
+.titulo_tefram h1 {
+	color: #b68a2c;
+	font-size: 36px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	margin-top: 10px;
+	margin-left: 100px;
+	float: left;
+}
+
+.titulo_tefram h6 {
+	color: #b11e4b;
+	font-size: 24px;
+	margin-left: 260px;
+	margin-top: 10px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	float: left;
+	clear: left;
+}
+
+.titulo_tefram h5 {
+	color: #01afa5;
+	font-size: 17px;
+	margin-top: 5px;
+	margin-left: 460px;
+	float: left;
+	clear: left;
+}
+
+/*te te limon*/
+
+.titulo_telimon  h1 {
+	color: #008b84;
+	font-size: 36px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	margin-top: 10px;
+	margin-left: 0px;
+	float: left;
+}
+
+.titulo_telimon h6 {
+	color: #f270a0;
+	font-size: 24px;
+	margin-left: 160px;
+	margin-top: 10px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	float: left;
+	clear: left;
+}
+
+.titulo_telimon h5 {
+	color: #c3aa49;
+	font-size: 17px;
+	margin-top: 5px;
+	margin-left: 310px;
+	float: left;
+	clear: left;
+}
+
+/*te te mango*/
+
+.titulo_temango h1 {
+	color: #c54b3c;
+	font-size: 36px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	margin-top: 10px;
+	margin-left: 0px;
+	float: left;
+}
+
+.titulo_temango h6 {
+	color: #e6ad00;
+	font-size: 24px;
+	margin-left: 160px;
+	margin-top: 10px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	float: left;
+	clear: left;
+}
 
 
 

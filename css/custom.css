@@ -280,6 +280,13 @@
 	width: 320px;
 }
 
+.modulo_datos_2 {
+	float: right;
+	position: relative;
+	margin-top: 0px;
+	width: 320px;
+}
+
 .modulo_ingredientes {
 	/*background-color: #eefcf1;*/
     background-color: rgba(231, 254, 236, 0.6);
@@ -293,74 +300,54 @@
 	border-radius: 4px; 
 }
 
+.modulo_ingredientes_2 {
+	/*background-color: #eefcf1;*/
+    background-color: rgba(247, 242, 220, 0.6);
+	border: 1px solid #e6c460;
+	float:left;
+	padding: 20px 16px;
+	width: 464px;
+	position: relative;
+	margin: 20px 0px 60px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px; 
+}
+
 .modulo_botella  {
 	float:left;
-	margin-top:0px;
 	position:absolute;
 	top:80px;
 	left:0px;
 }
 
+.modulo_botella_2 {
+	float:left;
+	position:absolute;
+	top:20px;
+	left:0px;
+}
+
+.modulo_botella_3 {
+	float:left;
+	position:absolute;
+	top:10px;
+	left:0px;
+}
+
 .modulo_botella_bebida  {
-	float:right;
-	margin-top:0px;
+	float:left;
 	position:absolute;
 	top:50px;
 	left:0px;
 }
 
-.cuadro01{
-	background:url(../img/CSS_sprite.png);
-	background-repeat:no-repeat;
-	background-position: -775px -650px;
-	width:120px;
-	height:55px;
-	position: absolute;
-	bottom: 0px;
+.modulo_lata {
+	float:left;
+	position:absolute;
+	top:60px;
+	left:0px;
 }
 
-.cuadro02{
-	background:url(../img/CSS_sprite.png);
-	background-repeat:no-repeat;
-	background-position: -775px -800px;
-	border-bottom: 1px dotted #333;
-	padding-bottom:20px;
-	width:120px;
-	height:55px;
-}
-
-.cuadro03{
-	background:url(../img/CSS_sprite.png);
-	background-repeat:no-repeat;
-	background-position: -775px -725px;
-	border-bottom: 1px dotted #333;
-	padding-bottom:20px;
-	width:275px;
-	height:55px;
-}
-
-.cuadro04{
-	background:url(../img/CSS_sprite.png);
-	background-repeat:no-repeat;
-	background-position: -775px -875px;
-	border-bottom: 1px dotted #333;
-	padding-bottom:20px;
-	width:275px;
-	height:55px;
-}
-
-.modulo_texto01 a, .modulo_texto02 a, .modulo_texto03 a{
-	color:#FFFFFF;
-	font-size:11px;
-}
-
-
-.back_temiel {
-	background-image: url(../img/elements/back_temiel.png);
-	background-repeat: no-repeat;
-	background-position: 21px 200px;
-	float: left;
-}
 
 /* Contacto
 ---------------------------------------*/
@@ -608,74 +595,15 @@
 	cursor: pointer;
 }
 
+.destacado p{
+	font-size:13px;
+}
+
 
 /*tablas nutricionales__________________*/
 .tabla_01, .tabla_02, .tabla_03, .tabla_04, .tabla_05, .tabla_06, .tabla_07, .tabla_08, .tabla_09 {
 	float: right;
 	position: relative;
-}
-.tabla_01{
-	width: 190px;
-	height:238px;
-	background-image:url(../img/CSS_sprite.png);
-	background-repeat:no-repeat;
-	background-position: -75px -300px;
-}
-
-.tabla_02{
-	width: 190px;
-	height:336px;
-	background-image:url(../img/CSS_sprite.png);
-	background-repeat:no-repeat;
-	background-position: -275px -300px;
-}
-
-.tabla_03{
-	width: 190px;
-	height:336px;
-	background-image:url(../img/CSS_sprite.png);
-	background-repeat:no-repeat;
-	background-position: -475px -300px;
-}
-
-.tabla_04{
-	width: 190px;
-	height:238px;
-	background-image:url(../img/CSS_sprite.png);
-	background-repeat:no-repeat;
-	background-position: -675px -300px;
-}
-
-.tabla_05{
-	width: 190px;
-	height:238px;
-	background-image:url(../img/CSS_sprite.png);
-	background-repeat:no-repeat;
-	background-position: -875px -300px;
-}
-
-.tabla_06{
-	width: 190px;
-	height:238px;
-	background-image:url(../img/CSS_sprite.png);
-	background-repeat:no-repeat;
-	background-position: -1075px -300px;
-}
-
-.tabla_07{
-	width: 190px;
-	height:238px;
-	background-image:url(../img/CSS_sprite.png);
-	background-repeat:no-repeat;
-	background-position: -75px -650px;
-}
-
-.tabla_08{
-	width: 190px;
-	height:238px;
-	background-image:url(../img/CSS_sprite.png);
-	background-repeat:no-repeat;
-	background-position: -300px -650px;
 }
 
 .tabla_09{
@@ -686,104 +614,5 @@
 	background-position: -525px -650px;
 }
 
-.destacado p{
-	font-size:13px;
-}
-
-.titulo_teverde{
-	width: 229px;
-	height:61px;
-	background-image:url(../img/CSS_sprite.png);
-	background-repeat:no-repeat;
-	background-position:  -75px -1225px;
-}
-
-.titulo_tegranada{
-	width: 250px;
-	height:130px;
-	background-image:url(../img/CSS_sprite.png);
-	background-repeat:no-repeat;
-	background-position:  -75px -1300px;
-}
-
-.titulo_teblanco{
-	width: 250px;
-	height:125px;
-	background-image:url(../img/CSS_sprite.png);
-	background-repeat:no-repeat;
-	background-position:  -75px -1450px;
-}
 
 
-.titulo_tediet{
-	width: 250px;
-	height:100px;
-	background-image:url(../img/CSS_sprite.png);
-	background-repeat:no-repeat;
-	background-position:  -325px -1225px;
-}
-
-.titulo_tearandano{
-	width: 270px;
-	height:100px;
-	background-image:url(../img/CSS_sprite.png);
-	background-repeat:no-repeat;
-	background-position:  -325px -1350px;
-}
-
-.titulo_temanzana{
-	width: 270px;
-	height:100px;
-	background-image:url(../img/CSS_sprite.png);
-	background-repeat:no-repeat;
-	background-position:  -325px -1450px;
-}
-
-.titulo_tefram {
-	width: 281px;
-	height:80px;
-	background-image:url(../img/CSS_sprite.png);
-	background-repeat:no-repeat;
-	background-position:  -600px -1225px;
-}
-
-.titulo_telimon{
-	width: 281px;
-	height:80px;
-	background-image:url(../img/CSS_sprite.png);
-	background-repeat:no-repeat;
-	background-position:  -600px -1350px;
-}
-
-.titulo_tebebida{
-	width: 281px;
-	height:80px;
-	background-image:url(../img/CSS_sprite.png);
-	background-repeat:no-repeat;
-	background-position:  -600px -1475px;
-}
-
-.titulo_salud{
-	width: 318px;
-	height:78px;
-	background-image:url(../img/CSS_sprite.png);
-	background-repeat:no-repeat;
-	background-position:  -925px -1225px;
-	margin-left:18px;
-}
-
-.titulo_pedido{
-	width: 218px;
-	height:33px;
-	background-image:url(../img/CSS_sprite.png);
-	background-repeat:no-repeat;
-	background-position:  -925px -1325px;
-}
-
-.titulo_contacto{
-	width: 299px;
-	height:30px;
-	background-image:url(../img/CSS_sprite.png);
-	background-repeat:no-repeat;
-	background-position:  -925px -1375px;
-}

@@ -1,6 +1,8 @@
 
 <div id="detalle_1" class="wrapper-a">
 
+<div class="back_heladofram">
+
 <?php include("partials/submenu.php"); ?>
 
 
@@ -8,12 +10,16 @@
 <div class="col_DE">
 	
     <!--titulos-->
-	<div class="titulo_tefram"></div>
+	<div class="titulo_tefram">
+		<h1>Té negro premium</h1>
+		<h6>con sabor frambuesa</h6>
+		<h5>SIN GAS</h5>
+	</div>
     <!--/titulos-->
     
     <div class="subcol_IZ">
-    	<div class="modulo_botella">
-   
+    	<div class="modulo_botella_2">
+   			<img src="/img/products/lata_01.png" />
     	</div>
     <!--/modulo_botella-->
     </div><!--subcol_IZ-->
@@ -26,7 +32,8 @@
 	    </div>
 	    <!--/modulo_texto descripcion-->
 	    
-	    <a href="/main/comprar/" class="btn_pedido">HACER PEDIDO</a>
+	    
+	    <a href="<?=url_for("main", "comprar")?>" class="btn_pedido">HACER PEDIDO</a>
 	    
 	    
 	    <div class="modulo_info">
@@ -39,16 +46,16 @@
 	   	
 	  	<div class="modulo_datos">
 	  		<div class="cuadro03"></div>
-			<div class="tabla_07"></div>
+			<?php include("partials/tabla_7.php"); ?>
 	    <!--modulo_tabla-->
 	    </div>
 	    
 	     <!--modulo_ingredientes-->
-	    <div class="modulo_ingredientes mar-top-40">
+	    <div class="modulo_ingredientes_2 mar-top-40">
 	    	<h4><strong>Ingredientes:</strong></h4>
-	<p><strong>Preparado Premium de Té</strong></p> 
-	<p>Agua filtrada, almíbar de maíz alto en fructosa, ácido cítrico, extracto de jugo natural de frambuesa. </p>
-	<p>Duración 18 meses.</p>
+			<p>Preparado Premium de Té</p> 
+			<p>Agua filtrada, almíbar de maíz alto en fructosa, ácido cítrico, extracto de jugo natural de frambuesa. </p>
+			<p>Duración 18 meses.</p>
 	    </div>
 	    <!--/modulo_ingredientes-->
 
@@ -58,13 +65,7 @@
 </div>
 <!--col_DE-->
 
-
-<div class="clearfix"></div>  
-            
-<div class="cierre"></div>
-
-
-
+</div><!--back-->
 
 </div>
 <!--detalle_1-->

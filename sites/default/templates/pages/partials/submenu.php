@@ -2,14 +2,14 @@
 	<div class="box_nav_2 nav_te">
 		<h4>Línea Té Arizona</h4>
 		<ul id="nav_2">
-			<li>Te Verde</li>
+			<li>Te Verdey Blanco</li>
 			<li><a class="<? if (get_current_action() == "teverde_miel") { echo "ON";} ?> linea" href="/main/teverde_miel">Té verde con Ginseng y Miel</a></li>
 			<li><a class="<? if (get_current_action() == "teverde_granada") { echo "ON";} ?>" href="/main/teverde_granada">Té verde con Granada</a></li>
 			
 			<li><a class="<? if (get_current_action() == "teblanco_arandano") { echo "ON";} ?> linea" href="/main/teblanco_arandano">Té blanco con Arándanos</a></li>
 			<li class="mar-top-10">Té Negro</li>
-			<li><a class="<? if (get_current_action() == "tehelado_limon") { echo "ON";} ?>" href="/main/tehelado_limon">Té Negro sabor Frambuesa</a></li>
-			<li><a class="<? if (get_current_action() == "tehelado_fram") { echo "ON";} ?>" href="/main/tehelado_fram">Té Negro sabor Limón</a></li>
+			<li><a class="<? if (get_current_action() == "tehelado_fram") { echo "ON";} ?>" href="/main/tehelado_fram">Té Negro sabor Frambuesa</a></li>
+			<li><a class="<? if (get_current_action() == "tehelado_limon") { echo "ON";} ?>" href="/main/tehelado_limon">Té Negro sabor Limón</a></li>
 			<li><a class="<? if (get_current_action() == "tehelado_mango") { echo "ON";} ?>" href="/main/tehelado_mango">Té Negro sabor Mango</a></li>
 			
 			

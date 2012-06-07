@@ -1,6 +1,8 @@
 
 <div id="detalle_1" class="wrapper-a">
 
+<div class="back_temango">
+
 <?php include("partials/submenu.php"); ?>
 
 
@@ -8,11 +10,15 @@
 <div class="col_DE">
 	
     <!--titulos-->
-	<div class="titulo_telimon"></div>
+	<div class="titulo_temango">
+		<h1>Té negro premium</h1>
+		<h6>con jugo de mango</h6>
+	</div>
     <!--/titulos-->
     
      <div class="subcol_IZ">
-		    <div class="modulo_botella">
+		    <div class="modulo_lata">
+		    	<img src="/img/products/lata_04.png" />
 		    </div>
 		    <!--/modulo_botella-->
 	 </div><!--subcol_IZ-->
@@ -34,23 +40,21 @@
 	    	<p><strong>PRESENTACIÓN</strong></p>
 	        <p>Lata de 680 ml</p>
 			<p><strong>UNIDAD DE VENTA</strong></p>
-			<p>Bandeja con 12 latas c/u</p>    
+			<p>Bandeja con 12 latas</p>    
 		</div>
 	    <!--/modulo_info-->
 
 	    <div class="modulo_datos">	
-	    	<div class="cuadro03"></div>
+	    	<div class="cuadro06"></div>
 	  		<!--modulo_tabla falta tabla-->
-			<div class="tabla_08"></div>
+			<?php include("partials/tabla_9.php"); ?>
 	    	<!--modulo_tabla-->
 	    </div>
 	    
-	    <div class="modulo_ingredientes">
+	    <div class="modulo_ingredientes_2">
 	    	<h4><strong>Ingredientes:</strong></h4>
-	        <p><strong>Preparado Premium de Té Verde </strong></p> 
-	        <p>Agua filtrada, almíbar de maíz alto en fructosa, ácido cítrico, extracto natural de limón.</p>
-	        <p>Duración 18 meses.
-	        </p>
+	        <p>Preparado Premium de Té usando agua filtrada, almíbar de maíz alto en fructosa, ácido cítrico, puré de mango, concentrado de jugo de pera, sabores naturales, SUCRALOSA SPLENDA (0.48 mg/PORCION - 0.2 mg/100ml), cafeína (16 mg/porción), ACESULFAME de POTASIO (0.24 mg/PORCION-0.1mg/100 ml). Muy Bajo en Sodio. Fortificado con Vitamina C. Sin Gas.</p>
+	        <p>Duración 18 meses.</p>
 	    </div>
 	    <!--/modulo_ingredientes-->
 
@@ -60,7 +64,7 @@
 </div>
 <!--col_DE-->
 
-
+</div><!--back-->
 
 </div>
 <!--detalle_1-->

@@ -1,16 +1,23 @@
 <div id="detalle_1" class="wrapper-a">
 
+<div class="back_rx">
+
 <?php include("partials/submenu.php"); ?>
 
 <!--col_IZ-->
 <div class="col_DE">
 	
     <!--titulos-->
-	<div class="titulo_tebebida"></div>
+	<div class="titulo_tebebida">
+		<h1>RX energy</h1>
+		<h6>con hierbas y guaraná</h6>
+		<h5>SIN GAS</h5>
+	</div>
     <!--/titulos-->
     
     <div class="subcol_IZ">
 	    <div class="modulo_botella_bebida">
+	    	<img src="/img/products/lata_03.png" />	
 	    </div>
 	    <!--/modulo_botella-->
     </div>
@@ -27,21 +34,21 @@
 	    	<p><strong>PRESENTACIÓN</strong></p>
 	        <p>Lata de 680 ml</p>
 			<p><strong>UNIDAD DE VENTA</strong></p>
-			<p>Bandeja con 12 latas c/u</p>    
+			<p>Bandeja con 12 latas</p>    
 		</div>
 	    <!--/modulo_info-->
 	    
 	    	   
 	  	<div class="modulo_datos">	
 	    	<div class="cuadro04"></div>
-			<div class="tabla_09"></div>
+			<?php include("partials/tabla_6.php"); ?>
 	    	<!--modulo_tabla-->
 	    </div>
 
 	    
 	    <div class="modulo_ingredientes">
 	    	<h4><strong>Ingredientes:</strong></h4>
-	        <p><strong>Preparado Premium de Té Verde </strong></p> 
+	        <p>Preparado Premium de Té Verde</p> 
 	        <p>Agua filtrada, almíbar de maíz alto en fructosa, puré de mango, jugo concentrado de pera y limón, ácido cítrico, miel de abeja, sabores naturales, betacaroteno, cafeína (31 mg/240 ml), panax ginseng (100 mg/240 ml), ginseng siberiano (10 mg/100 ml), guaraná (100 mg/240 ml), schisandra (50 mg/240 ml, taurina (1000 mg/ 240 ml).</p>
 	        <p>Duración 18 meses.</p>
 	    </div>
@@ -51,6 +58,8 @@
     
 </div>
 <!--col_DE-->
+
+</div><!--back-->
 
 
 </div>

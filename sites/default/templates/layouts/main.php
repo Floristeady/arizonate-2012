@@ -67,7 +67,7 @@ pageTracker._trackPageview();
 	<li><a class="inicio <? if (substr(get_current_action(), 0, 6) == "teverd" || substr(get_current_action(), 0, 6) == "tediet" ) {?>_ON<? } ?>" href="<?=url_for("main", "index")?>">Inicio</a></li> 
 	<li><a class="te <? if (substr(get_current_action(), 0, 6) == "teverd" || substr(get_current_action(), 0, 6) == "tediet" ) {?>_ON<? } ?>" href="<?=url_for("main", "teverde_miel")?>">Té Arizona</a>
 		<ul class="subnav">
-			<li class="title">Té Verde</li>  
+			<li class="title">Té Verde y Blanco</li>  
 		    <li><a href="<?=url_for("main", "teverde_miel")?>">Té verde con Ginseng y Miel</a></li> 
 		    <li><a href="<?=url_for("main", "teverde_granada")?>">Té verde sabor Granada</a></li>   
 		    <li><a href="<?=url_for("main", "teblanco_arandano")?>">Té blanco sabor Arándano</a></li>  
