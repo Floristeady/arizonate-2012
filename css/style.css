@@ -23,6 +23,8 @@ body {
 	font-size: 11px;
 	line-height: 16px;
 	background-color: #f8f8f8;
+	background-image: url(../img/repeat/textura.png);
+	background-repeat: repeat;
 }
 
 header#master-header {
@@ -58,7 +60,10 @@ footer {
 	width: 100%;
 	position: relative;
 	background-color: #34a8a3;
-	padding: 20px 0px;
+	padding: 25px 0px 30px;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'LucidaSansStdRegular', sans-serif;
+	color: #fff;
+	font-size: 13px;
 }
 
 footer .wrapper-a {
@@ -69,22 +74,55 @@ footer .wrapper-a {
 	position: relative;
 }
 
+footer .column {
+	width:475px;
+	float: left;
+	margin-right: 10px;
+}
+
 footer a.zet{
 	background-image:url(../img/CSS_sprite.png);
 	background-repeat:no-repeat;
 	background-position: -100px -250px;
-	width:40px;
 	height:25px;
-	float:right;
-	margin-top:5px;
+	float:left;
+	position: absolute;
+ 	right: 85px;
+    top: 60px;
+    width: 40px;
+}
+
+footer a.icon {
+	margin-left: 10px;
+    margin-right: 0;
+	background:url(../img/CSS_sprite.png);
+	background-position:-75px -175px;
+	background-repeat:no-repeat;
+	width:26px;
+	height:26px;
+	display: block;
+	text-indent: -9999px;
+	float: right;
+	margin-top: -5px;
+}
+
+footer .info_fb {
+	border: 1px solid #2d7e77;
+	padding: 12px 10px 6px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px; 
+    background-color: rgba(0, 0, 0, 0.1);
+    float: left;    
+    margin-left: 26px;
 }
 
 footer h4 {
 	font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'LucidaSansStdRegular', sans-serif;
 	color: #FFFFFF;
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 19px;
 	font-weight: normal;
+	margin-bottom: 0px;
 }
 
 footer p {
@@ -92,6 +130,11 @@ footer p {
 	font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'LucidaSansStdRegular', sans-serif;
 	font-size: 12px;
 	line-height: 17px;
+}
+
+footer small, footer a {
+ color: #fff;
+ font-size: 11px;
 }
 
 footer ul {
@@ -118,6 +161,4 @@ footer ul li a {
 footer ul li a:hover {
 	text-decoration: underline;
 }
-
-
 

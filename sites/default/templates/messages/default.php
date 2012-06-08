@@ -3,7 +3,7 @@
 	
     <!--col_IZ-->
 	<div class="col_IZ">
-    	<img src="/img/test/titulo_contacto.png" />
+    	<img src="/img/test/contacto_fondo.gif" />
         <h1><?=$message_title?></h1>
 		<h1><?=$message_body?></h1>
   

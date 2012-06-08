@@ -30,7 +30,7 @@
     <div class="subcol_DE">
     
 		    <div class="modulo_texto01">
-		    	<p>T&eacute; Verde Arándano DIET de AriZona entrega un incre&iacute;ble sabor junto a un bajo aporte de calorías y carbohidratos. </p>
+		    	<p>FALTA. T&eacute; Verde Arándano DIET de AriZona entrega un incre&iacute;ble sabor junto a un bajo aporte de calorías y carbohidratos. </p>
 				<p> Pruébalo, te encantará.</p>
 		    </div>
 		    <!--/modulo_texto descripcion-->

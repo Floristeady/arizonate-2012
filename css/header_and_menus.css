@@ -29,6 +29,19 @@ a#logo_mini_red {
 	bottom: 0px;
 }
 
+.logo_small {
+	float: left;
+	background-image: url(../img/CSS_sprite.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 35px;
+	width: 143px;
+	text-indent: -999em;
+	background-position: -575px -50px;
+	margin-bottom: 20px;
+
+}
+
 #banner {
 	float: left;
 	z-index: 1;
@@ -75,7 +88,7 @@ a#logo_mini_red {
 	text-decoration: underline;
 }
 
-#mini_menu li a.icon{
+#mini_menu li a.icon {
 	margin-left: 10px;
     margin-right: 0;
     margin-top: 7px;
@@ -144,9 +157,12 @@ header #nav-primary li a.nectar  {
 	padding-right: 22px;
 }
 
-
 #nav-primary li a:hover {
 	text-decoration: underline;
+}
+
+#nav-primary li a._ON {
+	color:#ff8daf;
 }
 
 #nav-primary ul.subnav {
@@ -165,7 +181,7 @@ header #nav-primary li a.nectar  {
 
 #nav-primary ul.subnav li {
 	background-image: none;
-    color: #FFFFFF;
+    color: #D57692;
     display: block;
     float: none;
     font-size: 13px;

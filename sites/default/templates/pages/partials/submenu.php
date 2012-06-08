@@ -2,7 +2,7 @@
 	<div class="box_nav_2 nav_te">
 		<h4>Línea Té Arizona</h4>
 		<ul id="nav_2">
-			<li>Te Verdey Blanco</li>
+			<li>Te Verde y Blanco</li>
 			<li><a class="<? if (get_current_action() == "teverde_miel") { echo "ON";} ?> linea" href="/main/teverde_miel">Té verde con Ginseng y Miel</a></li>
 			<li><a class="<? if (get_current_action() == "teverde_granada") { echo "ON";} ?>" href="/main/teverde_granada">Té verde con Granada</a></li>
 			

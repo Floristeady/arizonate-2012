@@ -2,7 +2,7 @@
 	
     <!--col_IZ-->
 	<div class="col_IZ">
-    	<div class="titulo_contacto"></div>
+    	<h1>Contacto</h1>
         <p>Si quieres saber más sobre los productos AriZona, envíanos tu consulta y te responderemos a la brevedad.</p>
   
 		<form action="<?=url_for("main","submit_contacto")?>" method="POST">

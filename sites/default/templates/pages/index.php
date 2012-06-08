@@ -38,41 +38,45 @@
 	        	<h3>LÍNEAS DE PRODUCTOS</h3>
 	        	<span class="deco_cyan"></span>
 	        </div>
-	        <div class="column te">
-		        <a class="btn_show" href="javascript:void(0);"><img src="../../../../img/elements/te_small.png" alt="te_small" width="293" height="179" />
+	        <div id="te" class="column">
+		        <a class="btn_show"  href="javascript:void(0)"><img class="img_te" src="../../../../img/elements/te_small.png" alt="te_small" width="293" height="179" />
 		        <span class="subtitle"><h3>Té Arizona</h3></span>
 		        </a>
-		        <ul class="list-products">
+		        <ul class="list-products te_list">
 
-			       	<li><a href="#">Té verde con Ginseng y Miel</a></li>
-			       	<li><a href="#">Té verde sabor Granada</a></li>
-			       	<li><a href="#">Té blanco sabor Arándano</a></li>
-			       	<li><a href="#">Té negro sabor Frambuesa</a></li>
-			       	<li><a href="#">Té negro sabor Limón</a></li>
-			       	<li><a href="#">Té negro sabor Mango</a></li>
-			       	<li><a href="#">Té verde diet con Ginseng </a></li>
-			       	<li><a href="#">Té negro diet sabor Frambuesa</a></li>
+			       	<li><a href="<?=url_for("main", "teverde_miel")?>">Té verde con Ginseng y Miel</a></li>
+			       	<li><a href="<?=url_for("main", "teverde_granada")?>">Té verde sabor Granada</a></li>
+			       	<li><a href="<?=url_for("main", "teblanco_arandano")?>">Té blanco sabor Arándano</a></li>
+			       	<li><a href="<?=url_for("main", "tehelado_fram")?>">Té negro sabor Frambuesa</a></li>
+			       	<li><a href="<?=url_for("main", "tehelado_limon")?>">Té negro sabor Limón</a></li>
+			       	<li><a href="<?=url_for("main", "tehelado_mango")?>">Té negro sabor Mango</a></li>
+			       	<li><a href="<?=url_for("main", "tediet_miel")?>">Té verde diet con Ginseng </a></li>
+			       	<li><a href="<?=url_for("main", "tediet_fram")?>">Té negro diet sabor Frambuesa</a></li>
 		        </ul>
 		        
 	        </div>
 	        
-	        <div class="column nectar">
-		        <img src="../../../../img/elements/nectar_small.png" alt="nectar_small" width="293" height="179" />
-		        <div class="subtitle"><h3>Nectar</h3></div>
-		         <ul class="list-products">
-			       	<li><a href="#">Nectar sabor Mango</a></li>
-			       	<li><a href="#">Nectar sabor Sandia</a></li>
-			       	<li><a href="#">Nectar sabor Uva </a></li>
-			       	<li><a href="#">Nectar sabor Naranja</a></li>
+	        <div id="nectar"  class="column nectar">
+	        	<a class="btn_show"  href="javascript:void(0)">
+		        <img  src="../../../../img/elements/nectar_small.png" alt="nectar_small" width="293" height="179" />
+		        <span class="subtitle"><h3>Nectar</h3></span>
+		        </a>
+		         <ul class="list-products nectar_list">
+			       	<li><a href="<?=url_for("main", "nectar_mango")?>">Nectar sabor Mango</a></li>
+			       	<li><a href="<?=url_for("main", "nectar_sandia")?>">Nectar sabor Sandia</a></li>
+			       	<li><a href="<?=url_for("main", "nectar_uva")?>">Nectar sabor Uva </a></li>
+			       	<li><a href="<?=url_for("main", "nectar_naranja")?>">Nectar sabor Naranja</a></li>
 		        </ul>
 		        
 	        </div>
 	        
-	           <div class="column rx">
+	           <div id="rx" class="column rx">
+	           <a class="btn_show"  href="javascript:void(0)">
 		        <img src="../../../../img/elements/rx_small.png" alt="rx_small" width="293" height="179" />
-		        <div class="subtitle"><h3>Energética RX</h3></div>
-		        <ul class="list-products">
-			       	<li><a href="#">Bebida energética RX con té de hierbas</a></li>
+		        <span class="subtitle"><h3>Energética RX</h3></span>
+		        </a>
+		        <ul class="list-products rx_list">
+			       	<li><a href="<?=url_for("main", "energetica")?>">Bebida energética RX con té de hierbas</a></li>
 		        </ul>
 		        
 	        </div>

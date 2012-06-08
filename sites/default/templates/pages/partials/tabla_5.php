@@ -1,7 +1,8 @@
+<!--te diet fram-->
 <div id="nutridiv">
 <h1>Información Nutricional</h1>
-<p>Porción 240ml (1/2 envase)<br>
-Porciones por envase 2</p>
+<p>Porción 1 vaso 240ml (1/2 envase)<br>
+Porciones/envase 2 aprox.</p>
 <table id="nutrition">
 <tbody><tr>
 <td class="fat"></td>

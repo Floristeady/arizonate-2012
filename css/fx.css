@@ -24,6 +24,10 @@ span.deco_cyan {
 	margin-bottom: 28px;
 }
 
+.clearfix {
+	clear: both;
+}
+
 
 /* COLORES
 -------------------------------------------------------------- */
@@ -75,7 +79,7 @@ span.deco_cyan {
 .back_temiel {
 	background-image: url(../img/elements/back_temiel.png);
 	background-repeat: no-repeat;
-	background-position: 21px 200px;
+	background-position: 22px 212px;
 	float: left;
 }
 
@@ -83,14 +87,14 @@ span.deco_cyan {
 .back_tegranada {
 	background-image: url(../img/elements/back_tegranada.png);
 	background-repeat: no-repeat;
-	background-position: 21px 200px;
+	background-position: 19px 220px;
 	float: left;
 }
 
 .back_tearandano {
 	background-image: url(../img/elements/back_tearandano.png);
 	background-repeat: no-repeat;
-	background-position: 21px 100px;
+	background-position: 20px 110px;
 	float: left;
 }
 
@@ -133,6 +137,34 @@ span.deco_cyan {
 	background-image: url(../img/elements/back_teheladomango.png);
 	background-repeat: no-repeat;
 	background-position: 18px 196px;
+	float: left;
+}
+
+.back_mango{
+	background-image: url(../img/elements/back_mango.png);
+	background-repeat: no-repeat;
+	background-position: 15px 145px;
+	float: left;
+}
+
+.back_sandia{
+	background-image: url(../img/elements/back_sandia.png);
+	background-repeat: no-repeat;
+	background-position: 18px 176px;
+	float: left;
+}
+
+.back_uva{
+	background-image: url(../img/elements/back_uva.png);
+	background-repeat: no-repeat;
+	background-position: 18px 170px;
+	float: left;
+}
+
+.back_naranja {
+	background-image: url(../img/elements/back_naranja.png);
+	background-repeat: no-repeat;
+	background-position: 20px 176px;
 	float: left;
 }
 
@@ -199,6 +231,17 @@ span.deco_cyan {
     width: 110px;
 }
 
+.cuadro07{
+	background:url(../img/CSS_sprite.png);
+	background-repeat:no-repeat;
+	background-position: -1225px -825px;
+	bottom: 0;
+    height: 110px;
+    position: absolute;
+    width: 110px;
+}
+
+
 
 
 /* Tablas Nutricionales Products
@@ -262,7 +305,11 @@ td.center {
 .titulo_tebebida,
 .titulo_tefram,
 .titulo_telimon,
-.titulo_temango {
+.titulo_temango,
+.titulo_nectarmango,
+.titulo_sandia,
+.titulo_uva,
+.titulo_naranja   {
 	margin-top: 20px;
 	 width: 100%;
 	 float: left;
@@ -374,6 +421,17 @@ td.center {
 	text-shadow: 2px 2px 2px #aaaab3;
 }
 
+.splenda {
+  background-image: url(../img/elements/splenda.png);
+  background-repeat: no-repeat;
+  display: block;
+  width: 86px;
+  height: 45px;
+  position: absolute;
+  top: 50px;
+  left: 360px;
+}
+
 /*te dietfram*/
 
 
@@ -426,9 +484,9 @@ td.center {
 
 
 .titulo_tefram h1 {
-	color: #b68a2c;
+	color: #eab139;
 	font-size: 36px;
-	text-shadow: 2px 2px 2px #aaaab3;
+	text-shadow: 2px 2px 2px #cfccd3;
 	margin-top: 10px;
 	margin-left: 100px;
 	float: left;
@@ -504,5 +562,122 @@ td.center {
 	clear: left;
 }
 
+/*nectar mango*/
+
+.titulo_nectarmango h1 {
+	color: #e72c23;
+	font-size: 36px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	margin-top: 0px;
+	margin-left: 160px;
+	float: left;
+}
+
+.titulo_nectarmango h6 {
+	color: #eab12e;
+	font-size: 24px;
+	margin-left: 10px;
+	margin-top: 0px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	float: left;
+}
+
+.titulo_nectarmango h5 {
+	color: #eb5b24;
+	font-size: 15px;
+	margin-top: 7px;
+	margin-left: 370px;
+	float: left;
+	clear: left;
+}
+
+
+/*nectar sandia*/
+
+.titulo_sandia h1 {
+	color: #cb271e;
+	font-size: 36px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	margin-top: 0px;
+	margin-left: 100px;
+	float: left;
+}
+
+.titulo_sandia h6 {
+	color: #cb271e;
+	font-size: 24px;
+	margin-left: 10px;
+	margin-top: 0px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	float: left;
+}
+
+.titulo_sandia h5 {
+	color: #c17d2d;
+	font-size: 15px;
+	margin-top: 7px;
+	margin-left: 300px;
+	float: left;
+	clear: left;
+}
+
+
+/*nectar uva*/
+
+.titulo_uva h1 {
+	color: #7e194d;
+	font-size: 36px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	margin-top: 0px;
+	margin-left: 10px;
+	float: left;
+}
+
+.titulo_uva h6 {
+	color: #34368b;
+	font-size: 24px;
+	margin-left: 10px;
+	margin-top: 0px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	float: left;
+}
+
+.titulo_uva h5 {
+	color: #aab237;
+	font-size: 15px;
+	margin-top: 7px;
+	margin-left: 150px;
+	float: left;
+	clear: left;
+}
+
+/*nectar naranja*/
+
+.titulo_naranja h1 {
+	color: #e53e3a;
+	font-size: 36px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	margin-top: 0px;
+	margin-left: 10px;
+	float: left;
+}
+
+.titulo_naranja h6 {
+	color: #f7a039;
+	font-size: 24px;
+	margin-left: 10px;
+	margin-top: 0px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	float: left;
+}
+
+.titulo_naranja h5 {
+	color: #c17d2d;
+	font-size: 15px;
+	margin-top: 7px;
+	margin-left: 150px;
+	float: left;
+	clear: left;
+}
 
 

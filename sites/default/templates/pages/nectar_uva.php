@@ -1,6 +1,8 @@
 
 <div id="detalle_1" class="wrapper-a">
 
+<div class="back_uva">
+
 <?php include("partials/submenu.php"); ?>
 
 
@@ -8,12 +10,16 @@
 <div class="col_DE">
 	
     <!--titulos-->
-	 <div class="titulo_temanzana"></div>
+	 <div class="titulo_uva">
+	 	<h1>Nectar</h1>
+		<h6>sabor uva</h6>
+		<h5>CON VITAMINA C</h5>
+	 </div>
     <!--/titulos-->
     
     <div class="subcol_IZ">
-	    <div class="modulo_botella">
-	    	<img src="/img/test/botella_05.png" />
+	    <div class="modulo_lata">
+	    	<img src="/img/products/lata_07.png" />
 	    </div>
 	    <!--/modulo_botella-->
      </div><!--subcol_IZ-->
@@ -23,7 +29,7 @@
     
 	     <!--modulo_texto descripcion-->
 	    <div class="modulo_texto01">
-	    	<p>Uno de nuestros productos más nuevos  desarrollado para ser un refresco sabroso, liviano y refrescante. La perfecta combinación de T&eacute; Verde, ar&aacute;ndano blanco y manzana dan un 7 a su sabor.</p>
+	    	<p>FALTA Uno de nuestros productos más nuevos  desarrollado para ser un refresco sabroso, liviano y refrescante. La perfecta combinación de T&eacute; Verde, ar&aacute;ndano blanco y manzana dan un 7 a su sabor.</p>
 	    </div>
 	    <!--/modulo_texto descripcion-->
 	    
@@ -41,14 +47,14 @@
 	    <!--/modulo_info--> 
 
 	  	<div class="modulo_datos">	
-	  		<div class="cuadro01"></div>
-			<div class="tabla_05"></div>
+	  		<div class="cuadro07"></div>
+			<?php include("partials/tabla_11.php"); ?>
 	    	<!--modulo_tabla-->
 	    </div>
 
 	     <div class="modulo_ingredientes mar-top-20">
 	    	<h4><strong>Ingredientes:</strong></h4>
-	        <p><strong>Preparado Premium de Té Verde </strong></p> 
+	        <p>FALTA</p> 
 	        <p> Agua filtrada, extracto natural de manzana y ar&aacute;ndano blanco, sorbitol, &aacute;cido málico, sucralosa (0.48 mg/porción-0.2 mg/100ml), acesulfame de potasio (0.24 mg/porción-0.1mg/100 ml), &aacute;cido cítrico. </p>
 	        <p>Duración 18 meses.</p>
 	    </div>
@@ -59,13 +65,7 @@
 </div>
 <!--col_DE-->
 
-
-<div class="clearfix"></div>  
-            
-<div class="cierre"></div>
-
-
-
+</div><!--back-->
 
 
 </div>

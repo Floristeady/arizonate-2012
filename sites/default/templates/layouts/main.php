@@ -18,6 +18,9 @@ pageTracker._trackPageview();
 
 </script>
 
+<meta content="Té verde, Té helado y Nectar Arizona en Chile" name="description">
+<meta content="chile, te, te negro, te verde, te helado, nectar, limon, frambuesa, bebidas, santiago, mango, jugos, venta, online, arizona, arizonate, productos" name="keywords">
+
 <?
 	$page->setTitle("Bebidas Arizona");
 	$page->head->addscript("/js/jquery-1.7.2.min.js", false, 100);
@@ -32,15 +35,8 @@ pageTracker._trackPageview();
 	$page->head->addcss("/css/typography.css");
 	$page->head->addcss("/css/custom.css");
 	$page->head->addcss("/css/fx.css");
-	//$page->head->addscript("/js/transmenu.js");
 	
 	$page->head->setFavIcon("/favicon.ico");
-	$page->head->setMetaDescription("Té verde, Té helado y Nectar Arizona en Chile");
-    $page->head->setMetaKeywords("chile, te, te negro, te verde, te helado, nectar, limon, frambuesa, bebidas, santiago, mango, jugos, venta, online, arizona, arizonate, productos");
-	/*$page->addDocumentEvent("ready", "
-		TransMenu.initialize();
-	");*/
-    /*$page->setCharset("UTF-8");*/
 	$page->head->output();
 ?>
 <body>
@@ -56,7 +52,7 @@ pageTracker._trackPageview();
     <!--mini-menu -->
     <ul id="mini_menu">
     	<li><a title="Síguenos en Facebook!" href="http://www.facebook.com/pages/Arizona-Te/202252829802?ref=search&sid=100000487785086.2528793502..1" class="icon" target="_blank"></a></li>
-        <li><a class="comprar" href="<?=url_for("main", "comprar")?>">Comprar</a></li>
+        <li><a href="<?=url_for("main", "comprar")?>" class="comprar">Comprar</a></li>
     </ul>
     <!--/mini-menu -->
     
@@ -64,8 +60,9 @@ pageTracker._trackPageview();
 <!--nav primary -->
 <nav>
 <ul id="nav-primary">
-	<li><a class="inicio <? if (substr(get_current_action(), 0, 6) == "teverd" || substr(get_current_action(), 0, 6) == "tediet" ) {?>_ON<? } ?>" href="<?=url_for("main", "index")?>">Inicio</a></li> 
-	<li><a class="te <? if (substr(get_current_action(), 0, 6) == "teverd" || substr(get_current_action(), 0, 6) == "tediet" ) {?>_ON<? } ?>" href="<?=url_for("main", "teverde_miel")?>">Té Arizona</a>
+	<li><a class="inicio <? if (substr(get_current_action(), 0, 6) == "inicio" || substr(get_current_action(), 0, 6) == "index" ) {?>_ON<? } ?>" href="<?=url_for("main", "index")?>">Inicio</a></li> 
+	
+	<li><a class="te <? if (substr(get_current_action(), 0, 6) == "teverd" || substr(get_current_action(), 0, 6) == "tediet" || substr(get_current_action(), 0, 6) == "teblan" || substr(get_current_action(), 0, 6) == "tehela") {?>_ON<? } ?>" href="<?=url_for("main", "teverde_miel")?>">Té Arizona</a>
 		<ul class="subnav">
 			<li class="title">Té Verde y Blanco</li>  
 		    <li><a href="<?=url_for("main", "teverde_miel")?>">Té verde con Ginseng y Miel</a></li> 
@@ -80,7 +77,7 @@ pageTracker._trackPageview();
 		    <li><a href="<?=url_for("main", "tediet_fram")?>">Té negro diet sabor Frambuesa</a></li>   
 	    </ul>  
 	</li> 
-	<li><a class="nectar <? if (substr(get_current_action(), 0, 6) == "tehela" ) {?>_ON<? } ?>"  href="<?=url_for("main", "tehelado_fram")?>">Nectar</a>
+	<li><a class="nectar <? if (substr(get_current_action(), 0, 6) == "nectar" ) {?>_ON<? } ?>"  href="<?=url_for("main", "tehelado_fram")?>">Nectar</a>
 		<ul class="subnav">
 			<li><a href="<?=url_for("main", "nectar_mango")?>">Nectar sabor Mango</a></li> 
 			<li><a href="<?=url_for("main", "nectar_sandia")?>">Nectar sabor Sandia</a></li>   
@@ -91,7 +88,7 @@ pageTracker._trackPageview();
 	
 	<li><a class="bebida <? if (get_current_action() == "energetica" ) {?>_ON<? } ?>" href="<?=url_for("main", "energetica")?>">Energética</a></li>
 	<li><a class="salud <? if (get_current_action() == "salud" || get_current_action() == "submit_compra") {?>_ON<? } ?>" href="<?=url_for("main", "salud")?>">Beneficios del té</a></li>
-        <li><a class="contacto<? if (get_current_action() == "contacto" || get_current_action() == "submit_compra") {?>_ON<? } ?>" href="<?=url_for("main", "contacto")?>">Contacto</a></li>
+        <li><a class="contacto<? if (get_current_action() == "contacto" || get_current_action() == "submit_compra") {?> _ON<? } ?>" href="<?=url_for("main", "contacto")?>">Contacto</a></li>
         
 </ul><!--/nav primary -->
 </nav>
@@ -117,14 +114,20 @@ pageTracker._trackPageview();
 	
 		<div class="column">
 			<h4>Importa y Distribuye exclusivamente para Chile:</h4> 
-			<h4>Big Chile Ltda.</h4>
+			<h4><strong> Big Chile Ltda.</strong></h4>
 			<p>Teléfono: (+56 2) 224 37 23  |  Fax: (+56 2) 224 37 23</p>
 			<p>Av. Apoquindo 7850, Torre 3, Local 7. Las Condes. Santiago, Chile</p>
 		</div>
 	
 	   	<div class="column">	
-			<p class="F-left mar-top-5">©Todos los derechos reservados - Big Chile Ltda.</p>
-			<a  class="F-right zet" target="_blank" title="ZET Consultora Identidad y Comunicaciones" href="http://www.zet.cl/"></a>
+	   		<span class="logo_small"></span> 
+	   		<span class="info_fb">Conoce nuestra página en: <a href="http://www.facebook.com/pages/Arizona-Te/202252829802?ref=search&sid=100000487785086.2528793502..1" class="icon" target="_blank">Facebook</a></span>
+	   		<div class="clearfix mar-top-10"></div>
+			<small>©Todos los derechos reservados - Big Chile Ltda.</small>
+			<div class="clearfix "></div>
+			<small>Diseñado por <a target="_blank" href="http://www.floristeady.com">www.floristeady.com</a> </small>
+			<div class="clearfix "></div>
+			<a  class="zet" target="_blank" title="ZET Consultora Identidad y Comunicaciones" href="http://www.zet.cl/"></a>
 		</div>
 		
 	</div>

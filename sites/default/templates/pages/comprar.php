@@ -36,15 +36,15 @@
         		<p>&nbsp;</p>
         		<p>Aquí encontrarás nuestros packs de productos AriZona. </p>
         		<p>Todos los packs se venden en <span class="destacado">bandejas de 12 unidades</span> y vienen configurados en paquetes de un sabor o mix de 2 sabores. </p>
-        		<p>Unidad mínima de venta:</p>
-        		<p>Bandeja de 12 unidades</p>
+        		<h5 class="mar-top-10">Unidad mínima de venta:</h5>
+        		<h5>Bandeja de 12 unidades</h5>
 	        
 	        </div>
 	        
 	        <div class="col_DE">
 	        
 		        <div class="modulo_precio">
-		        	<h6>Listado de valores:</h6>
+		        	<h5>Listado de valores:</h5>
 		            <br/>
 		            <ul class="list-price">
 			            <li>Bandeja Té verde y Té diet (botellas 473ml) <span>$15.000</span> </li>
@@ -60,15 +60,7 @@
 
 
   <div class="bottom">
-	  		<? if (count($errors) > 0) { ?>
-        <div class="errors">
-        <ul>
-	  			<? foreach ($errors as $error) {?>
-	  			<li><?=$error?></li>
-	  			<? } ?>
-	  	</ul>
-        </div>
-        <? } ?>
+	  		
         
         <div class="title">
         	<h3>Selecciona los productos para tu compra</h3>
@@ -81,7 +73,7 @@
 			<div class="modulo_producto">
 				<h5>Té Verde con Ginseng y Miel. </h5>
 				<h5 class="mar-bottom-28">LINEA TÉ VERDE</h5>
-	    		<img src="/img/test/botella_01_small.png" />
+	    		<img src="/img/products/botella_01_small.png" />
 	        	<p class="mar-top-10">Pack 12 unidades.</p>
 	        	<p>$15.000</p>
 	        	<p>Botella 473 ml.</p>
@@ -95,7 +87,7 @@
 			<div class="modulo_producto">
 				<h5>Té Verde con Ginseng y jugo de Granada.</h5>
 				<h5 class="mar-bottom-10">LINEA TÉ VERDE</h5>
-	    		<img src="/img/test/botella_03_small.png" />
+	    		<img src="/img/products/botella_03_small.png" />
 	        	<p class="mar-top-10">Pack 12 unidades.</p>
 	        	<p>$15.000</p>
 	        	<p>Botella 473 ml.</p>
@@ -109,7 +101,7 @@
 			<div class="modulo_producto">
 				<h5>Té Blanco con Ginseng y jugo de Arándano. </h5>
 				<h5 class="mar-bottom-10">LINEA TÉ VERDE</h5>
-	    		<img src="/img/test/botella_02_small.png" />
+	    		<img src="/img/products/botella_02_small.png" />
 	    		<p class="mar-top-10">Pack 12 unidades.</p>
 	        	<p>$15.000</p>
 	        	<p>Botella 473 ml.</p>
@@ -123,7 +115,7 @@
 			<div class="modulo_producto">	
 	        	<h5>Té Verde DIET con Ginseng.</h5>
 				<h5 class="mar-bottom-28">LINEA TÉ DIET</h5>
-	    		<img src="/img/test/botella_04_small.png" />
+	    		<img src="/img/products/botella_04_small.png" />
 	    		<p class="mar-top-10">Pack 12 unidades.</p>
 	        	<p>$15.000</p>
 	        	<p>Botella 473 ml.</p>
@@ -146,7 +138,7 @@
 			<div class="modulo_producto">
 				<h5>Té Negro DIET sabor Frambuesa</h5>
 				<h5 class="mar-bottom-10">LINEA TÉ DIET</h5>
-	    		<img src="/img/test/botella_05_small.png" />
+	    		<img src="/img/products/botella_06_small.png" />
 	    		<p class="mar-top-10">Pack 12 unidades.</p>
 	        	<p>$15.000</p>
 	        	<p>Botella 473 ml.</p>
@@ -160,7 +152,7 @@
 			<div class="modulo_producto">
 				<h5>Té Negro Helado con sabor de Frambuesa.</h5>
 				<h5 class="mar-bottom-10">LINEA TÉ NEGRO</h5>
-	    		<img src="/img/test/lata_01_small.png" />
+	    		<img src="/img/products/lata_01_small.png" />
 	    		<p class="mar-top-10">Pack 12 unidades.</p>
 	        	<p>$12.000</p>
 	        	<p>Lata 680 ml.</p>
@@ -174,7 +166,7 @@
 			<div class="modulo_producto">
 				<h5>Té Negro Helado con sabor de Limón.</h5>
 				<h5 class="mar-bottom-10">LINEA TÉ NEGRO</h5>
-	    		<img src="/img/test/lata_02_small.png" />
+	    		<img src="/img/products/lata_02_small.png" />
 	    		<p class="mar-top-10">Pack 12 unidades.</p>
 	        	<p>$12.000</p>
 	        	<p>Lata 680 ml.</p>
@@ -187,12 +179,12 @@
 			<div class="modulo_producto">
 				<h5>Té Negro Helado con sabor de Mango.</h5>
 				<h5 class="mar-bottom-10">LINEA TÉ NEGRO</h5>
-	    		<img src="/img/test/lata_02_small.png" />
+	    		<img src="/img/products/lata_04_small.png" />
 	    		<p class="mar-top-10">Pack 12 unidades.</p>
 	        	<p>$12.000</p>
 	        	<p>Lata 680 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[8]", range(0,9), "", $_POST["productos"][8]);?>
+	        	<?=FormHelper::select("productos[6]", range(0,9), "", $_POST["productos"][8]);?>
 	    	</div>
 	        <!--/modulo_producto-->
 
@@ -208,12 +200,12 @@
 			<div class="modulo_producto">
 				<h5>Nectar sabor Mango</h5>
 				<h5 class="mar-bottom-10">LINEA NECTAR</h5>
-	    		<img src="/img/test/botella_05_small.png" />
+	    		<img src="/img/products/lata_05_small.png" />
 	    		<p class="mar-top-10">Pack 12 unidades.</p>
 	        	<p>$15.000</p>
 	        	<p>Botella 473 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[5]", range(0,9), "", $_POST["productos"][5]);?>
+	        	<?=FormHelper::select("productos[10]", range(0,9), "", $_POST["productos"][5]);?>
 	
 	    	</div>
 	        <!--/modulo_producto-->
@@ -222,12 +214,12 @@
 			<div class="modulo_producto">
 				<h5>Nectar sabor Sandia</h5>
 				<h5 class="mar-bottom-10">LINEA NECTAR</h5>
-	    		<img src="/img/test/lata_01_small.png" />
+	    		<img src="/img/products/lata_06_small.png" />
 	    		<p class="mar-top-10">Pack 12 unidades.</p>
 	        	<p>$12.000</p>
 	        	<p>Lata 680 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[7]", range(0,9), "", $_POST["productos"][7]);?>
+	        	<?=FormHelper::select("productos[11]", range(0,9), "", $_POST["productos"][7]);?>
 	    	</div>
 	        <!--/modulo_producto-->
 	        
@@ -236,12 +228,12 @@
 			<div class="modulo_producto">
 				<h5>Nectar sabor Uva</h5>
 				<h5 class="mar-bottom-10">LINEA NECTAR</h5>
-	    		<img src="/img/test/lata_02_small.png" />
+	    		<img src="/img/products/lata_07_small.png" />
 	    		<p class="mar-top-10">Pack 12 unidades.</p>
 	        	<p>$12.000</p>
 	        	<p>Lata 680 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[8]", range(0,9), "", $_POST["productos"][8]);?>
+	        	<?=FormHelper::select("productos[12]", range(0,9), "", $_POST["productos"][8]);?>
 	    	</div>
 	        <!--/modulo_producto-->
 	        
@@ -249,12 +241,12 @@
 			<div class="modulo_producto">
 				<h5>Nectar sabor Naranja</h5>
 				<h5 class="mar-bottom-10">LINEA NECTAR</h5>
-	    		<img src="/img/test/lata_02_small.png" />
+	    		<img src="/img/products/lata_08_small.png" />
 	    		<p class="mar-top-10">Pack 12 unidades.</p>
 	        	<p>$12.000</p>
 	        	<p>Lata 680 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[8]", range(0,9), "", $_POST["productos"][8]);?>
+	        	<?=FormHelper::select("productos[13]", range(0,9), "", $_POST["productos"][8]);?>
 	    	</div>
 	        <!--/modulo_producto-->
 
@@ -270,7 +262,7 @@
 			<div class="modulo_producto">
 				<h5>Bebida Energética RX Herbal Tonic. </h5>
 				<h5 class="mar-bottom-10">BEBIDA ENERGÉTICA</h5>
-	    		<img src="/img/test/lata_03_small.png" />
+	    		<img src="/img/products/lata_03_small.png" />
 	    		<p class="mar-top-10">Pack 12 unidades.</p>
 	        	<p>$12.000</p>
 	        	<p>Lata 680 ml.</p>
@@ -293,7 +285,7 @@
             <div id="Mixs" class="cerrar">
 		    </div>
 
-        	<input class="agregar F-left"  name="Agregar" type="button" onclick="addmix()" value="AGREGAR MIX" />
+        	<input class="agregar boton F-left"  name="Agregar" type="button" onclick="addmix()" value="AGREGAR MIX" />
        
         	</div>
 
@@ -301,11 +293,22 @@
 	    <!--/modulos-->
         
 	    <div class="title_2">
-           	<h3>Datos del pedido</h3>
+           	<h3  style="float:left;">Datos del pedido |</h3>
+           	<p style="float:left; padding-top:2px; padding-left:5px;">Completa con tus datos para realizar el pedido</p>
         </div>
 
       
     	<div class="formulario">
+    	
+    	<? if (count($errors) > 0) { ?>
+        <div class="errors">
+        <ul>
+	  			<? foreach ($errors as $error) {?>
+	  			<li><?=$error?></li>
+	  			<? } ?>
+	  	</ul>
+        </div>
+        <? } ?>
         
              <div>
            		<label>Nombre</label>
@@ -339,14 +342,16 @@
         
             
             <div>
-               <input class="enviar" type="submit" value="ENVIAR">
+               <input class="enviar boton" type="submit" value="ENVIAR">
                </div>
 				
                 
             </div>
             
+            
           
   <div class="text_info">
+  
   		<p><strong>Condiciones:</strong></p>
     	<p><span>Unidad mínima de venta:</span></p>
     	<p><span class="underline">Bandeja de 12 unidades.</span></p>

@@ -15,20 +15,49 @@ $(function() {
 
 
 
-// Lineas de productos home
+// lineas de productos home
+
 $(function() {
-  $(".te a").click(function () {
-      $(this).find("img").fadeOut( 100, function () {
-          $(".te img").attr({ 
-	      src: "/img/elements/te_big.png",
-	      height: "245"
-	   }).fadeIn();
-          return false;
-	    }); 
+
+$("#te a.btn_show").toggle(function() {
+	  $(".te_list").slideDown('slow');
+	   $(this).find("img").attr({ 
+		src: "/img/elements/te_big.png", 
+		height: "245"});
+
+	}, function() {			  
+	     $(".te_list").slideUp('fast');
+	    $(this).find("img").attr({ 
+		src: "/img/elements/te_small.png", 
+		height: "179"});
+	});
 
 
-      $(".te").find('.list-products').toggle();
-    });
-
+$("#nectar a.btn_show").toggle(function() {
+	   $(".nectar_list").slideDown('slow');
+	   $(this).find("img").attr({ 
+		src: "/img/elements/nectar_big.png", 
+		height: "245"});
+	}, function() {			  
+	     $(".nectar_list").slideUp('fast');
+	    $(this).find("img").attr({ 
+		src: "/img/elements/nectar_small.png", 
+		height: "179"});
+	});
+			
+			
+$("#rx a.btn_show").toggle(function() {
+	   $(".rx_list").slideDown('slow');
+	   $(this).find("img").attr({ 
+		src: "/img/elements/rx_big.png", 
+		height: "245"});
+	}, function() {			  
+	    $(".rx_list").slideUp('fast');
+	    $(this).find("img").attr({ 
+		src: "/img/elements/rx_small.png", 
+		height: "179"});
+	});
 });
+
+
 

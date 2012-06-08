@@ -92,11 +92,11 @@
 	display: none;
 }
 
-#index .te, #index .nectar {
+#index #te, #index .nectar {
 	margin-right: 42px;
 }
 
-#index .te a:hover h3, #index .nectar a:hover h3, #index .rx a:hover h3{
+#index a.btn_show, #index .te a:hover h3, #index .nectar a:hover h3, #index .rx a:hover h3{
 	text-decoration: none;
 }
 
@@ -109,18 +109,18 @@
 
 #index .te .subtitle h3 {
 	color: #02322d;
+	text-decoration: none;
 }
 
 #index .nectar .subtitle h3 {
 	color: #67510b;
+	text-decoration: none;
 }
 
 #index .rx .subtitle h3 {
 	color: #355a0a;
+	text-decoration: none;
 }
-
-
-
 
 
 /*Detalle 2 - Salud
@@ -136,9 +136,9 @@
 }
 
 #detalle_2 .col_IZ{
-	width: 439px;
+	width: 434px;
 	float: left;
-	padding-left:25px;
+	padding-left:30px;
 	padding-right:42px;
 	
 }
@@ -367,6 +367,10 @@
 	margin-right: 30px;
 }
 
+#detalle_3 .top .col_IZ h5 {
+	font-size: 14px;
+	line-height: 20px;
+}
 
 #detalle_3 p .destacado{
 	color: #287f7b;
@@ -393,7 +397,7 @@
 	padding:3px 0px;
 }
 
-#detalle_3 .modulo_precio h6 {
+#detalle_3 .modulo_precio h5 {
 	color: #fff;
 	font-size: 16px;
 }
@@ -525,6 +529,7 @@
 #detalle_3 .text_info {
 	margin-top: 30px;
 	float: left;
+	margin-left: 30px;
 }
 
 #detalle_3 .text_info p {
@@ -563,6 +568,11 @@
 	min-height: 550px;
 }
 
+#contacto h1  {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
 #contacto .back{
 	width:970px;
 	float: left;
@@ -575,7 +585,7 @@
 	width: 400px;
 	float: left;
 	padding-right:25px;
-	padding-left: 25px;
+	padding-left: 30px;
 }
 
 #contacto .col_DE{
