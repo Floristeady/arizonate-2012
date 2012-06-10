@@ -1,22 +1,13 @@
 #index  {
-	width: 100%;
-}
-
-#index .banner{
-	height:506px;
-	float:left;
-	border-bottom: 1px #dfdfdf solid;
-}
-
-#index .top {
-	float: left;
+	/*width: 100%;*/
+    height: auto;
+    overflow: hidden;
+    padding-top: 506px;
 }
 
 #index .bottom {
 	padding-top:25px;
-	float:left;
 }
-
 
 #index .description {
 	background-image: url(../img/elements/back_description.png);
@@ -42,6 +33,20 @@
 	margin: 10px;
 }
 
+#index .description .btn_mas {
+	background-image: url(../img/elements/btn_mas.png);
+	background-repeat: no-repeat;
+	background-position: center -5px;
+	height: 32px;
+	width: 121px;
+	display: block;
+	float: right;
+	margin-top: 50px;
+}
+
+#index .description .btn_mas:hover {
+	background-position: center -40px;
+}
 
 #index .description  h1{
 	padding-top:10px;
@@ -91,10 +96,53 @@
 #index .list-products {
 	display: none;
 }
-
+ 
 #index #te, #index .nectar {
 	margin-right: 42px;
 }
+
+#index .products #te .img_hover {
+	background-position: top right;
+	height: 245px;
+}
+
+#index #te .img {
+	background-image: url(../img/elements/te_lineas.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	height: 180px;
+	width: 300px;
+	display: block;
+}
+
+#index .products  #nectar .img_hover {
+	background-position: top right;
+	height: 245px;
+}
+
+#index #nectar .img {
+	background-image: url(../img/elements/nectar_lineas.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	height: 180px;
+	width: 300px;
+	display: block;
+}
+
+#index .products  #rx .img_hover {
+	background-position: top right;
+	height: 245px;
+}
+
+#index #rx .img {
+	background-image: url(../img/elements/rx_lineas.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	height: 180px;
+	width: 300px;
+	display: block;
+}
+
 
 #index a.btn_show, #index .te a:hover h3, #index .nectar a:hover h3, #index .rx a:hover h3{
 	text-decoration: none;
@@ -121,6 +169,407 @@
 	color: #355a0a;
 	text-decoration: none;
 }
+
+/*Banner index
+---------------------------------------*/
+
+.wrapper-b {
+	width: 970px;
+	margin: auto;
+}
+
+.home-carousel-full {
+    height: 506px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+	border-bottom: 1px #dfdfdf solid;
+}
+
+.slideshow {
+	width: 20000px;
+	height: 100%;
+}
+
+ul.slideshow li {
+    /*background-color: #4CC8E4;
+    position: absolute;*/
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+ul.slideshow li.show {
+	z-index:500;	
+}
+
+ul.slideshow li#slide {
+	border: 1px solid red;
+	float: left;
+	position: absolute;
+}
+
+ul.slideshow ul {
+	background-position: center;
+    display: block;
+    height: 506px;
+    width: 100%;
+    margin: auto;
+}
+
+ul.slideshow li li {
+    height: 100%;
+    text-align: center;
+    width: 970px;
+    margin: auto;
+    background: none no-repeat scroll center top transparent;*/
+    position: relative;
+}
+
+#slide {
+	/*background-color: #ebf8f5;
+	background-image: url("/img/repeat/textura.png");
+    background-position: center top;
+    background-repeat: repeat;*/
+}
+
+/* te negro elementos */
+
+ul.slideshow  .tenegro_back {
+	background-image: url(../img/elements/bannertenegro_1.jpg);
+	background-repeat: no-repeat;
+	background-color: #ebf8f5;
+}
+
+ul.slideshow .tenegro_texto {
+	background-image: url(../img/elements/bannertenegro_2.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 162px;
+    width: 444px;
+    position: absolute;
+    top:120px;
+    opacity: 0;
+}
+
+ul.slideshow .tenegro_flotan {
+	background-image: url(../img/elements/bannertenegro_3.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 460px;
+    width: 750px;
+    position: absolute;
+    top:10px;
+}
+
+ul.slideshow .tenegro_lata1 {
+	background-image: url(../img/elements/bannertenegro_4.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 352px;
+    width: 223px;
+    position: absolute;
+	right: 300px;
+    top: 90px;
+    opacity: 0;
+}
+
+ul.slideshow .tenegro_lata2 {
+	background-image: url(../img/elements/bannertenegro_5.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 456px;
+    width: 276px;
+    position: absolute;
+	right: 150px;
+    top: 60px;
+    opacity: 0;
+}
+
+ul.slideshow .tenegro_lata3 {
+	background-image: url(../img/elements/bannertenegro_6.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 358px;
+    width: 188px;
+    position: absolute;
+	right: 20px;
+    top: 90px;
+     opacity: 0;
+}
+
+/* te verde elementos */
+
+ul.slideshow .teverde_back {
+	background-image: url(../img/elements/bannerteverde_1.jpg);
+	background-repeat: no-repeat;
+	background-color: #e3f2e9;
+}
+
+ul.slideshow .teverde_texto {
+	background-image: url(../img/elements/bannerteverde_2.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 162px;
+    width: 444px;
+    position: absolute;
+    top:70px;
+    opacity: 0;
+}
+
+ul.slideshow .teverde_flotan {
+	background-image: url(../img/elements/bannerteverde_3.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 460px;
+    width: 750px;
+    position: absolute;
+    top:60px;
+    left: -100px;
+    opacity: 0;
+}
+
+ul.slideshow .teverde_botella1 {
+	background-image: url(../img/elements/bannerteverde_4.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 309px;
+    width: 180px;
+    position: absolute;
+	right: 420px;
+    top: 120px;
+    opacity: 0;
+}
+
+ul.slideshow .teverde_botella2 {
+	background-image: url(../img/elements/bannerteverde_5.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 344px;
+    width: 150px;
+    position: absolute;
+	right: 310px;
+    top: 115px;
+    opacity: 0;
+}
+
+ul.slideshow .teverde_botella3 {
+	background-image: url(../img/elements/bannerteverde_6.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 344px;
+    width: 150px;
+    position: absolute;
+	right: 250px;
+    top: 98px;
+    opacity: 0;
+}
+
+ul.slideshow .teverde_botella4 {
+	background-image: url(../img/elements/bannerteverde_7.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 332px;
+    width: 132px;
+    position: absolute;
+	right: 40px;
+    top: 130px;
+    opacity: 0;
+}
+
+ul.slideshow .teverde_botella5 {
+	background-image: url(../img/elements/bannerteverde_8.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 332px;
+    width: 132px;
+    position: absolute;
+ 	right: -30px;
+    top: 124px;
+    opacity: 0;
+}
+
+ul.slideshow .teverde_subtitulos{
+	background-image: url(../img/elements/bannerteverde_9.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 222px;
+    width: 160px;
+    position: absolute;
+	right: 125px;
+    top: 170px;
+    opacity: 0;
+}
+
+
+/* nectar elementos */
+
+ul.slideshow .nectar_back {
+	background-image: url(../img/elements/bannernectar_1.jpg);
+	background-repeat: no-repeat;
+	background-color: #f2eed0;
+}
+
+
+ul.slideshow .nectar_texto {
+	background-image: url(../img/elements/bannernectar_2.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 177px;
+    width: 430px;
+    position: absolute;
+    top:70px;
+    opacity: 0;
+}
+
+ul.slideshow .nectar_lata1 {
+	background-image: url(../img/elements/bannernectar_3.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 353px;
+    width: 159px;
+    position: absolute;
+	right: 415px;
+    top: 98px;
+    opacity: 0;
+}
+
+ul.slideshow .nectar_lata2 {
+	background-image: url(../img/elements/bannernectar_4.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 407px;
+    width: 200px;
+    position: absolute;
+    top:80px;
+    right: 280px;
+    opacity: 0;
+}
+
+ul.slideshow .nectar_lata3 {
+	background-image: url(../img/elements/bannernectar_5.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 377px;
+    width: 240px;
+    position: absolute;
+    top:100px;
+    right: 100px;
+    opacity: 0;
+}
+
+ul.slideshow .nectar_lata4 {
+	background-image: url(../img/elements/bannernectar_6.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 354px;
+    width: 135px;
+    position: absolute;
+    top:90px;
+    right: 80px;
+    opacity: 0;
+}
+
+ul.slideshow .nectar_mango {
+	background-image: url(../img/elements/bannernectar_7.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 110px;
+    width: 200px;
+    position: absolute;
+    right: 320px;
+    top: 380px;
+    opacity: 0;
+}
+
+/* nectar elementos */
+
+ul.slideshow .bebida_back {
+	background-image: url(../img/elements/bannerbebida_1.jpg);
+	background-repeat: no-repeat;
+	background-color: #f9f2de;
+}
+
+ul.slideshow .bebida_texto {
+	background-image: url(../img/elements/bannerbebida_2.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 177px;
+    width: 430px;
+    position: absolute;
+    top:70px;
+    opacity: 0;
+}
+
+ul.slideshow .bebida_flotan {
+	background-image: url(../img/elements/bannerbebida_3.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 355px;
+    width: 889px;
+    position: absolute;
+    top:100px;
+    left: -50px;
+    opacity: 0;
+}
+
+ul.slideshow .bebida_lata1 {
+	background-image: url(../img/elements/bannerbebida_4.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 398px;
+    width: 200px;
+    position: absolute;
+    top:60px;
+    right: 260px;
+    opacity: 0;
+}
+
+ul.slideshow .bebida_lata2 {
+	background-image: url(../img/elements/bannerbebida_5.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 367px;
+    width: 156px;
+    position: absolute;
+	right: 180px;
+    top: 80px;
+    opacity: 0;
+}
+
+
+
+/*slideshow nav */
+#slideshow-nav {
+    position: absolute;
+    right: 0;
+    bottom:10px;
+    width: 120px;
+    z-index: 10000;
+}
+
+#slideshow-nav .nav-item {
+    float: left;
+    width: 13px;
+    margin: 0px 5px;
+    outline: none;
+}
+
+#slideshow-nav .selected {
+	background-position: top right !important;
+}
+
+#slideshow-nav .nav-item-dot {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/elements/slideshow_nav.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
 
 
 /*Detalle 2 - Salud

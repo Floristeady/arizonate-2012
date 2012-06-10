@@ -1,19 +1,57 @@
 
-<div id="index">
+<div id="index" class="wrapper-b">
 	
     <!--top-->
-	<div class="top">
-  
-         <div class="banner">
-         	<img src="/img/test/banner_test.png">
+	<div class="top home-carousel-full">
+
+         <ul class="slideshow">
+         	<li id="slide" class="show">
+	         	<ul id="tenegro">
+	         		<!--nada-->
+	         	</ul>
+         	</li>
+         	
+         	<li id="slide" class="">
+         		<ul id="teverde">
+         			<!--nada-->
+         		</ul>
+         	</li>
+         	
+         	<li id="slide" class="">
+         		<ul id="nectar">
+         		</ul>
+         	</li>
+         	
+         	<li id="slide" class="">
+         		<ul id="bebida">
+         		</ul>
+         	</li>
          
-         </div> <!--/banner-->
+         </ul><!--/slideshow-->
+         
+         <div class="wrapper-a">
+	         <div id="slideshow-nav">
+		        <a href="javascript:void(0)" class="nav-item nav-item-dot selected">
+		        </a>
+		        
+		        <a href="javascript:void(0)" class="nav-item nav-item-dot">
+		        </a>
+		        
+		        <a href="javascript:void(0)" class="nav-item nav-item-dot">
+		        </a>
+		        
+		        <a href="javascript:void(0)" class="nav-item nav-item-dot">
+		        </a>
+			</div>
+		</div>
+             
+ 
     </div>
     <!--/top-->
     
-    
+    <div class="clearfix"></div>
     <!--bottom-->
-    <div class="bootom wrapper-a">
+    <div class="bottom wrapper-a">
     	
         <div class="description">
         	<span class="line"></span>
@@ -28,6 +66,8 @@
         		<h1><span class="cyan_2">RICO, ENTRETENIDO, REFRESCANTE Y MUY SALUDABLE...</span></h1>
         		<h1><span class="cyan_2">Bebe, sientete bien y disfruta tu día con</span> <span class="cyan_1"><strong>AriZona!</strong></span></h1> 
         	</div>
+        	
+        	<a href="/main/salud" class="btn_mas"></a>
         	<span class="line mar-top-10"></span>  
         </div>  <!--/description--> 
         
@@ -39,7 +79,8 @@
 	        	<span class="deco_cyan"></span>
 	        </div>
 	        <div id="te" class="column">
-		        <a class="btn_show"  href="javascript:void(0)"><img class="img_te" src="../../../../img/elements/te_small.png" alt="te_small" width="293" height="179" />
+		        <a class="btn_show"  href="javascript:void(0)">
+		        <span class="img"></span>
 		        <span class="subtitle"><h3>Té Arizona</h3></span>
 		        </a>
 		        <ul class="list-products te_list">
@@ -58,7 +99,7 @@
 	        
 	        <div id="nectar"  class="column nectar">
 	        	<a class="btn_show"  href="javascript:void(0)">
-		        <img  src="../../../../img/elements/nectar_small.png" alt="nectar_small" width="293" height="179" />
+		         <span class="img"></span>
 		        <span class="subtitle"><h3>Nectar</h3></span>
 		        </a>
 		         <ul class="list-products nectar_list">
@@ -72,7 +113,7 @@
 	        
 	           <div id="rx" class="column rx">
 	           <a class="btn_show"  href="javascript:void(0)">
-		        <img src="../../../../img/elements/rx_small.png" alt="rx_small" width="293" height="179" />
+		         <span class="img"></span>
 		        <span class="subtitle"><h3>Energética RX</h3></span>
 		        </a>
 		        <ul class="list-products rx_list">
@@ -82,12 +123,11 @@
 	        </div>
 	        
         </div>
+
     
     </div>
     <!--/bottom-->
-
-<div class="clearfix"></div>  
-           
+       
 
 </div>
 <!--/index-->

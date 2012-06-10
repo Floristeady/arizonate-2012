@@ -30,9 +30,9 @@
 	$db["development"]["db"] = "arizonate";
 
 	$db["test"]["host"] = "localhost";
-	$db["test"]["user"] = "arizonat_root";
-	$db["test"]["pw"] = "111111";
-	$db["test"]["db"] = "arizonat_data";
+	$db["test"]["user"] = "rcgdesar_arizona";
+	$db["test"]["pw"] = "arizonate";
+	$db["test"]["db"] = "rcgdesar_arizonate";
 
 	$db["production"]["host"] = "localhost";
 	$db["production"]["user"] = "bigchileSQL1";

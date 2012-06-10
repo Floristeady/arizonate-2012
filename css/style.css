@@ -35,7 +35,6 @@ header#master-header {
 	border-bottom: 1px solid #d57692;
 	border-top: 6px #3bbdb7 solid;
 	height: 112px;
-	float: left;
 	position: relative;
 	width: 100%;
 }
@@ -49,9 +48,8 @@ header#master-header {
 
 
 #content {
-	width: 100%;
+	/*width: 100%;*/
 	position: relative;
-	float: left;
 	border-top: 2px solid #c33b63;
 }
 

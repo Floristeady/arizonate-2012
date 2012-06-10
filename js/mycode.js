@@ -21,41 +21,42 @@ $(function() {
 
 $("#te a.btn_show").toggle(function() {
 	  $(".te_list").slideDown('slow');
-	   $(this).find("img").attr({ 
-		src: "/img/elements/te_big.png", 
-		height: "245"});
-
+	  $(this).find("span.img").animate({
+        height: "245px"
+    },300).addClass('img_hover');
+	   
 	}, function() {			  
-	     $(".te_list").slideUp('fast');
-	    $(this).find("img").attr({ 
-		src: "/img/elements/te_small.png", 
-		height: "179"});
+	    $(".te_list").slideUp('fast');
+	    $(this).find("span.img").animate({
+        height: "180px"
+    },200).removeClass('img_hover');
 	});
 
 
 $("#nectar a.btn_show").toggle(function() {
 	   $(".nectar_list").slideDown('slow');
-	   $(this).find("img").attr({ 
-		src: "/img/elements/nectar_big.png", 
-		height: "245"});
+	    $(this).find("span.img").animate({
+        height: "245px"
+    	},300).addClass('img_hover');
+
 	}, function() {			  
-	     $(".nectar_list").slideUp('fast');
-	    $(this).find("img").attr({ 
-		src: "/img/elements/nectar_small.png", 
-		height: "179"});
+	    $(".nectar_list").slideUp('fast');
+	    $(this).find("span.img").animate({
+        height: "180px"
+    	},200).removeClass('img_hover');
 	});
 			
 			
 $("#rx a.btn_show").toggle(function() {
 	   $(".rx_list").slideDown('slow');
-	   $(this).find("img").attr({ 
-		src: "/img/elements/rx_big.png", 
-		height: "245"});
+	   $(this).find("span.img").animate({
+        height: "245px"
+    	},300).addClass('img_hover');
 	}, function() {			  
 	    $(".rx_list").slideUp('fast');
-	    $(this).find("img").attr({ 
-		src: "/img/elements/rx_small.png", 
-		height: "179"});
+	    $(this).find("span.img").animate({
+        height: "180px"
+    	},200).removeClass('img_hover');
 	});
 });
 
