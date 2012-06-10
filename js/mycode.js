@@ -6,7 +6,8 @@ $(function() {
 	$('#nav-primary li').hover(function(){
 		$(this).find('ul:first:hidden').css({
 			visibility: "visible",
-			display: "none"
+			display: "none",
+			zIndex: 90000
 			}).show(400);
 			},function(){
 				$(this).find('ul:first').slideUp(700);
@@ -61,4 +62,14 @@ $("#rx a.btn_show").toggle(function() {
 });
 
 
+$(function() { 
+	$("#product").delay(400).animate({
+	top: "+=10",
+	opacity: 1
+	}, 500);
+	
+	$("#back").animate({
+	opacity: 1
+	}, 300);
+});
 

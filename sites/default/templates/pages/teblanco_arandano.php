@@ -1,6 +1,6 @@
 <div id="detalle_1" class="wrapper-a tearandano">
 
-<div class="back_tearandano">
+<div id="back" class="back_tearandano">
 
 <?php include("partials/submenu.php"); ?>
 
@@ -19,8 +19,8 @@
     
     <div class="subcol_IZ">
     
-	    <div class="modulo_botella_2">
-	    <img src="/img/products/botella_02.png" />	
+	    <div id="product" class="modulo_botella_2">
+	     <img src="/img/products/botella_02.png" />	
 	    </div>
 	    <!--/modulo_botella-->
 	 

@@ -1,7 +1,7 @@
 
 <div id="detalle_1" class="wrapper-a">
 
-<div class="back_temango">
+<div id="back" class="back_temango">
 
 <?php include("partials/submenu.php"); ?>
 
@@ -17,7 +17,7 @@
     <!--/titulos-->
     
      <div class="subcol_IZ">
-		    <div class="modulo_lata">
+		    <div id="product" class="modulo_lata">
 		    	<img src="/img/products/lata_04.png" />
 		    </div>
 		    <!--/modulo_botella-->

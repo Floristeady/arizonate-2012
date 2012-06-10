@@ -51,6 +51,7 @@ header#master-header {
 	/*width: 100%;*/
 	position: relative;
 	border-top: 2px solid #c33b63;
+	z-index: 1;
 }
 
 footer {

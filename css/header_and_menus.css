@@ -173,7 +173,7 @@ header #nav-primary li a.nectar  {
     position: absolute;
     top: 16px;
     padding: 20px 0px 10px;
-    z-index: 10000;
+    z-index: 90000;
    -webkit-box-shadow:  2px 3px 2px -2px rgba(0, 0, 0, 0.3);
     box-shadow:  2px 3px 2px -2px rgba(0, 0, 0, 0.3); 
     display: none;    
@@ -190,6 +190,8 @@ header #nav-primary li a.nectar  {
     font-family: Lucida Grande, Helvetica;
     margin: 0px 8px;
      padding-bottom: 10px;
+     z-index: 90000;
+     position: relative;
 }
 
 #nav-primary ul.subnav li.title {

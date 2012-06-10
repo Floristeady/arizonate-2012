@@ -186,6 +186,7 @@
     top: 0;
     width: 100%;
 	border-bottom: 1px #dfdfdf solid;
+	z-index: 2;
 }
 
 .slideshow {
@@ -226,6 +227,7 @@ ul.slideshow li li {
     margin: auto;
     background: none no-repeat scroll center top transparent;*/
     position: relative;
+    z-index: 100;
 }
 
 #slide {
@@ -261,7 +263,9 @@ ul.slideshow .tenegro_flotan {
 	height: 460px;
     width: 750px;
     position: absolute;
-    top:10px;
+    top:-70px;
+    left: -40px;
+    opacity: 0;
 }
 
 ul.slideshow .tenegro_lata1 {
@@ -283,7 +287,7 @@ ul.slideshow .tenegro_lata2 {
 	height: 456px;
     width: 276px;
     position: absolute;
-	right: 150px;
+	right: 70px;
     top: 60px;
     opacity: 0;
 }
@@ -297,7 +301,19 @@ ul.slideshow .tenegro_lata3 {
     position: absolute;
 	right: 20px;
     top: 90px;
-     opacity: 0;
+    opacity: 0;
+}
+
+ul.slideshow .tenegro_limon {
+	background-image: url(../img/elements/bannertenegro_7.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 92px;
+    width: 144px;
+    bottom: 50px;
+    right: 290px;
+    opacity: 0;
+    position: absolute;
 }
 
 /* te verde elementos */
@@ -326,7 +342,7 @@ ul.slideshow .teverde_flotan {
 	height: 460px;
     width: 750px;
     position: absolute;
-    top:60px;
+    top:20px;
     left: -100px;
     opacity: 0;
 }
@@ -398,8 +414,8 @@ ul.slideshow .teverde_subtitulos{
 	height: 222px;
     width: 160px;
     position: absolute;
-	right: 125px;
-    top: 170px;
+	right: 132px;
+    top: 60px;
     opacity: 0;
 }
 
@@ -410,6 +426,18 @@ ul.slideshow .nectar_back {
 	background-image: url(../img/elements/bannernectar_1.jpg);
 	background-repeat: no-repeat;
 	background-color: #f2eed0;
+}
+
+
+ul.slideshow .nectar_circulos {
+	background-image: url(../img/elements/bannernectar_8.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 1000px;
+    height:0px;
+    position: absolute;
+    top:0px;
+    opacity: 0;
 }
 
 
@@ -510,7 +538,7 @@ ul.slideshow .bebida_flotan {
 	height: 355px;
     width: 889px;
     position: absolute;
-    top:100px;
+    top:0px;
     left: -50px;
     opacity: 0;
 }
@@ -522,7 +550,7 @@ ul.slideshow .bebida_lata1 {
 	height: 398px;
     width: 200px;
     position: absolute;
-    top:60px;
+    top:40px;
     right: 260px;
     opacity: 0;
 }
@@ -535,7 +563,7 @@ ul.slideshow .bebida_lata2 {
     width: 156px;
     position: absolute;
 	right: 180px;
-    top: 80px;
+    top: 60px;
     opacity: 0;
 }
 
@@ -559,6 +587,7 @@ ul.slideshow .bebida_lata2 {
 
 #slideshow-nav .selected {
 	background-position: top right !important;
+	cursor: default;
 }
 
 #slideshow-nav .nav-item-dot {
@@ -570,6 +599,14 @@ ul.slideshow .bebida_lata2 {
     background-position: top left;
 }
 
+
+
+/* Generales productos
+---------------------------------------*/
+
+#product, #back {
+	opacity: 0;
+}
 
 
 /*Detalle 2 - Salud
