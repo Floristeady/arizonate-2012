@@ -1,7 +1,7 @@
 $(document).ready(function() {		
 	
 	//Execute the slideShow, set 4 seconds for each images
-	slideShow(11000);
+	slideShow(51000);
 
 });
 
@@ -66,25 +66,22 @@ function gallery(direction) {
     else if (!isNaN(direction)) // if is a number
 	
 		var next = $('ul.slideshow li:eq(' + direction + ')');
-	
+		var id_next = next.find('ul').attr('id');
+		
 		$('#slideshow-nav a.nav-item:eq(' + next.index() + ')').addClass('selected').siblings().removeClass('selected');
 
-		
 		var this_current = current.children('ul');
 		var this_next = current.children('ul');	
-			
-		var id_next = next.find('ul').attr('id');
+
 		//console.log(id_next);
-	
-		//Set the fade in effect for the next image, show class has higher z-index
-		next.css({opacity: 0.0}).addClass('show').animate({opacity: 1.0}, 1000);
-		
-		
 		
 		// append and addClass
 		next.children('ul').addClass(id_next +'_back');	
 		next.children('ul').append('<li class="x-slide"></li>');
-		
+	
+		//Set the fade in effect for the next image, show class has higher z-index
+		next.css({opacity: 0.0}).addClass('show').animate({opacity: 1.0}, 1000);
+
 		animate_all_elements(id_next);
 		
 			
@@ -94,7 +91,7 @@ function gallery(direction) {
 		    opacity: 0.9,
 		    top: '+=5'
 		  },200);	  
-		  console.log("OK");
+		  //console.log("OK");
 	    }, 
 		  function () {
 		    $(this).animate({
@@ -162,7 +159,7 @@ function animate_all_elements(id_next) {
 	  		 $('.teverde_flotan').delay(100).animate({
 	    	opacity: 1,
 	    	left: '+=230',
-	    	top: '+=40'
+	    	top: '+=60'
 	  		}, 3000, 'easeOutBack');
 	  		
 	  		$('.teverde_botella1').delay(200).animate({
@@ -192,7 +189,7 @@ function animate_all_elements(id_next) {
 
 	    }  else if (id_next=='nectar') { 
 	    	
-	    	var contenedortres = $('li.show ul').children('li').append('<span class="nectar_circulos"></span><span class="nectar_texto"></span><a href="/main/nectar_sandia" class="nectar_lata1"></a><a href="/main/nectar_uva" class="nectar_lata4"></a><a href="/main/nectar_mango" class="nectar_lata3"></a><a href="/main/nectar_naranja" class="nectar_lata2"></a><span class="nectar_mango"></span>');
+	    	var contenedortres = $('li.show ul').children('li').append('<span class="nectar_circulos"></span><span class="nectar_texto"></span><a href="/main/nectar_sandia" class="nectar_lata1"></a><a href="/main/nectar_uva" class="nectar_lata4"></a><span class="nectar_frutamango"></span><a href="/main/nectar_mango" class="nectar_lata3"></a><a href="/main/nectar_naranja" class="nectar_lata2"></a><span class="nectar_mango"></span>');
 	    	
 	    	$('.nectar_texto').delay(800).animate({
 	    	opacity: 1,
@@ -221,6 +218,10 @@ function animate_all_elements(id_next) {
 	  		}, 1000);
 	  		
 	  		$('.nectar_mango').delay(2600).animate({
+	    	opacity: 1
+	  		}, 1000);
+	  		
+	  		$('.nectar_frutamango').delay(2600).animate({
 	    	opacity: 1
 	  		}, 1000);
 

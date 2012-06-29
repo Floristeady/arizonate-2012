@@ -115,6 +115,12 @@ footer .info_fb {
     margin-left: 26px;
 }
 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	footer a.icon {
+		margin-top: -20px;
+	}
+}
+
 footer h4 {
 	font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'LucidaSansStdRegular', sans-serif;
 	color: #FFFFFF;

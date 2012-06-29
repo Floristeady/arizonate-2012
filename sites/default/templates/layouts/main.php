@@ -24,9 +24,10 @@ pageTracker._trackPageview();
 <?
 	$page->setTitle("Bebidas Arizona");
 	$page->head->addscript("/js/jquery-1.7.2.min.js", false, 100);
-		$page->head->addscript("/js/jquery.easing.compatibility.js", false, 99);
-	$page->head->addscript("/js/mycode.js", false, 98);
-	$page->head->addscript("/js/slideshow.js", false, 97);
+	$page->head->addscript("/js/jquery.easing.compatibility.js", false, 99);
+	$page->head->addscript("/js/modernizr.custom.js", false, 98);
+	$page->head->addscript("/js/mycode.js", false, 97);
+	$page->head->addscript("/js/slideshow.js", false, 96);
 
     $page->head->addcss("/css/reset.css");
 	$page->head->addcss("/css/style.css");

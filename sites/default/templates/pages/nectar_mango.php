@@ -31,7 +31,7 @@
     
 	     <!--modulo_texto descripcion-->
 	    <div class="modulo_texto01">
-	    	<p>FALTA. Uno de nuestros productos más nuevos  desarrollado para ser un refresco sabroso, liviano y refrescante. La perfecta combinación de T&eacute; Verde, ar&aacute;ndano blanco y manzana dan un 7 a su sabor.</p>
+	    	<p>Su sabor dulce y ligero simplemente lo hacen perfecto cuando tienes antojo de un sabor exótico. Fortificado con Vitamina C y hecho sin presentantes ni colorantes artificiales. <strong> 100% Natural.</strong></p>
 	    </div>
 	    <!--/modulo_texto descripcion-->
 	    

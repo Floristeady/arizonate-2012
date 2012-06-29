@@ -29,7 +29,7 @@
     
     <div class="subcol_DE">
 	    <div class="modulo_texto01">
-	    	<p>FALTA. Uno de nuestros productos más nuevos  desarrollado para ser un refresco sabroso, liviano y refrescante. La perfecta combinación de T&eacute; Verde, ar&aacute;ndano blanco y manzana dan un 7 a su sabor.</p>
+	    	<p>El más clásico Néctar de todos los tiempos y Arizona te entrega El Mejor de Todos!. Suave y cítrico sin colorantes ni sabores artificiales, delicioso a cualquier hora del día. Fortificado con Vitamina C. 100 % Natural.</p>
 	    </div>
 	    <!--/modulo_texto descripcion-->
 	    

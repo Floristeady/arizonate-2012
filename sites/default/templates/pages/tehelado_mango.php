@@ -28,8 +28,7 @@
     
 	     <!--modulo_texto descripcion-->
 	    <div class="modulo_texto01">
-	    	<p>Esta bebida creada hace 15 a&ntilde;os todav&iacute;a es uno de sus  sabores m&aacute;s populares. Su secreto es simple: est&aacute; hecha con verdadero T&eacute; Negro  y jugo de lim&oacute;n que crea una bebida con un ligero sabor dulce y muy refrescante.<br />
-	    	</p>
+	    	<p>El más nuevo de nuestros productos y desarrollado para ser una bebida sabrosa, liviana y refrescante. La perfecta combinación de Te Negro y jugo de Mango dan un 7 a su sabor! 100% Natural.<strong> Disfruta lo exótico.</strong></p>
 	    </div>
 	    <!--/modulo_texto descripcion-->
 	    

@@ -29,7 +29,7 @@
     
 	     <!--modulo_texto descripcion-->
 	    <div class="modulo_texto01">
-	    	<p>FALTA Uno de nuestros productos más nuevos  desarrollado para ser un refresco sabroso, liviano y refrescante. La perfecta combinación de T&eacute; Verde, ar&aacute;ndano blanco y manzana dan un 7 a su sabor.</p>
+	    	<p>Deliciosamente suave y refrescante, increíble nectar hecho con auténtico jugo y sabor natural, sólo nos falta saber tu comentario! <strong>100% Natural</strong>.</p>
 	    </div>
 	    <!--/modulo_texto descripcion-->
 	    

@@ -28,6 +28,10 @@ span.deco_cyan {
 	clear: both;
 }
 
+.z-9999 {
+	z-index: 9999;
+}
+
 
 /* COLORES
 -------------------------------------------------------------- */
@@ -43,6 +47,7 @@ span.deco_cyan {
 .cyan_2 {color: #0da189;}
 .magenta_1 {color: #911a3d;}
 .magenta_2 {color: #70243a;}
+.red {color: #aa1120;}
 
 .nav_te {
 	background-color: #d9ece2;

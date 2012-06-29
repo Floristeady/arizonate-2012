@@ -1,11 +1,11 @@
 
-<div id="contacto">
+<div id="contacto" class="wrapper-a">
 	
     <!--col_IZ-->
 	<div class="col_IZ">
-    	<img src="/img/test/contacto_fondo.gif" />
-        <h1><?=$message_title?></h1>
-		<h1><?=$message_body?></h1>
+    	<img src="/img/test/contacto_fondo_02.gif" />
+        <h2><?=$message_title?></h2>
+		<h2><?=$message_body?></h2>
   
 
     </div>

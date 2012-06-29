@@ -30,7 +30,7 @@
 	    
 		 <!--modulo_texto descripcion-->
 		<div class="modulo_texto01">
-			<p>FALTA. Uno de nuestros productos más nuevos  desarrollado para ser un refresco sabroso, liviano y refrescante. La perfecta combinación de T&eacute; Verde, ar&aacute;ndano blanco y manzana dan un 7 a su sabor.</p>
+			<p>Arizona lo hizo posible y ahora puedes refrescarte de la mejor manera con este nuevo increíble sabor perfectamente equilibrado y delicioso. <strong> Tambien 100% natural!</strong>.</p>
 		</div>
 		<!--/modulo_texto descripcion-->
 		

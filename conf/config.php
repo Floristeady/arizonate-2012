@@ -62,8 +62,8 @@
 	$conf["development"]["mail_smtp_port"] = "465";
 	$conf["development"]["mail_from_name"] = "Web Arizona";
 	$conf["development"]["mail_from_address"] = "test@appnotion.com";
-	$conf["development"]["web_mailbox"] = "felipe@zet.cl";
-	$conf["development"]["web_mailbox_venta"] = "felipe@zet.cl";
+	$conf["development"]["web_mailbox"] = "florencia@zet.cl";
+	$conf["development"]["web_mailbox_venta"] = "florencia@zet.cl";
 
 	$conf["test"]["mail_component"] = "PHPMAILER";
 	$conf["test"]["mail_smtp_hostprefix"] = "ssl";
@@ -74,8 +74,8 @@
 	$conf["test"]["mail_smtp_port"] = "465";
 	$conf["test"]["mail_from_name"] = "Web Arizona";
 	$conf["test"]["mail_from_address"] = "test@appnotion.com";
-	$conf["test"]["web_mailbox"] = "felipe@zet.cl";
-	$conf["test"]["web_mailbox_venta"] = "felipe@zet.cl";
+	$conf["test"]["web_mailbox"] = "florencia@zet.cl";
+	$conf["test"]["web_mailbox_venta"] = "florencia@zet.cl";
 
 	$conf["production"]["mail_component"] = "PHPMAILER";
 	$conf["production"]["mail_smtp_hostname"] = "192.168.0.101";

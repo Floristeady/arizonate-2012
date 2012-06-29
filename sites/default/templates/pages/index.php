@@ -3,6 +3,23 @@
 	
     <!--top-->
 	<div class="top home-carousel-full">
+	
+		<div class="wrapper-a z-9999">
+	         <div id="slideshow-nav">
+		        <a href="javascript:void(0)" class="nav-item nav-item-dot selected">
+		        </a>
+		        
+		        <a href="javascript:void(0)" class="nav-item nav-item-dot">
+		        </a>
+		        
+		        <a href="javascript:void(0)" class="nav-item nav-item-dot">
+		        </a>
+		        
+		        <a href="javascript:void(0)" class="nav-item nav-item-dot">
+		        </a>
+			</div>
+		</div>
+
 
          <ul class="slideshow">
          	<li id="slide" class="show">
@@ -28,23 +45,7 @@
          	</li>
          
          </ul><!--/slideshow-->
-         
-         <div class="wrapper-a">
-	         <div id="slideshow-nav">
-		        <a href="javascript:void(0)" class="nav-item nav-item-dot selected">
-		        </a>
-		        
-		        <a href="javascript:void(0)" class="nav-item nav-item-dot">
-		        </a>
-		        
-		        <a href="javascript:void(0)" class="nav-item nav-item-dot">
-		        </a>
-		        
-		        <a href="javascript:void(0)" class="nav-item nav-item-dot">
-		        </a>
-			</div>
-		</div>
-             
+                      
  
     </div>
     <!--/top-->
@@ -60,7 +61,7 @@
         	</div>
         	
         	<div class="text">
-        		<h2><span class="yellow">Auténtico té y nectar</span> - <span class="green">100% natural</span>  - Antioxidante - Bajo en sodio - Libre de gluten - Kosher - Sin preservantes - Sin colorantes artificiales - Sin sabores artificiales.</h2>  
+        		<h2><span class="red">Auténtico té y nectar</span> - <span class="green">100% natural</span>  - Antioxidante - Bajo en sodio - Libre de gluten - Kosher - Sin preservantes - Sin colorantes artificiales - Sin sabores artificiales.</h2>  
         	</div>
         	<div class="text three">
         		<h1><span class="cyan_2">RICO, ENTRETENIDO, REFRESCANTE Y MUY SALUDABLE...</span></h1>

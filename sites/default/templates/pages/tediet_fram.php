@@ -30,8 +30,7 @@
     <div class="subcol_DE">
     
 		    <div class="modulo_texto01">
-		    	<p>FALTA. T&eacute; Verde Arándano DIET de AriZona entrega un incre&iacute;ble sabor junto a un bajo aporte de calorías y carbohidratos. </p>
-				<p> Pruébalo, te encantará.</p>
+		    	<p>Te Diet Frambuesa de Arizona entrega un increíble sabor junto al cero aporte de calorías y carbohidratos, gracias a sucralosa Splenda! Sin duda que lo vas a Gozar desde que lo destapas. 100% Natural. </p>
 		    </div>
 		    <!--/modulo_texto descripcion-->
 		    

@@ -99,6 +99,7 @@
  
 #index #te, #index .nectar {
 	margin-right: 42px;
+	float: left;
 }
 
 #index .products #te .img_hover {
@@ -254,6 +255,7 @@ ul.slideshow .tenegro_texto {
     position: absolute;
     top:120px;
     opacity: 0;
+    left: 0px;
 }
 
 ul.slideshow .tenegro_flotan {
@@ -285,9 +287,9 @@ ul.slideshow .tenegro_lata2 {
 	background-repeat: no-repeat;
 	display: block;
 	height: 456px;
-    width: 276px;
+    width: 200px;
     position: absolute;
-	right: 70px;
+	right: 140px;
     top: 60px;
     opacity: 0;
 }
@@ -328,11 +330,12 @@ ul.slideshow .teverde_texto {
 	background-image: url(../img/elements/bannerteverde_2.png);
 	background-repeat: no-repeat;
 	display: block;
-	height: 162px;
+	height: 200px;
     width: 444px;
     position: absolute;
     top:70px;
     opacity: 0;
+    left: 0px;
 }
 
 ul.slideshow .teverde_flotan {
@@ -364,9 +367,9 @@ ul.slideshow .teverde_botella2 {
 	background-repeat: no-repeat;
 	display: block;
 	height: 344px;
-    width: 150px;
+    width: 123px;
     position: absolute;
-	right: 310px;
+	right: 330px;
     top: 115px;
     opacity: 0;
 }
@@ -445,11 +448,12 @@ ul.slideshow .nectar_texto {
 	background-image: url(../img/elements/bannernectar_2.png);
 	background-repeat: no-repeat;
 	display: block;
-	height: 177px;
+	height: 200px;
     width: 430px;
     position: absolute;
     top:70px;
     opacity: 0;
+    left: 0px;
 }
 
 ul.slideshow .nectar_lata1 {
@@ -480,11 +484,11 @@ ul.slideshow .nectar_lata3 {
 	background-image: url(../img/elements/bannernectar_5.png);
 	background-repeat: no-repeat;
 	display: block;
-	height: 377px;
-    width: 240px;
+	height: 350px;
+    width: 142px;
     position: absolute;
     top:100px;
-    right: 100px;
+    right: 195px;
     opacity: 0;
 }
 
@@ -512,6 +516,18 @@ ul.slideshow .nectar_mango {
     opacity: 0;
 }
 
+ul.slideshow .nectar_frutamango {
+	background-image: url(../img/elements/bannernectar_9.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 129px;
+    width: 105px;
+    position: absolute;
+    right: 110px;
+    top: 330px;    
+    opacity: 0;
+}
+
 /* nectar elementos */
 
 ul.slideshow .bebida_back {
@@ -529,6 +545,7 @@ ul.slideshow .bebida_texto {
     position: absolute;
     top:70px;
     opacity: 0;
+    left: 0px;
 }
 
 ul.slideshow .bebida_flotan {
@@ -573,7 +590,7 @@ ul.slideshow .bebida_lata2 {
 #slideshow-nav {
     position: absolute;
     right: 0;
-    bottom:10px;
+    top:470px;
     width: 120px;
     z-index: 10000;
 }
@@ -586,7 +603,7 @@ ul.slideshow .bebida_lata2 {
 }
 
 #slideshow-nav .selected {
-	background-position: top right !important;
+	background-position: -23px top !important;
 	cursor: default;
 }
 
@@ -597,6 +614,10 @@ ul.slideshow .bebida_lata2 {
     background-image: url(../img/elements/slideshow_nav.png);
     background-repeat: no-repeat;
     background-position: top left;
+}
+
+#slideshow-nav .nav-item-dot:hover {
+	background-position:  -23px top !important;
 }
 
 
@@ -762,7 +783,6 @@ ul.slideshow .bebida_lata2 {
 .modulo_datos {
 	float: right;
 	position: relative;
-	margin-top: 40px;
 	width: 320px;
 }
 
@@ -1110,5 +1130,10 @@ ul.slideshow .bebida_lata2 {
 	background-position: -525px -650px;
 }
 
+/*EXPLORER__________________*/
+
+.lt-ie8 #index .description .text {
+		float: none;
+	}
 
 
