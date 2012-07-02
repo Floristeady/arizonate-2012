@@ -76,7 +76,7 @@
 }
 
 #index .products .title {
-	width: 970px;
+	width: 610px;
 	position: relative;
 	float: left;
 	padding-left: 37%;
@@ -103,7 +103,7 @@
 }
 
 #index .products #te .img_hover {
-	background-position: top right;
+	background-position: -303px top;
 	height: 245px;
 }
 
@@ -112,12 +112,12 @@
 	background-repeat: no-repeat;
 	background-position: top left;
 	height: 180px;
-	width: 300px;
+	width: 293px;
 	display: block;
 }
 
 #index .products  #nectar .img_hover {
-	background-position: top right;
+	background-position: -300px top;
 	height: 245px;
 }
 
@@ -126,7 +126,7 @@
 	background-repeat: no-repeat;
 	background-position: top left;
 	height: 180px;
-	width: 300px;
+	width: 293px;
 	display: block;
 }
 
@@ -647,7 +647,6 @@ ul.slideshow .bebida_lata2 {
 	float: left;
 	padding-left:30px;
 	padding-right:42px;
-	
 }
 
 #detalle_2 .col_DE{
@@ -1133,7 +1132,42 @@ ul.slideshow .bebida_lata2 {
 /*EXPLORER__________________*/
 
 .lt-ie8 #index .description .text {
-		float: none;
-	}
+	float: none;
+}
 
+.lt-ie8 nav #nav-primary{
+	z-index: 999999;
+	float:left;
+}
+
+.lt-ie8 #master-header {
+	z-index: 3;
+}
+
+.lt-ie8 #index .column {
+	float: left;
+	width: 280px;
+}
+
+.lt-ie8 #nav_2 li {
+	width:180px;
+}
+
+.lt-ie8 #detalle_1 .col_DE {
+	padding-bottom: 50px;
+}
+
+.lt-ie8 .modulo_ingredientes, .lt-ie9 .modulo_ingredientes,
+.lt-ie8 .modulo_ingredientes_2, .lt-ie9 .modulo_ingredientes_2  {
+	background-image: url(../img/repeat/modulo_back.png);
+	background-repeat: repeat;
+}
+
+.lt-ie9  #index .products  #nectar .img_hover, .ie9  #index .products  #nectar .img_hover  {
+	background-position: -300px top;
+}
+
+ .lt-ie9  #index .products  #te .img_hover, .ie9  #index .products  #te .img_hover  {
+	 background-position: -304px top;
+ }
 

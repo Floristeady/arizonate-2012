@@ -121,6 +121,10 @@ footer .info_fb {
 	}
 }
 
+.lt-ie8 footer a.icon {
+		margin-top: -20px;
+	}
+
 footer h4 {
 	font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'LucidaSansStdRegular', sans-serif;
 	color: #FFFFFF;
