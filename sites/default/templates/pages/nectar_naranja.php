@@ -38,24 +38,23 @@
 	    <!--modulo_info-->
 	    <div class="modulo_info">
 	    	<p><strong>PRESENTACIÓN</strong></p>
-	        <p>Botella de vidrio 473 ml</p>
+	        <p>Lata 680ml.</p>
 			<p><strong>UNIDAD DE VENTA</strong></p>
-			<p>Bandeja con 12 botellas</p>    
+			<p>Bandeja con 12 latas.</p>    
 		</div>
 	    <!--/modulo_info-->
 	
 	  	<div class="modulo_datos">
 	  		<div class="cuadro07"></div>
-			<?php include("partials/tabla_11.php"); ?>
+			<?php include("partials/tabla_12.php"); ?>
 	    	<!--modulo_tabla-->
 	    </div>
 	    
 	    	    
 	    <!--modulo_ingredientes-->
 	    <div class="modulo_ingredientes mar-top-20">
-	    	<h4><strong>Ingredientes:</strong></h4>
-	        <p>FALTA</p> 
-	        <p> Agua filtrada, extracto natural de manzana y ar&aacute;ndano blanco, sorbitol, &aacute;cido málico, sucralosa (0.48 mg/porción-0.2 mg/100ml), acesulfame de potasio (0.24 mg/porción-0.1mg/100 ml), &aacute;cido cítrico. </p>
+	    	<h4><strong>Ingredientes:</strong></h4> 
+	        <p> AAgua filtrada, almíbar de maíz alto en fructosa, jugo concentrado de naranja, ácido cítrico, sabor natural de naranja, goma Acacia, Vitamina C, colorantes naturales annato y beta caroteno</p>
 	        <p>Duración 18 meses.</p>
 	    </div>
 	    <!--/modulo_ingredientes-->

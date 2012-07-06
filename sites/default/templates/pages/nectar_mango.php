@@ -40,7 +40,7 @@
 	    <!--modulo_info-->
 	    <div class="modulo_info">
 	    	<p><strong>PRESENTACIÓN</strong></p>
-	        <p>Botella de vidrio 473 ml</p>
+	         <p>Lata de 680 ml</p>
 			<p><strong>UNIDAD DE VENTA</strong></p>
 			<p>Bandeja con 12 botellas</p>    
 		</div>

@@ -1,8 +1,8 @@
 <!--nectar mango-->
 <div id="nutridiv">
 <h1>Información Nutricional</h1>
-<p>Porción 1 vaso 240ml (1/2 envase)<br>
-Porciones/envase 2 aprox.</p>
+<p>Porción: 1 vaso 240ml (1/3 de lata aprox.)<br>
+Porciones/envase 3 aprox.</p>
 <table id="nutrition">
 <tbody><tr>
 <td class="fat"></td>
@@ -20,5 +20,7 @@ Porciones/envase 2 aprox.</p>
 <tr><td>*Vitamina C (mg)</td><td>6.3</td><td class="center">25.2%</td></tr>
 
 </tbody></table>
-<p class="mar-bottom-10">(*) % basado en DDR</p>
+<p class="mar-bottom-10">(*) % En relación a la Dosis Diaria Recomendada (DDR)</p>
+<p>Agitar antes de tomar. Una vez abierta, mantener refrigerada.</p>
+</br>
 </div>

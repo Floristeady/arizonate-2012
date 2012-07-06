@@ -1,4 +1,4 @@
-<!--nectar sandia-->
+<!--nectar naranja-->
 <div id="nutridiv">
 <h1>Información Nutricional</h1>
 <p>Porción: 1 vaso 240ml (1/3 de lata aprox.)<br>
@@ -14,8 +14,8 @@ Porciones/envase 3 aprox.</p>
 <tr><td>Grasa Totales (g)</td><td>0</td><td class="center">0</td></tr>
 <tr><td class="fat">Sodio (mg)</td><td class="fat">4.2</td><td class="fat center">10</td></tr>
 <tr><td>Hidratos de Carbono</td><td></td><td class="center"></td></tr>
-<tr><td class="fat">Disponibles (g)</td><td class="fat">10.4</td><td class="fat center">25</td></tr>
-<tr><td >Azucar (g)</td><td>10</td></td><td class="center">24</td></tr>
+<tr><td class="fat">Disponibles (g)</td><td class="fat">10</td><td class="fat center">24</td></tr>
+<tr><td >Azucar (g)</td><td>9.6</td></td><td class="center">23</td></tr>
 <tr><td>Proteínas</td><td>0</td><td class="center">0</td></tr>
 <tr><td>*Vitamina C (mg)</td><td>6.3</td><td class="center">25.2%</td></tr>
 
