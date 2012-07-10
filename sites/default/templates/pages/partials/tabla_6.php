@@ -24,5 +24,7 @@ Porciones/envase 3 aprox.</p>
 <tr><td class="fat">Selenio (mcg)</td><td class="fat"></td><td class="fat center">0%</td></tr>
 
 </tbody></table>
-<p class="mar-bottom-10">(*) % basado en DDR</p>
+<p class="mar-bottom-10">(*) % basado en DDR: Consumo máximo 1 porción/día.
+<p class="mar-bottom-10">Agitar antes de tomar. Una vez abierta, mantener refrigerada.</p>
+</p>
 </div>

@@ -1167,7 +1167,36 @@ ul.slideshow .bebida_lata2 {
 	background-position: -300px top;
 }
 
- .lt-ie9  #index .products  #te .img_hover, .ie9  #index .products  #te .img_hover  {
-	 background-position: -304px top;
- }
+.lt-ie9  #index .products  #te .img_hover, .ie9  #index .products  #te .img_hover  {
+	background-position: -304px top;
+}
+ 
+.lt-ie8 .col_DE h1 {
+	height: 20px;
+	padding: 5px 0px;
+}
+
+.lt-ie8 .col_DE h6 {
+	padding: 5px 0px;
+}
+
+.lt-ie8 .col_DE .titulo_teblanco h2 {
+	width: 300px;
+}
+
+.lt-ie8 .col_DE .titulo_tefram h6, .lt-ie8 .titulo_nectarmango h5, .lt-ie8 .titulo_sandia  h5{
+	width: 270px;
+}
+
+.lt-ie8 .big {
+	padding: 15px 0px;
+}
+
+.lt-ie8 .titulo_tefram h5, .lt-ie8 .titulo_tebebida h5  {
+	width: 100px;
+}
+
+.lt-ie8 #nav-primary li.title {
+	width: 140px;
+}
 

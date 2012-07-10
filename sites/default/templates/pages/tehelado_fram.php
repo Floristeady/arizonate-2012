@@ -53,9 +53,9 @@
 	     <!--modulo_ingredientes-->
 	    <div class="modulo_ingredientes_2 mar-top-40">
 	    	<h4><strong>Ingredientes:</strong></h4>
-			<p>Preparado Premium de Té</p> 
+			<p>Preparado Premium de Té.</p> 
 			<p>Agua filtrada, almíbar de maíz alto en fructosa, ácido cítrico, extracto de jugo natural de frambuesa. </p>
-			<p>Duración 18 meses.</p>
+			<p>Duración 24 meses.</p>
 	    </div>
 	    <!--/modulo_ingredientes-->
 

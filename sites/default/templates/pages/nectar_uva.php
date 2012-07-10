@@ -48,15 +48,14 @@
 
 	  	<div class="modulo_datos">	
 	  		<div class="cuadro07"></div>
-			<?php include("partials/tabla_11.php"); ?>
+			<?php include("partials/tabla_13.php"); ?>
 	    	<!--modulo_tabla-->
 	    </div>
 
 	     <div class="modulo_ingredientes mar-top-20">
 	    	<h4><strong>Ingredientes:</strong></h4>
-	        <p>FALTA</p> 
-	        <p> Agua filtrada, extracto natural de manzana y ar&aacute;ndano blanco, sorbitol, &aacute;cido málico, sucralosa (0.48 mg/porción-0.2 mg/100ml), acesulfame de potasio (0.24 mg/porción-0.1mg/100 ml), &aacute;cido cítrico. </p>
-	        <p>Duración 18 meses.</p>
+	        <p> Agua filtrada, almíbar de maíz alto en fructosa, jugo concentrado de uva y pera, ácido cítrico, sabores naturales, jugo de vegetales para color, Vitamina C. </p>
+	        <p>Duración 24 meses.</p>
 	    </div>
 	    <!--/modulo_ingredientes--> 
     

@@ -55,6 +55,7 @@
 	    <div class="modulo_ingredientes_2 mar-top-20">
 	    	<h4><strong>Ingredientes:</strong></h4>
 	        <p>Agua filtrada, almíbar de maíz alto en fructosa, puré de mango, jugo concentrado de pera, ácido cítrico, sabores naturales, jugo de zanahoria, goma Acacia,  Fortificado con Vitamina C. Muy bajo en Sodio. Sin gas.</p>
+	       <p>Duración 24 meses.</p>
 	    </div>
 	    <!--/modulo_ingredientes-->  
        

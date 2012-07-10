@@ -57,10 +57,9 @@
 	    
 	     <div class="modulo_ingredientes_2 mar-top-40">
 	    	<h4><strong>Ingredientes:</strong></h4>
-	        <p>Preparado Premium de Té Verde </p> 
+	        <p>Preparado Premium de Té Verde. </p> 
 	        <p>Agua filtrada, almíbar de maíz alto en fructosa, ácido cítrico, extracto natural de limón.</p>
-	        <p>Duración 18 meses.
-	        </p>
+	        <p>Duración 24 meses.</p>
 	    </div>
 	    <!--/modulo_ingredientes-->
     

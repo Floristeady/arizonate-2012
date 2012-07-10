@@ -32,7 +32,7 @@
     <div class="subcol_DE">
     
 	    <div class="modulo_texto01">
-	    	<p>Es la más reciente opción de nuestro rango de bebidas saludables. También conocida como manzana china, la granada es rica en flavonoides, añadiendo poderes extra antioxidantes.</p>
+	    	<p>El arte de nuestras bebidas recae cuidadosamente en la combinación de la belleza, calidad, salud y sabor de un producto. Nuestra versión diet del Té verde, es tan delicioso como refrescante.</p>
 	    </div>
 	    <!--/modulo_texto descripcion-->
 	    
@@ -59,10 +59,7 @@
 	    
 	     <div class="modulo_ingredientes">
 	    <h4><strong>Ingredientes:</strong></h4>
-	    <p>Preparado Premium de Té Verde</p> 
-	    <p> Agua filtrada, miel, ácido cítrico, sabores naturales, sucralosa Splenda (0.48 mg/porción - 0.2 mg/100ml), acesulfame de potasio<br />
-	(0.24 mg/porción-0.1mg/100 ml), ácido ascórbico, extracto de <br />
-	ginseng (10 mg/100 ml).</p>
+	    <p>Preparado Premium de Té Verde. Agua filtrada, miel, ácido cítrico, sabores naturales, sucralosa Splenda (0.48 mg/porción - 0.2 mg/100ml), acesulfame de potasio (0.24 mg/porción-0.1mg/100 ml), ácido ascórbico, extracto de ginseng (10 mg/100 ml).</p>
 	    <p>Duración 18 meses.</p>
 	    </div>
 	    <!--/modulo_ingredientes-->

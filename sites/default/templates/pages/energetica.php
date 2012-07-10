@@ -24,7 +24,7 @@
     
     <div class="subcol_DE">
 	    <div class="modulo_texto01">
-	    	<p>Si tomas la Bebida Energética RX, experimentarás una deliciosa y energizante mezcla de Té Verde, frutas tropicales y frutas cítricas. Además contiene hierbas y vitaminas que te darán el impulso que necesitas.</p>
+	    	<p>Si tomas la Bebida Energética RX, experimentarás una deliciosa y energizante mezcla de Té Verde, guaraná, frutas tropicales y frutas cítricas. Además contiene hierbas y vitaminas que te darán el impulso que necesitas.</p>
 	    </div>
 	    <!--/modulo_texto descripcion-->
 	    
@@ -48,9 +48,9 @@
 	    
 	    <div class="modulo_ingredientes">
 	    	<h4><strong>Ingredientes:</strong></h4>
-	        <p>Preparado Premium de Té Verde</p> 
+	        <p>Preparado Premium de Té Verde.</p> 
 	        <p>Agua filtrada, almíbar de maíz alto en fructosa, puré de mango, jugo concentrado de pera y limón, ácido cítrico, miel de abeja, sabores naturales, betacaroteno, cafeína (31 mg/240 ml), panax ginseng (100 mg/240 ml), ginseng siberiano (10 mg/100 ml), guaraná (100 mg/240 ml), schisandra (50 mg/240 ml, taurina (1000 mg/ 240 ml).</p>
-	        <p>Duración 18 meses.</p>
+	        <p>Duración 24 meses.</p>
 	    </div>
 	    <!--/modulo_ingredientes-->
 

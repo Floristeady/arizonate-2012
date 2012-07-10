@@ -1,16 +1,29 @@
 $(document).ready(function() {		
 	
 	//Execute the slideShow, set 4 seconds for each images
-	slideShow(51000);
+	slideShow(10000);
 
 });
 
 
 function slideShow(speed) {
 
-	$('#slideshow-nav a.nav-item').click(function() {
-		gallery($(this).index());
+	 	//Call the gallery function to run the slideshow	
+	var timer = setInterval('gallery("next")',speed);
+
+	$('#slideshow-nav a.nav-item').click(function(ev) {
+
+		ev.preventDefault();
+	
+		var index = $(this).index();
+
+		clearInterval(timer);	
+		gallery(index);
+		
+		return false;
+
 	});
+	
 
 	//Set the opacity of all images to 0
 	$('ul.slideshow li.slide').css({opacity: 0.0});
@@ -30,9 +43,6 @@ function slideShow(speed) {
 	
 	animate_first_elements();
 	
-	//Call the gallery function to run the slideshow	
-	var timer = setInterval('gallery("next")',speed);
-	
 	//pause the slideshow on mouse over
 	$('ul.slideshow').hover(
 		function () {
@@ -46,6 +56,8 @@ function slideShow(speed) {
 }
 
 function gallery(direction) {
+	//Call the gallery function to run the slideshow	
+
 
 	//if no IMGs have the show class, grab the first image
 	var current = ($('ul.slideshow li.show')?  $('ul.slideshow li.show') : $('#ul.slideshow li:first'));
@@ -68,30 +80,29 @@ function gallery(direction) {
 		var next = $('ul.slideshow li:eq(' + direction + ')');
 		var id_next = next.find('ul').attr('id');
 		
+		//console.log(direction);
+		
+		// append and addClass
+		next.children('ul').addClass(id_next +'_back');	
+		next.children('ul').append('<li class="x-slide"></li>');
+			
+		//Set the fade in effect for the next image, show class has higher z-index
+		next.css({opacity: 0.0}).addClass('show').animate({opacity: 1.0}, 1000);
+		
+		animate_all_elements(id_next);
+		
 		$('#slideshow-nav a.nav-item:eq(' + next.index() + ')').addClass('selected').siblings().removeClass('selected');
 
 		var this_current = current.children('ul');
 		var this_next = current.children('ul');	
 
-		//console.log(id_next);
-		
-		// append and addClass
-		next.children('ul').addClass(id_next +'_back');	
-		next.children('ul').append('<li class="x-slide"></li>');
-	
-		//Set the fade in effect for the next image, show class has higher z-index
-		next.css({opacity: 0.0}).addClass('show').animate({opacity: 1.0}, 1000);
 
-		animate_all_elements(id_next);
-		
-			
 		$("#slide ul li a").hover(
 		  	function () {
 		   $(this).animate({
 		    opacity: 0.9,
 		    top: '+=5'
 		  },200);	  
-		  //console.log("OK");
 	    }, 
 		  function () {
 		    $(this).animate({
@@ -300,7 +311,6 @@ $(function() {
 	    opacity: 0.9,
 	    top: '+=5'
 	  }, 500);	  
-	  console.log("OK");
     }, 
 	  function () {
 	    $(this).animate({

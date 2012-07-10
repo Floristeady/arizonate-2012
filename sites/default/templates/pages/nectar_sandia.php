@@ -54,6 +54,7 @@
 		<div class="modulo_ingredientes_2 mar-top-20">
 			<h4><strong>Ingredientes:</strong></h4>
 		    <p>Agua filtrada, almíbar de maíz alto en fructosa, jugo de Sandia, jugo concentrado de kiwi, pera y piña, pure de mango, ácido cítrico, sabores naturales, jugo de zanahoria, goma Acacia, SUCRALOSA (0.48 mg/PORCION - 0.2 mg/100ml). Fortificado con Vitaminas C. Muy bajo en Sodio. Sin Gas.</p>
+		    	    <p>Duración 24 meses.</p>
 		</div>
 		<!--/modulo_ingredientes-->
 		

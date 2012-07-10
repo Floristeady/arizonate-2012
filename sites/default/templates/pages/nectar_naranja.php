@@ -29,7 +29,7 @@
     
     <div class="subcol_DE">
 	    <div class="modulo_texto01">
-	    	<p>El más clásico Néctar de todos los tiempos y Arizona te entrega El Mejor de Todos!. Suave y cítrico sin colorantes ni sabores artificiales, delicioso a cualquier hora del día. Fortificado con Vitamina C. 100 % Natural.</p>
+	    	<p>El más clásico Néctar de todos los tiempos y Arizona te entrega el Mejor de Todos!. Suave y cítrico sin colorantes ni sabores artificiales, delicioso a cualquier hora del día. Fortificado con Vitamina C. 100 % Natural.</p>
 	    </div>
 	    <!--/modulo_texto descripcion-->
 	    
@@ -54,8 +54,8 @@
 	    <!--modulo_ingredientes-->
 	    <div class="modulo_ingredientes mar-top-20">
 	    	<h4><strong>Ingredientes:</strong></h4> 
-	        <p> AAgua filtrada, almíbar de maíz alto en fructosa, jugo concentrado de naranja, ácido cítrico, sabor natural de naranja, goma Acacia, Vitamina C, colorantes naturales annato y beta caroteno</p>
-	        <p>Duración 18 meses.</p>
+	        <p> Agua filtrada, almíbar de maíz alto en fructosa, jugo concentrado de naranja, ácido cítrico, sabor natural de naranja, goma Acacia, Vitamina C, colorantes naturales annato y beta caroteno.</p>
+	        <p>Duración 24 meses.</p>
 	    </div>
 	    <!--/modulo_ingredientes-->
     

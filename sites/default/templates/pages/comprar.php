@@ -203,7 +203,7 @@
 	    		<img src="/img/products/lata_05_small.png" />
 	    		<p class="mar-top-10">Pack 12 unidades.</p>
 	        	<p>$15.000</p>
-	        	<p>Botella 473 ml.</p>
+	        	<p>Lata 680ml.</p>
 	        	<small>Cantidad packs</small>
 	        	<?=FormHelper::select("productos[10]", range(0,9), "", $_POST["productos"][5]);?>
 	
