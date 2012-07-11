@@ -207,7 +207,7 @@ ul.slideshow li.show {
 	z-index:500;	
 }
 
-ul.slideshow li#slide {
+ul.slideshow li.slide {
 	border: 1px solid red;
 	float: left;
 	position: absolute;

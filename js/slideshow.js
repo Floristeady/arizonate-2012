@@ -77,7 +77,7 @@ function gallery(direction) {
 		
     else if (!isNaN(direction)) // if is a number
 	
-		var next = $('ul.slideshow li:eq(' + direction + ')');
+		var next = $('ul.slideshow li.slide:eq(' + direction + ')');
 		var id_next = next.find('ul').attr('id');
 		
 		//console.log(direction);
@@ -97,7 +97,7 @@ function gallery(direction) {
 		var this_next = current.children('ul');	
 
 
-		$("#slide ul li a").hover(
+		$(".slide ul li a").hover(
 		  	function () {
 		   $(this).animate({
 		    opacity: 0.9,
@@ -305,7 +305,7 @@ function animate_first_elements() {
 
 
 $(function() { 
-	$("#slide ul li a").hover(
+	$(".slide ul li a").hover(
 	  function () {
 	   $(this).animate({
 	    opacity: 0.9,

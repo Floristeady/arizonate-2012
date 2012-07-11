@@ -22,24 +22,24 @@
 
 
          <ul class="slideshow">
-         	<li id="slide" class="show">
+         	<li class="slide" class="show">
 	         	<ul id="tenegro">
 	         		<!--nada-->
 	         	</ul>
          	</li>
          	
-         	<li id="slide" class="">
+         	<li class="slide" class="">
          		<ul id="teverde">
          			<!--nada-->
          		</ul>
          	</li>
          	
-         	<li id="slide" class="">
+         	<li class="slide" class="">
          		<ul id="nectar">
          		</ul>
          	</li>
          	
-         	<li id="slide" class="">
+         	<li class="slide" class="">
          		<ul id="bebida">
          		</ul>
          	</li>
