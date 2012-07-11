@@ -8,14 +8,20 @@ class main_controller extends PortalController{
 	function index() {}
 	function teverde_miel() {}
 	function teverde_granada() {}
-	function teverde_blanco() {}
+	function teblanco_arandano() {}
 	
 	function tediet_miel() {}
 	function tediet_arandano() {}
-	function tediet_manzana() {}
+	function tediet_fram() {}
 	
 	function tehelado_fram() {}
 	function tehelado_limon() {}
+	function tehelado_mango() {}
+	
+	function nectar_mango() {}
+	function nectar_naranja() {}
+	function nectar_uva() {}
+	function nectar_sandia() {}
 	
 	function energetica() {}
 	
