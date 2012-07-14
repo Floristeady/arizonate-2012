@@ -202,7 +202,7 @@
 				<h5 class="mar-bottom-10">LINEA NECTAR</h5>
 	    		<img src="/img/products/lata_05_small.png" />
 	    		<p class="mar-top-10">Pack 12 unidades.</p>
-	        	<p>$15.000</p>
+	        	<p>$12.000</p>
 	        	<p>Lata 680ml.</p>
 	        	<small>Cantidad packs</small>
 	        	<?=FormHelper::select("productos[10]", range(0,9), "", $_POST["productos"][5]);?>
@@ -264,7 +264,7 @@
 				<h5 class="mar-bottom-10">BEBIDA ENERGÉTICA</h5>
 	    		<img src="/img/products/lata_03_small.png" />
 	    		<p class="mar-top-10">Pack 12 unidades.</p>
-	        	<p>$12.000</p>
+	        	<p>$16.000</p>
 	        	<p>Lata 680 ml.</p>
 	        	<small>Cantidad packs</small>
 	        	<?=FormHelper::select("productos[9]", range(0,9), "", $_POST["productos"][9]);?>

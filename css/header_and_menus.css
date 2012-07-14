@@ -132,7 +132,7 @@ a#logo_mini_red {
 	line-height: 19px;
 	text-decoration: none;
 	position: relative;
-	font-family: 'ScalaSansRegular';
+	font-family: 'ScalaSansRegular', Arial;
 	color: #fff;
 	text-transform: uppercase;
 }
@@ -181,7 +181,7 @@ header #nav-primary li a.nectar  {
 
 #nav-primary ul.subnav li {
 	background-image: none;
-    color: #D57692;
+    color: #edb1c2;
     display: block;
     float: none;
     font-size: 13px;
