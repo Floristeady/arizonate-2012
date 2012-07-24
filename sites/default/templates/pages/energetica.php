@@ -49,7 +49,7 @@
 	    <div class="modulo_ingredientes">
 	    	<h4><strong>Ingredientes:</strong></h4>
 	        <p>Preparado Premium de Té Verde.</p> 
-	        <p>Agua filtrada, almíbar de maíz alto en fructosa, puré de mango, jugo concentrado de pera y limón, ácido cítrico, miel de abeja, sabores naturales, betacaroteno, cafeína (31 mg/240 ml), panax ginseng (100 mg/240 ml), ginseng siberiano (10 mg/100 ml), guaraná (100 mg/240 ml), schisandra (50 mg/240 ml, taurina (1000 mg/ 240 ml).</p>
+	        <p>Agua filtrada, almíbar de maíz alto en fructosa, puré de mango, jugo concentrado de pera y limón, ácido cítrico, miel de abeja, sabores naturales, betacaroteno, cafeína (31 mg/240 ml), panax ginseng (100 mg/240 ml), ginseng siberiano (10 mg/100 ml), guaraná (100 mg/240 ml), schisandra (50 mg/240 ml, taurina (1000 mg/ 240 ml). Sin gas.</p>
 	        <p>Duración 24 meses.</p>
 	    </div>
 	    <!--/modulo_ingredientes-->

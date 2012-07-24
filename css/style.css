@@ -29,11 +29,11 @@ body {
 }
 
 header#master-header {
-	background-color: #c33b63;
+	background-color: #c6334f;
 	background-image: url(../img/repeat/header_img.png);
 	background-repeat: repeat-x;
 	background-position: top;
-	border-bottom: 1px solid #d57692;
+	border-bottom: 1px solid #F77E95;
 	border-top: 6px #3bbdb7 solid;
 	height: 112px;
 	position: relative;

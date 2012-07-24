@@ -59,7 +59,7 @@
 	    
 	     <div class="modulo_ingredientes">
 	    <h4><strong>Ingredientes:</strong></h4>
-	    <p>Preparado Premium de Té Verde. Agua filtrada, miel, ácido cítrico, sabores naturales, sucralosa Splenda (0.48 mg/porción - 0.2 mg/100ml), acesulfame de potasio (0.24 mg/porción-0.1mg/100 ml), ácido ascórbico, extracto de ginseng (10 mg/100 ml).</p>
+	    <p>Preparado Premium de Té Verde. Agua filtrada, miel, ácido cítrico, sabores naturales, sucralosa Splenda (0.48 mg/porción - 0.2 mg/100ml), acesulfame de potasio (0.24 mg/porción-0.1mg/100 ml), ácido ascórbico, extracto de ginseng (10 mg/100 ml). Sin gas. Agitar antes de tomar. Una vez abierta, mantener refrigerada.</p>
 	    <p>Duración 18 meses.</p>
 	    </div>
 	    <!--/modulo_ingredientes-->

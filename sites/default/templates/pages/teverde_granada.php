@@ -59,7 +59,7 @@
 	    <div class="modulo_ingredientes mar-top-30">
 	    	<h4><strong>Ingredientes:</strong></h4>
 	<p>Preparado Premium de Té Verde.</p> 
-	<p> Agua filtrada, almíbar de maíz alto en fructosa, jugo concentrado de granada y manzana, miel, ácido cítrico, sabores naturales, jugo de zanahoria, panax ginseng (10 mg/100 ml), ácido ascórbico, acetato de tocoferol, palmitato de retinol y selenito de sodio. </p>
+	<p> Agua filtrada, almíbar de maíz alto en fructosa, jugo concentrado de granada y manzana, miel, ácido cítrico, sabores naturales, jugo de zanahoria, panax ginseng (10 mg/100 ml), ácido ascórbico, acetato de tocoferol, palmitato de retinol y selenito de sodio. Sin gas. Agitar antes de tomar. Una vez abierta, mantener refrigerada.</p>
 	<p>Duración 18 meses.</p>
 	    </div>
 	    <!--/modulo_ingredientes-->

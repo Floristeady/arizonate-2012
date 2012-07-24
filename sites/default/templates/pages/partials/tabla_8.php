@@ -19,5 +19,4 @@ Porciones/envase 3 aprox.</p>
 <tr><td>Proteínas</td><td>0</td><td class="center">0</td></tr>
 
 </tbody></table>
-
 </div>

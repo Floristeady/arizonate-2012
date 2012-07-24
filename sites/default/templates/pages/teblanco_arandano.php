@@ -57,6 +57,7 @@
 	    	<h4><strong>Ingredientes:</strong></h4>
 			<p>Preparado Premium de Té Blanco.</p> 
 			<p>Agua filtrada, almíbar de maíz alto en fructosa, jugo concentrado de arándano y pera, miel de abeja, extracto natural de arándano, ácido cítrico, panax ginseng (10 mg/100 ml), ácido ascórbico, acetato de tocoferol, palmitato de retinol y selenito de sodio. </p>
+			<p>Sin gas. Agitar antes de tomar. Una vez abierta, mantener refrigerada.</p>
 			<p>Duración 18 meses.</p>
 	    </div>
 	    <!--/modulo_ingredientes-->

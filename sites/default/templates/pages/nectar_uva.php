@@ -54,7 +54,7 @@
 
 	     <div class="modulo_ingredientes mar-top-20">
 	    	<h4><strong>Ingredientes:</strong></h4>
-	        <p> Agua filtrada, almíbar de maíz alto en fructosa, jugo concentrado de uva y pera, ácido cítrico, sabores naturales, jugo de vegetales para color, Vitamina C. </p>
+	        <p> Agua filtrada, almíbar de maíz alto en fructosa, jugo concentrado de uva y pera, ácido cítrico, sabores naturales, jugo de vegetales para color, Vitamina C. Sin gas. </p>
 	        <p>Duración 24 meses.</p>
 	    </div>
 	    <!--/modulo_ingredientes--> 

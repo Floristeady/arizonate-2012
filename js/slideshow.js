@@ -100,13 +100,11 @@ function gallery(direction) {
 		$(".slide ul li a").hover(
 		  	function () {
 		   $(this).animate({
-		    opacity: 0.9,
 		    top: '+=5'
 		  },200);	  
 	    }, 
 		  function () {
 		    $(this).animate({
-		    opacity: 1,
 		    top: '-=5'
 		  }, 100);	  
 		  }
@@ -308,13 +306,11 @@ $(function() {
 	$(".slide ul li a").hover(
 	  function () {
 	   $(this).animate({
-	    opacity: 0.9,
 	    top: '+=5'
 	  }, 500);	  
     }, 
 	  function () {
 	    $(this).animate({
-	    opacity: 1,
 	    top: '-=5'
 	  }, 500);	  
 	  }

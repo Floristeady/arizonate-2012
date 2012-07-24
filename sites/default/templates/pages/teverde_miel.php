@@ -57,7 +57,7 @@
 		<div class="modulo_ingredientes">
 		<h4><strong>Ingredientes:</strong></h4>
 		<p>Preparado Premium de Té Verde.</p> 
-		<p>Agua filtrada, almíbar de maíz alto en fructosa, miel, ácido cítrico, ácido ascórbico, extracto de limón, extracto de ginseng (10 mg/100 ml). </p>
+		<p>Agua filtrada, almíbar de maíz alto en fructosa, miel, ácido cítrico, ácido ascórbico, extracto de limón, extracto de ginseng (10 mg/100 ml). Sin gas. Agitar antes de tomar. Una vez abierta, mantener refrigerada.</p>
 		<p>Duración 18 meses.
 		</p>
 		</div>

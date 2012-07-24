@@ -52,7 +52,7 @@
 	    
 	    <div class="modulo_ingredientes_2">
 	    	<h4><strong>Ingredientes:</strong></h4>
-	        <p>Preparado Premium de Té usando agua filtrada, almíbar de maíz alto en fructosa, ácido cítrico, puré de mango, concentrado de jugo de pera, sabores naturales, SUCRALOSA SPLENDA (0.48 mg/PORCION - 0.2 mg/100ml), cafeína (16 mg/porción), ACESULFAME de POTASIO (0.24 mg/PORCION-0.1mg/100 ml). Muy Bajo en Sodio. Fortificado con Vitamina C. Sin Gas.</p>
+	        <p>Preparado Premium de Té usando agua filtrada, almíbar de maíz alto en fructosa, ácido cítrico, puré de mango, concentrado de jugo de pera, sabores naturales, SUCRALOSA SPLENDA (0.48 mg/PORCION - 0.2 mg/100ml), cafeína (16 mg/porción), ACESULFAME de POTASIO (0.24 mg/PORCION-0.1mg/100 ml). Muy Bajo en Sodio. Fortificado con Vitamina C. Sin gas. Agitar antes de tomar. Una vez abierta, mantener refrigerada.</p>
 	        <p>Duración 24 meses.</p>
 	    </div>
 	    <!--/modulo_ingredientes-->

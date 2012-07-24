@@ -59,7 +59,9 @@
 	    	<h4><strong>Ingredientes:</strong></h4>
 	        <p>Preparado Premium de Té Verde. </p> 
 	        <p>Agua filtrada, almíbar de maíz alto en fructosa, ácido cítrico, extracto natural de limón.</p>
+	        <p>Sin gas. Agitar antes de tomar. Una vez abierta, mantener refrigerada.</p>
 	        <p>Duración 24 meses.</p>
+	        
 	    </div>
 	    <!--/modulo_ingredientes-->
     

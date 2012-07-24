@@ -162,16 +162,16 @@ header #nav-primary li a.nectar  {
 }
 
 #nav-primary li a._ON {
-	color:#ff8daf;
+	color:#f77e95;
 }
 
 #nav-primary ul.subnav {
-	background-color: #b43a5e;
+	background-color: #ae2d45;
     border-radius: 0 0 6px 6px;
     left: -4px;
     list-style: none outside none;
     position: absolute;
-    top: 16px;
+    top: 18px;
     padding: 20px 0px 10px;
     z-index: 90000;
    -webkit-box-shadow:  2px 3px 2px -2px rgba(0, 0, 0, 0.3);
@@ -181,7 +181,7 @@ header #nav-primary li a.nectar  {
 
 #nav-primary ul.subnav li {
 	background-image: none;
-    color: #edb1c2;
+    color: #f7aab9;
     display: block;
     float: none;
     font-size: 13px;

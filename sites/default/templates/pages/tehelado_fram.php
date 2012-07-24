@@ -55,6 +55,7 @@
 	    	<h4><strong>Ingredientes:</strong></h4>
 			<p>Preparado Premium de Té.</p> 
 			<p>Agua filtrada, almíbar de maíz alto en fructosa, ácido cítrico, extracto de jugo natural de frambuesa. </p>
+				<p>Sin gas. Agitar antes de tomar. Una vez abierta, mantener refrigerada.</p>
 			<p>Duración 24 meses.</p>
 	    </div>
 	    <!--/modulo_ingredientes-->
