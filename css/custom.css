@@ -1129,6 +1129,15 @@ ul.slideshow .bebida_lata2 {
 	background-position: -525px -650px;
 }
 
+.preload {
+	background-image: url(../img/elements/ajax-loader.gif);
+	display: block;
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	margin: 250px auto 0px;
+}
+
 /*EXPLORER__________________*/
 
 .lt-ie8 #index .description .text {

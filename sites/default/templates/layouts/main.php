@@ -6,6 +6,30 @@
 <!--[if gt IE 8]><!--> <html class="" lang="es-ES"> <!--<![endif]-->
 
 
+<meta content="Té verde, Té helado y Nectar Arizona en Chile" name="description">
+<meta content="chile, te, te negro, te verde, te helado, nectar, limon, frambuesa, bebidas, santiago, mango, jugos, venta, online, arizona, arizonate, productos" name="keywords">
+
+<?
+	$page->setTitle("Bebidas Arizona");
+	$page->head->addscript("/js/jquery-1.7.2.min.js", false, 100);
+	$page->head->addscript("/js/html5Preloader.js", false, 99);
+	$page->head->addscript("/js/jquery.easing.compatibility.js", false, 98);
+	$page->head->addscript("/js/modernizr.custom.js", false, 97);
+	$page->head->addscript("/js/mycode.js", false, 96);
+	$page->head->addscript("/js/slideshow.js", false, 95);
+
+    $page->head->addcss("/css/reset.css");
+	$page->head->addcss("/css/style.css");
+	$page->head->addcss("/css/header_and_menus.css");
+	$page->head->addcss("/css/forms.css");
+	$page->head->addcss("/css/typography_and_links.css");
+	$page->head->addcss("/css/custom.css");
+	$page->head->addcss("/css/fx.css");
+	
+	$page->head->setFavIcon("/favicon.ico");
+	$page->head->output();
+?>
+
 <!--Google Analytics-->
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -19,28 +43,6 @@ pageTracker._trackPageview();
 
 </script>
 
-<meta content="Té verde, Té helado y Nectar Arizona en Chile" name="description">
-<meta content="chile, te, te negro, te verde, te helado, nectar, limon, frambuesa, bebidas, santiago, mango, jugos, venta, online, arizona, arizonate, productos" name="keywords">
-
-<?
-	$page->setTitle("Bebidas Arizona");
-	$page->head->addscript("/js/jquery-1.7.2.min.js", false, 100);
-	$page->head->addscript("/js/jquery.easing.compatibility.js", false, 99);
-	$page->head->addscript("/js/modernizr.custom.js", false, 98);
-	$page->head->addscript("/js/mycode.js", false, 97);
-	$page->head->addscript("/js/slideshow.js", false, 96);
-
-    $page->head->addcss("/css/reset.css");
-	$page->head->addcss("/css/style.css");
-	$page->head->addcss("/css/header_and_menus.css");
-	$page->head->addcss("/css/forms.css");
-	$page->head->addcss("/css/typography_and_links.css");
-	$page->head->addcss("/css/custom.css");
-	$page->head->addcss("/css/fx.css");
-	
-	$page->head->setFavIcon("/favicon.ico");
-	$page->head->output();
-?>
 <body>
 
 

@@ -1,3 +1,38 @@
+var preloader = new html5Preloader();
+var progressChk;
+var finishedLoad = 0;
+
+
+$(document).ready(function(){
+
+	$('.slideshow').before('<span class="preload"></span>');
+
+/* --- preLoad --- */
+	preloader.addFiles(	'../img/elements/bannertenegro_4.png','../img/elements/bannertenegro_3.png','../img/elements/bannertenegro_1.jpg', '../img/elements/bannertenegro_2.png', '../img/elements/bannertenegro_5.png', '../img/elements/bannertenegro_6.png', '../img/elements/bannertenegro_7.png', '../img/elements/bannernectar_4.png','../img/elements/bannernectar_2.png','../img/elements/bannernectar_5.png','/img/elements/bannernectar_6.png', '../img/elements/bannernectar_3.png', '../img/elements/bannerteverde_1.jpg', '../img/elements/bannerteverde_3.png', '../img/elements/bannernectar_1.jpg' , '../img/elements/bannerbebida_1.jpg', '../img/elements/bannerbebida_4.png', '../img/elements/bannerbebida_5.png', '../img/elements/bannerbebida_3.png', '../img/elements/bannerteverde_5.png', '/img/elements/bannerteverde_6.png', '/img/elements/bannerteverde_3.png', '../img/elements/bannerteverde_2.png');
+						
+	$('.slideshow').hide();
+	$('#slideshow-nav').hide();
+	$('.slideshow').css({ opacity: '0' } );
+
+	
+	preloader.on('error', function(e){ console.error(e); });
+	preloader.on('finish', function(){
+		//console.log('ok')
+		startIt();
+		slideShow(10000);
+	});
+	
+	function startIt(){
+		$('.preload').hide();
+		$('.slideshow').css({ opacity: '1' } );
+		$('.slideshow').show();
+		$('#slideshow-nav').show();
+	};
+});
+
+
+
+
 // Menu desplegable productos
 $(function() {
 // Oculto los submenus
