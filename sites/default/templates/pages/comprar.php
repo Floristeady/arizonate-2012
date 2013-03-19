@@ -357,7 +357,7 @@
     	<p><span class="underline">Bandeja de 12 unidades.</span></p>
         <p>&nbsp;</p>
     	<p><strong>Contacto:</strong></p>
-    	<p>Teléfonos: 2-224 37 23 // 2-229 66 53</p>
+    	<p>Teléfonos: (+56 2) 22243723 – (+56 2) 22296653 </p>
     	 <p>&nbsp;</p>    	
     	<h4>Una bebida saludable, refrescante y de gran sabor.</h4>
     	<h2>100% Natural </h2>

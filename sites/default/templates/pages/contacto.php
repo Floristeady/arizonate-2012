@@ -50,9 +50,9 @@
   		<p><strong>Importa y Distribuye exclusivamente para Chile: </strong> Big Chile Ltda.</p>
   		</br>
     	<p><strong>Teléfono:</strong></p>
-    	<p>(+56 2) 224 37 23 // (+56 2) 229 66 53</p>
+    	<p>(+56 2) 2224 37 23 // (+56 2) 2229 66 53</p>
     	<p><strong>Fax: </strong></p>
-    	<p>(+56 2) 224 37 23</p>
+    	<p>(+56 2) 2224 37 23</p>
      	<p>&nbsp;</p>
     	<p>Av. Apoquindo 7850, Torre 3, Local 7 </p>
     	<p>Las Condes. Santiago, Chile.</p>

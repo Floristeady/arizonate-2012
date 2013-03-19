@@ -4,31 +4,26 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="" lang="es-ES"> <!--<![endif]-->
-
-
+<head>
+<title>Bebidas Arizona</title>
 <meta content="Té verde, Té helado y Nectar Arizona en Chile" name="description">
 <meta content="chile, te, te negro, te verde, te helado, nectar, limon, frambuesa, bebidas, santiago, mango, jugos, venta, online, arizona, arizonate, productos" name="keywords">
+<link rel="shortcut icon" href="/favicon.ico">
+<script src="/js/jquery-1.7.2.min.js"></script>
+<script src="/js/html5Preloader.js"></script>
+<script src="/js/jquery.easing.compatibility.js"></script>
+<script src="/js/modernizr.custom.js"></script>
+<script src="/js/mycode.js"></script>
+<script src="/js/slideshow.js"></script>
 
-<?
-	$page->setTitle("Bebidas Arizona");
-	$page->head->addscript("/js/jquery-1.7.2.min.js", false, 100);
-	$page->head->addscript("/js/html5Preloader.js", false, 99);
-	$page->head->addscript("/js/jquery.easing.compatibility.js", false, 98);
-	$page->head->addscript("/js/modernizr.custom.js", false, 97);
-	$page->head->addscript("/js/mycode.js", false, 96);
-	$page->head->addscript("/js/slideshow.js", false, 95);
+<link rel="stylesheet" href="/css/reset.css" />
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/css/header_and_menus.css" />
+<link rel="stylesheet" href="/css/forms.css" />
+<link rel="stylesheet" href="/css/typography_and_links.css" />
+<link rel="stylesheet" href="/css/custom.css" />
+<link rel="stylesheet" href="/css/fx.css" />
 
-    $page->head->addcss("/css/reset.css");
-	$page->head->addcss("/css/style.css");
-	$page->head->addcss("/css/header_and_menus.css");
-	$page->head->addcss("/css/forms.css");
-	$page->head->addcss("/css/typography_and_links.css");
-	$page->head->addcss("/css/custom.css");
-	$page->head->addcss("/css/fx.css");
-	
-	$page->head->setFavIcon("/favicon.ico");
-	$page->head->output();
-?>
 
 <!--Google Analytics-->
 <script type="text/javascript">
@@ -42,7 +37,7 @@ pageTracker._trackPageview();
 } catch(err) {}
 
 </script>
-
+</head>
 <body>
 
 
@@ -119,7 +114,8 @@ pageTracker._trackPageview();
 		<div class="column">
 			<h4>Importa y Distribuye exclusivamente para Chile:</h4> 
 			<h4><strong> Big Chile Ltda.</strong></h4>
-			<p>Teléfono: (+56 2) 224 37 23  |  Fax: (+56 2) 229 66 53</p>
+			<p>Teléfono: (+56 2) 2224 37 23 | (+56 2) 2229 66 53</p>  
+			<p>Fax: (+56 2) 2229 66 53</p>
 			<p>Av. Apoquindo 7850, Torre 3, Local 7. Las Condes. Santiago, Chile</p>
 		</div>
 	
