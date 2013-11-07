@@ -15,7 +15,7 @@ Porciones/envase 3 aprox.</p>
 <tr><td class="fat">Sodio (mg)</td><td class="fat">8.3</td><td class="fat center">20</td></tr>
 <tr><td>Hidratos de Carbono</td><td></td><td></td></tr>
 <tr><td class="fat">Disponibles (g)</td><td class="fat">10.4</td><td class="fat center">25</td></tr>
-<tr><td >Azucares (g)</td><td>9.7</td><td class="center">24</td></tr>
+<tr><td >Azúcares (g)</td><td>9.7</td><td class="center">24</td></tr>
 <tr><td>Proteínas</td><td>0</td><td class="center">0</td></tr>
 
 </tbody></table>

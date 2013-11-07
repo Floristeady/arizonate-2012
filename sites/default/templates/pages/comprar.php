@@ -48,9 +48,9 @@
 		            <br/>
 		            <ul class="list-price">
 			            <li>Bandeja Té verde y Té diet (botellas 473ml) <span>$15.000</span> </li>
-			            <li>Bandeja Té negro (lata 680ml) <span>$12.000</span> </li>
+			            <li>Bandeja Té negro y Té negro diet (lata 680ml) <span>$12.000</span> </li>
 			            <li>Bandeja RX Energy (lata 680ml) <span>$16.000</span> </li>
-			            <li>Bandeja Nectar (lata 680ml)   <span>$12.000</span> </li>
+			            <li>Bandeja Néctar (lata 680ml)   <span>$12.000</span> </li>
 		            </ul>		            
 		      </div>
 		   </div>
@@ -78,7 +78,7 @@
 	        	<p>$15.000</p>
 	        	<p>Botella 473 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[1]", range(0,9), "", $_POST["productos"][1]);?>
+	        	<?=FormHelper::select("productos[1]", range(0,15), "", $_POST["productos"][1]);?>
 	
 	    	</div>
 	        <!--/modulo_producto-->
@@ -92,7 +92,7 @@
 	        	<p>$15.000</p>
 	        	<p>Botella 473 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[3]", range(0,9), "", $_POST["productos"][3]);?>
+	        	<?=FormHelper::select("productos[3]", range(0,15), "", $_POST["productos"][3]);?>
 	
 	    	</div>
 	        <!--/modulo_producto-->
@@ -106,7 +106,7 @@
 	        	<p>$15.000</p>
 	        	<p>Botella 473 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[2]", range(0,9), "", $_POST["productos"][2]);?>
+	        	<?=FormHelper::select("productos[2]", range(0,15), "", $_POST["productos"][2]);?>
 		    </div>
 	        <!--/modulo_producto-->
 	        
@@ -120,7 +120,7 @@
 	        	<p>$15.000</p>
 	        	<p>Botella 473 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[4]", range(0,9), "", $_POST["productos"][4]);?>
+	        	<?=FormHelper::select("productos[4]", range(0,15), "", $_POST["productos"][4]);?>
 	
 	    	</div>
 	        <!--/modulo_producto-->
@@ -143,8 +143,21 @@
 	        	<p>$15.000</p>
 	        	<p>Botella 473 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[5]", range(0,9), "", $_POST["productos"][5]);?>
+	        	<?=FormHelper::select("productos[5]", range(0,15), "", $_POST["productos"][5]);?>
 	
+	    	</div>
+	        <!--/modulo_producto-->
+	        
+	        	         <!--modulo_producto-->
+			<div class="modulo_producto">
+				<h5>Té Negro DIET sabor Limón.</h5>
+				<h5 class="mar-bottom-10">LINEA TÉ DIET</h5>
+	    		<img src="/img/products/lata_10_small.png" />
+	    		<p class="mar-top-10">Pack 12 unidades.</p>
+	        	<p>$12.000</p>
+	        	<p>Lata 680 ml.</p>
+	        	<small>Cantidad packs</small>
+	        	<?=FormHelper::select("productos[15]", range(0,15), "", $_POST["productos"][15]);?>
 	    	</div>
 	        <!--/modulo_producto-->
 	        
@@ -157,10 +170,10 @@
 	        	<p>$12.000</p>
 	        	<p>Lata 680 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[7]", range(0,9), "", $_POST["productos"][7]);?>
+	        	<?=FormHelper::select("productos[7]", range(0,15), "", $_POST["productos"][7]);?>
 	    	</div>
 	        <!--/modulo_producto-->
-	        
+        
 	        
 	        <!--modulo_producto-->
 			<div class="modulo_producto">
@@ -171,11 +184,19 @@
 	        	<p>$12.000</p>
 	        	<p>Lata 680 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[8]", range(0,9), "", $_POST["productos"][8]);?>
+	        	<?=FormHelper::select("productos[8]", range(0,15), "", $_POST["productos"][8]);?>
 	    	</div>
 	        <!--/modulo_producto-->
 	        
-	        <!--modulo_producto-->
+	      	 
+	    </div>
+	    <!--/modulos-->
+	    
+	    
+	    <!--modulos-->
+	  	<div class="modulos">
+	  		
+	  		  <!--modulo_producto-->
 			<div class="modulo_producto">
 				<h5>Té Negro Helado con sabor de Mango.</h5>
 				<h5 class="mar-bottom-10">LINEA TÉ NEGRO</h5>
@@ -184,11 +205,54 @@
 	        	<p>$12.000</p>
 	        	<p>Lata 680 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[6]", range(0,9), "", $_POST["productos"][8]);?>
+	        	<?=FormHelper::select("productos[6]", range(0,15), "", $_POST["productos"][8]);?>
 	    	</div>
 	        <!--/modulo_producto-->
 
-	 
+
+	  	
+	        <!--modulo_producto-->
+			<div class="modulo_producto">
+				<h5>Néctar sabor Mango</h5>
+				<h5 class="mar-bottom-10">LINEA NECTAR</h5>
+	    		<img src="/img/products/lata_05_small.png" />
+	    		<p class="mar-top-10">Pack 12 unidades.</p>
+	        	<p>$12.000</p>
+	        	<p>Lata 680ml.</p>
+	        	<small>Cantidad packs</small>
+	        	<?=FormHelper::select("productos[10]", range(0,15), "", $_POST["productos"][10]);?>
+	
+	    	</div>
+	        <!--/modulo_producto-->
+	        
+	        <!--modulo_producto-->
+			<div class="modulo_producto">
+				<h5>Néctar sabor Sandia</h5>
+				<h5 class="mar-bottom-10">LINEA NECTAR</h5>
+	    		<img src="/img/products/lata_06_small.png" />
+	    		<p class="mar-top-10">Pack 12 unidades.</p>
+	        	<p>$12.000</p>
+	        	<p>Lata 680 ml.</p>
+	        	<small>Cantidad packs</small>
+	        	<?=FormHelper::select("productos[11]", range(0,15), "", $_POST["productos"][11]);?>
+	    	</div>
+	        <!--/modulo_producto-->
+	        
+	        
+	        <!--modulo_producto-->
+			<div class="modulo_producto">
+				<h5>Néctar sabor Uva</h5>
+				<h5 class="mar-bottom-10">LINEA NECTAR</h5>
+	    		<img src="/img/products/lata_07_small.png" />
+	    		<p class="mar-top-10">Pack 12 unidades.</p>
+	        	<p>$12.000</p>
+	        	<p>Lata 680 ml.</p>
+	        	<small>Cantidad packs</small>
+	        	<?=FormHelper::select("productos[12]", range(0,15), "", $_POST["productos"][12]);?>
+	    	</div>
+	        <!--/modulo_producto-->
+	        
+	       	 
 	    </div>
 	    <!--/modulos-->
 	    
@@ -196,67 +260,34 @@
 	    <!--modulos-->
 	  	<div class="modulos">
 	  	
-	        <!--modulo_producto-->
+	  		 <!--modulo_producto-->
 			<div class="modulo_producto">
-				<h5>Nectar sabor Mango</h5>
-				<h5 class="mar-bottom-10">LINEA NECTAR</h5>
-	    		<img src="/img/products/lata_05_small.png" />
-	    		<p class="mar-top-10">Pack 12 unidades.</p>
-	        	<p>$12.000</p>
-	        	<p>Lata 680ml.</p>
-	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[10]", range(0,9), "", $_POST["productos"][5]);?>
-	
-	    	</div>
-	        <!--/modulo_producto-->
-	        
-	        <!--modulo_producto-->
-			<div class="modulo_producto">
-				<h5>Nectar sabor Sandia</h5>
-				<h5 class="mar-bottom-10">LINEA NECTAR</h5>
-	    		<img src="/img/products/lata_06_small.png" />
-	    		<p class="mar-top-10">Pack 12 unidades.</p>
-	        	<p>$12.000</p>
-	        	<p>Lata 680 ml.</p>
-	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[11]", range(0,9), "", $_POST["productos"][7]);?>
-	    	</div>
-	        <!--/modulo_producto-->
-	        
-	        
-	        <!--modulo_producto-->
-			<div class="modulo_producto">
-				<h5>Nectar sabor Uva</h5>
-				<h5 class="mar-bottom-10">LINEA NECTAR</h5>
-	    		<img src="/img/products/lata_07_small.png" />
-	    		<p class="mar-top-10">Pack 12 unidades.</p>
-	        	<p>$12.000</p>
-	        	<p>Lata 680 ml.</p>
-	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[12]", range(0,9), "", $_POST["productos"][8]);?>
-	    	</div>
-	        <!--/modulo_producto-->
-	        
-	        <!--modulo_producto-->
-			<div class="modulo_producto">
-				<h5>Nectar sabor Naranja</h5>
+				<h5>Néctar sabor Naranja</h5>
 				<h5 class="mar-bottom-10">LINEA NECTAR</h5>
 	    		<img src="/img/products/lata_08_small.png" />
 	    		<p class="mar-top-10">Pack 12 unidades.</p>
 	        	<p>$12.000</p>
 	        	<p>Lata 680 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[13]", range(0,9), "", $_POST["productos"][8]);?>
+	        	<?=FormHelper::select("productos[13]", range(0,15), "", $_POST["productos"][13]);?>
 	    	</div>
 	        <!--/modulo_producto-->
 
-	 
-	    </div>
-	    <!--/modulos-->
-	    
-	    
-	    <!--modulos-->
-	  	<div class="modulos">
+
+	  	
+	  		 <!--modulo_producto-->
+			<div class="modulo_producto">
+				<h5>Néctar sabor Limonada con Menta</h5>
+				<h5 class="mar-bottom-10">LINEA NECTAR</h5>
+	    		<img src="/img/products/lata_09_small.png" />
+	    		<p class="mar-top-10">Pack 12 unidades.</p>
+	        	<p>$12.000</p>
+	        	<p>Lata 680 ml.</p>
+	        	<small>Cantidad packs</small>
+	        	<?=FormHelper::select("productos[14]", range(0,15), "", $_POST["productos"][14]);?>
+	    	</div>
+	        <!--/modulo_producto-->
+	        
 
 	        <!--modulo_producto-->
 			<div class="modulo_producto">
@@ -267,12 +298,12 @@
 	        	<p>$16.000</p>
 	        	<p>Lata 680 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[9]", range(0,9), "", $_POST["productos"][9]);?>
+	        	<?=FormHelper::select("productos[9]", range(0,15), "", $_POST["productos"][9]);?>
 	    	</div>
 	        <!--/modulo_producto-->
-        
+
            <!--modulos-->
-           <div class="modulo_mix">
+           <div class="modulo_mix" style="margin-top:20px;">
            	
            		<div class="title">
            			<h3><span>Mix de Sabores</span> / COMBINA DOS SABORES A TU ELECCIÓN</h3>

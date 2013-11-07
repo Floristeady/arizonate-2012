@@ -231,12 +231,6 @@ ul.slideshow li li {
     z-index: 100;
 }
 
-#slide {
-	/*background-color: #ebf8f5;
-	background-image: url("/img/repeat/textura.png");
-    background-position: center top;
-    background-repeat: repeat;*/
-}
 
 /* te negro elementos */
 
@@ -277,7 +271,7 @@ ul.slideshow .tenegro_lata1 {
 	height: 352px;
     width: 223px;
     position: absolute;
-	right: 300px;
+	right: 310px;
     top: 90px;
     opacity: 0;
 }
@@ -289,7 +283,7 @@ ul.slideshow .tenegro_lata2 {
 	height: 456px;
     width: 200px;
     position: absolute;
-	right: 140px;
+	right: 160px;
     top: 60px;
     opacity: 0;
 }
@@ -301,7 +295,19 @@ ul.slideshow .tenegro_lata3 {
 	height: 358px;
     width: 188px;
     position: absolute;
-	right: 20px;
+	right: -60px;
+    top: 98px;
+    opacity: 0;
+}
+
+ul.slideshow .tenegro_lata4 {
+	background-image: url(../img/elements/bannertenegro_8.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 358px;
+    width: 188px;
+    position: absolute;
+	right:40px;
     top: 90px;
     opacity: 0;
 }
@@ -500,7 +506,19 @@ ul.slideshow .nectar_lata4 {
     width: 135px;
     position: absolute;
     top:90px;
-    right: 80px;
+    right: 90px;
+    opacity: 0;
+}
+
+ul.slideshow .nectar_lata5 {
+	background-image: url(../img/elements/bannernectar_10.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 330px;
+    width: 170px;
+    position: absolute;
+    top:100px;
+    right: -65px;
     opacity: 0;
 }
 

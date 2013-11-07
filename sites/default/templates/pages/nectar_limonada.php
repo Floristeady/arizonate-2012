@@ -1,7 +1,7 @@
 
 <div id="detalle_1" class="wrapper-a">
 
-<div  id="back" class="back_uva">
+<div  id="back" class="back_limonada">
 
 <?php include("partials/submenu.php"); ?>
 
@@ -10,16 +10,16 @@
 <div class="col_DE">
 	
     <!--titulos-->
-	 <div class="titulo_uva">
+	 <div class="titulo_limonada">
 	 	<h1>Néctar</h1>
-		<h6>sabor uva</h6>
-		<h5>CON VITAMINA C</h5>
+		<h6>limonada</h6>
+		<h5>CON MENTA</h5>
 	 </div>
     <!--/titulos-->
     
     <div class="subcol_IZ">
 	    <div id="product" class="modulo_lata">
-	    	<img src="/img/products/lata_07.png" />
+	    	<img src="/img/products/lata_09.png" />
 	    </div>
 	    <!--/modulo_botella-->
      </div><!--subcol_IZ-->
@@ -29,7 +29,7 @@
     
 	     <!--modulo_texto descripcion-->
 	    <div class="modulo_texto01">
-	    	<p>Deliciosamente suave y refrescante, increíble néctar hecho con auténtico jugo y sabor natural, sólo nos falta saber tu comentario! <strong>100% Natural</strong>.</p>
+	    	<p>Nuevo sabor que dejará feliz tu paladar. Limonada, miel y un toque refrescante de menta, el refresco perfecto para disfrutar más tu día.</p>
 	    </div>
 	    <!--/modulo_texto descripcion-->
 	    
@@ -47,14 +47,14 @@
 	    <!--/modulo_info--> 
 
 	  	<div class="modulo_datos">	
-	  		<div class="cuadro07"></div>
-			<?php include("partials/tabla_13.php"); ?>
+	  		<div class="cuadro08"></div>
+			<?php include("partials/tabla_15.php"); ?>
 	    	<!--modulo_tabla-->
 	    </div>
 
 	     <div class="modulo_ingredientes mar-top-20">
 	    	<h4><strong>Ingredientes:</strong></h4>
-	        <p> Agua filtrada, almíbar de maíz alto en fructosa, jugo concentrado de uva y pera, ácido cítrico, sabores naturales, jugo de vegetales para color, Vitamina C. Sin gas. </p>
+	        <p>  Agua filtrada, almíbar de maíz alto en fructosa, jugo concentrado de limón y pera, miel, ácido cítrico, sabor natural de menta, Beta caroteno para color,  Vitamina C, SUCRALOSA Splenda (0.48 mg/PORCION - 0.2 mg/100ml), ACESULFAME de POTASIO (0.24 mg/PORCION-0.1mg/100 ml). Sin gas. </p>
 	        <p>Duración 24 meses.</p>
 	    </div>
 	    <!--/modulo_ingredientes--> 

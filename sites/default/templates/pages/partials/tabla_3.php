@@ -15,7 +15,7 @@ Porciones por envase 2 aprox.</p>
 <tr><td class="fat">Sodio (mg)</td><td class="fat">0.4</td><td class="fat center">10</td></tr>
 <tr><td>Hidratos de Carbono</td><td></td><td class="center"></td></tr>
 <tr><td class="fat">Disponibles (g)</td><td class="fat">8</td><td class="fat center">19</td></tr>
-<tr><td >Azucares (g)</td><td>7.6</td><td class="center">18</td></tr>
+<tr><td >Azúcares (g)</td><td>7.6</td><td class="center">18</td></tr>
 <tr><td>Proteínas</td><td>0</td><td class="center">0</td></tr>
 
 <tr><td class="up">*Vitamina A(mcg)</td><td class="up">29</td><td class="up center">9%</td></tr>

@@ -94,6 +94,8 @@
 			       	<li><a href="<?=url_for("main", "tehelado_mango")?>">Té negro sabor Mango</a></li>
 			       	<li><a href="<?=url_for("main", "tediet_miel")?>">Té verde diet con Ginseng </a></li>
 			       	<li><a href="<?=url_for("main", "tediet_fram")?>">Té negro diet sabor Frambuesa</a></li>
+			       	<li><a href="<?=url_for("main", "tediet_limon")?>">Té negro diet sabor Limón</a></li>
+
 		        </ul>
 		        
 	        </div>
@@ -104,10 +106,11 @@
 		        <span class="subtitle"><h3>Nectar</h3></span>
 		        </a>
 		         <ul class="list-products nectar_list">
-			       	<li><a href="<?=url_for("main", "nectar_mango")?>">Nectar sabor Mango</a></li>
-			       	<li><a href="<?=url_for("main", "nectar_sandia")?>">Nectar sabor Sandia</a></li>
-			       	<li><a href="<?=url_for("main", "nectar_uva")?>">Nectar sabor Uva </a></li>
-			       	<li><a href="<?=url_for("main", "nectar_naranja")?>">Nectar sabor Naranja</a></li>
+			       	<li><a href="<?=url_for("main", "nectar_mango")?>">Néctar sabor Mango</a></li>
+			       	<li><a href="<?=url_for("main", "nectar_sandia")?>">Néctar sabor Sandia</a></li>
+			       	<li><a href="<?=url_for("main", "nectar_uva")?>">Néctar sabor Uva </a></li>
+			       	<li><a href="<?=url_for("main", "nectar_naranja")?>">Néctar sabor Naranja</a></li>
+			        <li><a href="<?=url_for("main", "nectar_limonada")?>">Néctar sabor Limonada con menta</a></li>
 		        </ul>
 		        
 	        </div>

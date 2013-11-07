@@ -117,6 +117,13 @@ span.deco_cyan {
 	float: left;
 }
 
+.back_tedietlimon{
+	background-image: url(../img/elements/back_tedietlimon.png);
+	background-repeat: no-repeat;
+	background-position: 24px 176px;
+	float: left;
+}
+
 .back_rx{
 	background-image: url(../img/elements/back_rx.png);
 	background-repeat: no-repeat;
@@ -173,6 +180,12 @@ span.deco_cyan {
 	float: left;
 }
 
+.back_limonada {
+	background-image: url(../img/elements/back_limonada.png);
+	background-repeat: no-repeat;
+	background-position: 20px 176px;
+	float: left;
+}
 
 /* Info Cuadros Products
 -------------------------------------------------------------- */
@@ -246,6 +259,26 @@ span.deco_cyan {
     width: 110px;
 }
 
+.cuadro08{
+	background:url(../img/CSS_sprite.png);
+	background-repeat:no-repeat;
+	background-position: -525px -775px;
+	bottom: 0;
+    height: 114px;
+    position: absolute;
+    width: 110px;
+}
+
+.cuadro09{
+	background:url(../img/CSS_sprite.png);
+	background-repeat:no-repeat;
+	background-position: -525px -525px;
+	bottom: 0;
+    height: 166px;
+    position: absolute;
+    width: 110px;
+}
+
 
 
 
@@ -314,7 +347,9 @@ td.center {
 .titulo_nectarmango,
 .titulo_sandia,
 .titulo_uva,
-.titulo_naranja   {
+.titulo_naranja, 
+.titulo_limonada,
+.titulo_tedietlimon  {
 	margin-top: 20px;
 	 width: 100%;
 	 float: left;
@@ -450,6 +485,24 @@ td.center {
 
 .titulo_tedietfram h6 {
 	color: #d14533;
+	font-size: 20px;
+	margin-left: 120px;
+	margin-top: 10px;
+	text-shadow: 2px 2px 2px #aaaab3;
+}
+
+/*te diet limon*/
+
+.titulo_tedietlimon h1 {
+	color: #f82534;
+	font-size: 36px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+
+.titulo_tedietlimon h6 {
+	color: #eee21a;
 	font-size: 20px;
 	margin-left: 120px;
 	margin-top: 10px;
@@ -681,6 +734,35 @@ td.center {
 	font-size: 15px;
 	margin-top: 7px;
 	margin-left: 150px;
+	float: left;
+	clear: left;
+}
+
+/*nectar limonada*/
+
+.titulo_limonada h1 {
+	color: #dfaa28;
+	font-size: 40px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	margin-top: 10px;
+	margin-left: 40px;
+	float: left;
+}
+
+.titulo_limonada h6 {
+	color:  #aab237;
+	font-size: 24px;
+	margin-left: 10px;
+	margin-top: 20px;
+	text-shadow: 1px 1px 1px #aaaab3;
+	float: left;
+}
+
+.titulo_limonada h5 {
+	color:#00ae7e;
+	font-size: 20px;
+	margin-top: 12px;
+	margin-left: 200px;
 	float: left;
 	clear: left;
 }

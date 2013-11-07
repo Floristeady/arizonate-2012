@@ -135,6 +135,8 @@ $(function() {
 	 	var necuva = $('#back').hasClass('back_uva');
 	 	
 	 	var bebida = $('#back').hasClass('back_rx');
+	 	var neclimon = $('#back').hasClass('back_tedietlimon');
+	 	var dietlimon = $('#back').hasClass('back_limonada');
 	 	
 	 	if (teverde == true) {
 		 	$('#master-footer').css({'background-color' : '#9fcd93'});	
@@ -143,6 +145,14 @@ $(function() {
 	    } else if(heladofram == true) {
 			$('#master-footer').css({'background-color' : '#9d1a43'});
 			$('.info_fb').css({'border-color' : '#d81d4e'});
+			
+	    } else if(neclimon == true) {
+			$('#master-footer').css({'background-color' : '#c6bf30'});
+			$('.info_fb').css({'border-color' : '#8f8a22'});
+			
+		} else if(dietlimon == true) {
+			$('#master-footer').css({'background-color' : '#aab237'});
+			$('.info_fb').css({'border-color' : '#7f8529'});
 		
 		} else if(heladomango == true) {
 			$('#master-footer').css({'background-color' : '#ab2e1e'});

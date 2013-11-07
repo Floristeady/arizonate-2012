@@ -11,7 +11,7 @@
 	
     <!--titulos-->
 	 <div class="titulo_naranja">
-	 	<h1>Nectar</h1>
+	 	<h1>Néctar</h1>
 		<h6>sabor naranja</h6>
 		<h5>CON VITAMINA C</h5>
 	 </div>

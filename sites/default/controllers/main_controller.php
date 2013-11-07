@@ -13,6 +13,7 @@ class main_controller extends PortalController{
 	function tediet_miel() {}
 	function tediet_arandano() {}
 	function tediet_fram() {}
+	function tediet_limon() {}
 	
 	function tehelado_fram() {}
 	function tehelado_limon() {}
@@ -22,6 +23,7 @@ class main_controller extends PortalController{
 	function nectar_naranja() {}
 	function nectar_uva() {}
 	function nectar_sandia() {}
+	function nectar_limonada() {}
 	
 	function energetica() {}
 	

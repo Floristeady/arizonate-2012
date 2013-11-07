@@ -16,17 +16,19 @@
 			<li class="mar-top-10">Te Diet</li>
 			<li><a class="<? if (get_current_action() == "tediet_miel") { echo "ON";} ?> linea" href="/main/tediet_miel">Té verde diet con Ginseng </a></li>
 			<li><a class="<? if (get_current_action() == "tediet_fram") { echo "ON";} ?> linea" href="/main/tediet_fram">Té negro diet sabor Frambuesa</a></li>
+			<li><a class="<? if (get_current_action() == "tediet_limon") { echo "ON";} ?> linea" href="/main/tediet_limon">Té negro diet sabor Limón</a></li>
 		</ul>
 	</div>
 	
 	<div class="box_nav_2 nav_nectar">
-		<h4>Línea Nectar Arizona</h4>
+		<h4>Línea Néctar Arizona</h4>
 		<ul id="nav_2">
 	
-			<li><a class="<? if (get_current_action() == "nectar_mango") { echo "ON";} ?> linea" href="/main/nectar_mango">Nectar sabor Mango</a></li>
-			<li><a class="<? if (get_current_action() == "nectar_sandia") { echo "ON";} ?> linea" href="/main/nectar_sandia">Nectar sabor Sandia</a></li>
-			<li><a class="<? if (get_current_action() == "nectar_uva") { echo "ON";} ?> linea" href="/main/nectar_uva">Nectar sabor Uva</a></li>
-			<li><a class="<? if (get_current_action() == "nectar_naranja") { echo "ON";} ?> linea" href="/main/nectar_naranja">Nectar sabor Naranja</a></li>
+			<li><a class="<? if (get_current_action() == "nectar_mango") { echo "ON";} ?> linea" href="/main/nectar_mango">Néctar sabor Mango</a></li>
+			<li><a class="<? if (get_current_action() == "nectar_sandia") { echo "ON";} ?> linea" href="/main/nectar_sandia">Néctar sabor Sandia</a></li>
+			<li><a class="<? if (get_current_action() == "nectar_uva") { echo "ON";} ?> linea" href="/main/nectar_uva">Néctar sabor Uva</a></li>
+			<li><a class="<? if (get_current_action() == "nectar_naranja") { echo "ON";} ?> linea" href="/main/nectar_naranja">Néctar sabor Naranja</a></li>
+			<li><a class="<? if (get_current_action() == "nectar_limonada") { echo "ON";} ?> linea" href="/main/nectar_limonada">Néctar sabor Limonada con menta</a></li>
 	
 		</ul>
 	</div>

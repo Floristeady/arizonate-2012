@@ -124,7 +124,7 @@ function gallery(direction) {
 function animate_all_elements(id_next) {
 		
 	if(id_next == 'tenegro'){
-		var contenedor = $('li.show ul').children('li').append('<span class="tenegro_texto"></span><span class="tenegro_flotan"></span><a href="/main/tehelado_fram/" class="tenegro_lata1"></a><span class="tenegro_limon"></span><a href="/main/tehelado_mango/" class="tenegro_lata3"></a><a href="/main/tehelado_limon/" class="tenegro_lata2"></a>');
+		var contenedor = $('li.show ul').children('li').append('<span class="tenegro_texto"></span><span class="tenegro_flotan"></span><a href="/main/tehelado_fram/" class="tenegro_lata1"></a><span class="tenegro_limon"></span><a href="/main/tehelado_mango/" class="tenegro_lata3"></a><a href="/main/tediet_limon/" class="tenegro_lata4"></a><a href="/main/tehelado_limon/" class="tenegro_lata2"></a>');
 	   
 		$('.tenegro_texto').delay(1000).animate({
 	    	opacity: 1,
@@ -147,6 +147,10 @@ function animate_all_elements(id_next) {
 	  	}, 500);
 	  	
 	  	$('.tenegro_lata3').delay(500).animate({
+	    	opacity: 1
+	  	}, 500);
+	  	
+	  	$('.tenegro_lata4').delay(600).animate({
 	    	opacity: 1
 	  	}, 500);
 	  	
@@ -198,7 +202,7 @@ function animate_all_elements(id_next) {
 
 	    }  else if (id_next=='nectar') { 
 	    	
-	    	var contenedortres = $('li.show ul').children('li').append('<span class="nectar_circulos"></span><span class="nectar_texto"></span><a href="/main/nectar_sandia" class="nectar_lata1"></a><a href="/main/nectar_uva" class="nectar_lata4"></a><span class="nectar_frutamango"></span><a href="/main/nectar_mango" class="nectar_lata3"></a><a href="/main/nectar_naranja" class="nectar_lata2"></a><span class="nectar_mango"></span>');
+	    	var contenedortres = $('li.show ul').children('li').append('<span class="nectar_circulos"></span><span class="nectar_texto"></span><a href="/main/nectar_sandia" class="nectar_lata1"></a><a href="/main/nectar_uva" class="nectar_lata4"></a><span class="nectar_frutamango"></span><a href="/main/nectar_mango" class="nectar_lata3"></a><a href="/main/nectar_naranja" class="nectar_lata2"></a><a href="/main/nectar_limonada" class="nectar_lata5"></a><span class="nectar_mango"></span>');
 	    	
 	    	$('.nectar_texto').delay(800).animate({
 	    	opacity: 1,
@@ -226,11 +230,15 @@ function animate_all_elements(id_next) {
 	    	opacity: 1
 	  		}, 1000);
 	  		
-	  		$('.nectar_mango').delay(2600).animate({
+	  		$('.nectar_lata5').delay(2700).animate({
 	    	opacity: 1
 	  		}, 1000);
 	  		
-	  		$('.nectar_frutamango').delay(2600).animate({
+	  		$('.nectar_mango').delay(2700).animate({
+	    	opacity: 1
+	  		}, 1000);
+	  		
+	  		$('.nectar_frutamango').delay(2700).animate({
 	    	opacity: 1
 	  		}, 1000);
 
@@ -268,7 +276,7 @@ function animate_first_elements() {
 	//console.log(id)
 
 	if(id== 'tenegro'){
-		var contenedor = $('li.show ul').children('li').append('<span class="tenegro_texto"></span><span class="tenegro_flotan"></span><a href="/main/tehelado_fram/" class="tenegro_lata1"></a><span class="tenegro_limon"></span><a href="/main/tehelado_mango/" class="tenegro_lata3"></a><a href="/main/tehelado_limon/" class="tenegro_lata2"></a>');
+		var contenedor = $('li.show ul').children('li').append('<span class="tenegro_texto"></span><span class="tenegro_flotan"></span><a href="/main/tehelado_fram/" class="tenegro_lata1"></a><span class="tenegro_limon"></span><a href="/main/tehelado_mango/" class="tenegro_lata3"></a><a href="/main/tediet_limon/" class="tenegro_lata4"></a><a href="/main/tehelado_limon/" class="tenegro_lata2"></a>');
 
 		$('.tenegro_texto').delay(1000).animate({
 	    	opacity: 1,
@@ -291,6 +299,10 @@ function animate_first_elements() {
 	  	}, 500);
 	  	
 	  	$('.tenegro_lata3').delay(500).animate({
+	    	opacity: 1
+	  	}, 500);
+	  	
+	  	$('.tenegro_lata4').delay(600).animate({
 	    	opacity: 1
 	  	}, 500);
 	  	

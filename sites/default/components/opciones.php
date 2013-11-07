@@ -6,6 +6,7 @@
 		$opciones[3] = "Té Verde con Ginseng y jugo de Granada";
 		$opciones[4] = "Té Verde DIET con Ginseng y Miel";
 		$opciones[5] = "Té Negro DIET sabor Frambuesa";
+		$opciones[15] = "Té Negro DIET sabor Limon";
 		$opciones[6] = "Té Helado con sabor de Mango";
 		$opciones[7] = "Té Helado con sabor de Frambuesa";
 		$opciones[8] = "Té Helado con sabor de Limon";
@@ -14,6 +15,7 @@
 		$opciones[11] = "Nectar sabor Sandia";
 		$opciones[12] = "Nectar sabor Uva";
 		$opciones[13] = "Nectar sabor Naranja";
+		$opciones[14] = "Nectar sabor Limonada con menta";
 		return $opciones;
 	}
 	function get_opcion($i) {

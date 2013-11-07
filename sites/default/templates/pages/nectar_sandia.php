@@ -11,7 +11,7 @@
 	
     <!--titulos-->
 	 <div class="titulo_sandia">
-	    <h1>Nectar sabor</h1>
+	    <h1>Néctar sabor</h1>
 		<h6>sandia</h6>
 		<h5>CON VITAMINA C</h5>
 	 </div>
@@ -30,7 +30,7 @@
 	    
 		 <!--modulo_texto descripcion-->
 		<div class="modulo_texto01">
-			<p>Arizona lo hizo posible y ahora puedes refrescarte de la mejor manera con este nuevo increíble sabor perfectamente equilibrado y delicioso. <strong> Tambien 100% natural!</strong>.</p>
+			<p>Arizona lo hizo posible y ahora puedes refrescarte de la mejor manera con este nuevo increíble sabor perfectamente equilibrado y delicioso. <strong> También 100% natural!</strong>.</p>
 		</div>
 		<!--/modulo_texto descripcion-->
 		

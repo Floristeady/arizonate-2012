@@ -54,8 +54,8 @@
     	<p><strong>Fax: </strong></p>
     	<p>(+56 2) 2224 37 23</p>
      	<p>&nbsp;</p>
-    	<p>Av. Apoquindo 7850, Torre 3, Local 7 </p>
-    	<p>Las Condes. Santiago, Chile.</p>
+    	<p>Alonso de Camargo 6920, Las Condes. </p>
+    	<p>Santiago, Chile. </p>
                 
 </div>
 <!--/col_DE-->
