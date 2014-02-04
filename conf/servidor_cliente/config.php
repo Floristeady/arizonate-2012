@@ -6,7 +6,7 @@
 	- test: para pruebas antes de la publicacion del sitio
 	- production: para versión de producción. Los mesnajes de depuración desaparecerán completamente del output, asi como también los errores.
 */
-	$env = "development";
+	$env = "production";
 
 	$default_lang = "es";
 
@@ -24,20 +24,20 @@
 	DATABASE
 */
 
-	$db["development"]["host"] = "localhost";
+	$db["development"]["host"] = "db-server";
 	$db["development"]["user"] = "root";
-	$db["development"]["pw"] = "1315frd";
+	$db["development"]["pw"] = "mysqluser";
 	$db["development"]["db"] = "arizonate";
 
 	$db["test"]["host"] = "localhost";
-	$db["test"]["user"] = "rcgdesar_arizona";
-	$db["test"]["pw"] = "arizonate";
-	$db["test"]["db"] = "rcgdesar_arizonate";
+	$db["test"]["user"] = "arizonat_root";
+	$db["test"]["pw"] = "111111";
+	$db["test"]["db"] = "arizonat_data";
 
 	$db["production"]["host"] = "localhost";
-	$db["production"]["user"] = "bigchileSQL1";
+	$db["production"]["user"] = "bigchile_SQL1";
 	$db["production"]["pw"] = "111111vv";
-	$db["production"]["db"] = "bigchileSQL1";
+	$db["production"]["db"] = "bigchile_SQL1";
 
 /*
 	EMAIL
@@ -62,8 +62,7 @@
 	$conf["development"]["mail_smtp_port"] = "465";
 	$conf["development"]["mail_from_name"] = "Web Arizona";
 	$conf["development"]["mail_from_address"] = "test@appnotion.com";
-	$conf["development"]["web_mailbox"] = "florencia@zet.cl";
-	$conf["development"]["web_mailbox_venta"] = "florencia@zet.cl";
+	$conf["development"]["web_mailbox"] = "felipe@zet.cl";
 
 	$conf["test"]["mail_component"] = "PHPMAILER";
 	$conf["test"]["mail_smtp_hostprefix"] = "ssl";
@@ -74,20 +73,23 @@
 	$conf["test"]["mail_smtp_port"] = "465";
 	$conf["test"]["mail_from_name"] = "Web Arizona";
 	$conf["test"]["mail_from_address"] = "test@appnotion.com";
-	$conf["test"]["web_mailbox"] = "florencia@zet.cl";
-	$conf["test"]["web_mailbox_venta"] = "florencia@zet.cl";
+	$conf["test"]["web_mailbox"] = "felipe@zet.cl";
 
-	$conf["production"]["mail_component"] = "PHPMAILER";
-	$conf["production"]["mail_smtp_hostname"] = "192.168.0.101";
-	$conf["production"]["mail_smtp_auth"] = true;
-	$conf["production"]["mail_smtp_username"] = "web@arizonate.cl";
-	$conf["production"]["mail_smtp_password"] = "big88";
-	$conf["production"]["mail_smtp_port"] = "25";
-	$conf["production"]["mail_from_name"] = "Web Arizona";
-	$conf["production"]["mail_from_address"] = "web@arizonate.cl";
-	$conf["production"]["web_mailbox"] = "ventas@arizonate.cl, bernardob@bigchile.cl";
-	$conf["production"]["web_mailbox_venta"] = "ventas@arizonate.cl, bernardob@bigchile.cl";
 
+#        $conf["production"]["mail_component"] = "PHPMAILER";
+#        $conf["production"]["mail_smtp_hostprefix"] = "ssl";
+#        $conf["production"]["mail_smtp_hostname"] = "192.168.0.101";
+#        $conf["production"]["mail_smtp_auth"] = true;
+#        $conf["production"]["mail_smtp_username"] = "info@arizonate.cl";
+#        $conf["production"]["mail_smtp_password"] = "ar69te";
+#        $conf["production"]["mail_smtp_port"] = "25";
+#        $conf["production"]["mail_from_name"] = "Web Arizona";
+#        $conf["production"]["mail_from_address"] = "info@arizonate.cl";
+#        $conf["production"]["web_mailbox"] = "bernardob@bigchile.cl";
+	
+	$conf["production"]["mail_component"] = "";
+	$conf["production"]["mail_from_address"] = "info@arizonate.cl";
+	$conf["production"]["web_mailbox"] = "bernardob@bigchile.cl, guillermog@tricuspide.com, felipe@zet.cl";
 
 	$conf_all["mail_subject"] = "NO SUBJECT";
 
@@ -152,13 +154,13 @@
 */
 
 	$conf["development"]["logging_type"] = "FB";
-	$conf["test"]["logging_type"] = "FB";
-	$conf["production"]["logging_type"] = "FB";
+	$conf["test"]["logging_type"] = "";
+	$conf["production"]["logging_type"] = "";
 
 
-	$conf["development"]["logging_level"] = 3;
-	$conf["test"]["logging_level"] = 1;
-	$conf["production"]["logging_level"] = 1;
+	$conf["development"]["logging_level"] = true;
+	$conf["test"]["logging_level"] = false;
+	$conf["production"]["logging_level"] = false;
 
 /*
 	MINIFY
@@ -223,7 +225,7 @@
 	URLS
 */
 
-	$conf["development"]["friendly_urls"] = false;
+	$conf["development"]["friendly_urls"] = true;
 	$conf["test"]["friendly_urls"] = true;
 	$conf["production"]["friendly_urls"] = true;
 

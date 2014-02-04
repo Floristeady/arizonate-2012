@@ -57,7 +57,7 @@
 		    <!--modulo_ingredientes-->
 		    <div class="modulo_ingredientes">
 		    	<h4><strong>Ingredientes:</strong></h4>
-				<p>Preparado Premium de Té usando agua filtrada, almíbar de maíz alto en fructosa, ácido cítrico, extracto de jugo natural de frambuesa, SUCRALOSA Splenda (0.48 mg/PORCION - 0.2 mg/100ml), ACESULFAME de POTASIO (0.24 mg/PORCION-0.1mg/100 ml), ácido ascórbico, sabores naturales, cafeína (16 mg/porción). Fortificado con vitamina C. Muy Bajo en Sodio, sin gas. Agitar antes de tomar. Una vez abierta, mantener refrigerada.</p>
+				<p>Preparado Premium de Té usando agua filtrada, ácido cítrico, extracto de jugo natural de frambuesa, SUCRALOSA Splenda (0.48 mg/PORCION - 0.2 mg/100ml), ACESULFAME de POTASIO (0.24 mg/PORCION-0.1mg/100 ml), ácido ascórbico, sabores naturales, cafeína (16 mg/porción). Fortificado con vitamina C. Muy Bajo en Sodio, sin gas. Agitar antes de tomar. Una vez abierta, mantener refrigerada.</p>
 				<p>Duración 18 meses.</p>
 		    </div>
 		    <!--/modulo_ingredientes-->		    
