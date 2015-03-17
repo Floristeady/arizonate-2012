@@ -6,6 +6,7 @@
 	
 		<div class="wrapper-a z-9999">
 	         <div id="slideshow-nav">
+		         
 		        <a href="javascript:void(0)" class="nav-item nav-item-dot selected">
 		        </a>
 		        
@@ -25,6 +26,11 @@
 
 
          <ul class="slideshow">
+	        <li class="slide" class="">
+         		<ul id="sparkling">
+         		</ul>
+         	</li>
+         	
          	<li class="slide" class="show">
 	         	<ul id="tenegro">
 	         	</ul>
@@ -44,12 +50,7 @@
          		<ul id="bebida">
          		</ul>
          	</li>
-         	
-         	<li class="slide" class="">
-         		<ul id="sparkling">
-         		</ul>
-         	</li>
-         
+
          </ul><!--/slideshow-->
                       
  

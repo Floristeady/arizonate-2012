@@ -8,14 +8,14 @@ $(document).ready(function(){
 	$('.slideshow').before('<span class="preload"></span>');
 
 /* --- preLoad --- */
-	preloader.addFiles(	'../img/elements/bannertenegro_4.png','../img/elements/bannertenegro_3.png','../img/elements/bannertenegro_1.jpg', '../img/elements/bannertenegro_2.png', '../img/elements/bannertenegro_5.png', '../img/elements/bannertenegro_6.png', '../img/elements/bannertenegro_7.png', '../img/elements/bannernectar_4.png','../img/elements/bannernectar_2.png','../img/elements/bannernectar_5.png','/img/elements/bannernectar_6.png', '../img/elements/bannernectar_3.png', '../img/elements/bannerteverde_1.jpg', '../img/elements/bannerteverde_3.png', '../img/elements/bannernectar_1.jpg' , '../img/elements/bannerbebida_1.jpg', '../img/elements/bannerbebida_4.png', '../img/elements/bannerbebida_5.png', '../img/elements/bannerbebida_3.png', '../img/elements/bannerteverde_5.png', '/img/elements/bannerteverde_6.png', '/img/elements/bannerteverde_3.png', '../img/elements/bannerteverde_2.png', '../img/elements/bannersparkling_01.png');
+	preloader.addFiles(	'../img/elements/bannertenegro_4.png','../img/elements/bannertenegro_3.png','../img/elements/bannertenegro_1.jpg', '../img/elements/bannertenegro_2.png', '../img/elements/bannertenegro_5.png', '../img/elements/bannertenegro_6.png', '../img/elements/bannertenegro_7.png', '../img/elements/bannernectar_4.png','../img/elements/bannernectar_2.png','../img/elements/bannernectar_5.png','/img/elements/bannernectar_6.png', '../img/elements/bannernectar_3.png', '../img/elements/bannerteverde_1.jpg', '../img/elements/bannerteverde_3.png', '../img/elements/bannernectar_1.jpg' , '../img/elements/bannerbebida_1.jpg', '../img/elements/bannerbebida_4.png', '../img/elements/bannerbebida_5.png', '../img/elements/bannerbebida_3.png', '../img/elements/bannerteverde_5.png', '/img/elements/bannerteverde_6.png', '/img/elements/bannerteverde_3.png', '../img/elements/bannerteverde_2.png', '../img/elements/bannersparkling_01.jpg', '../img/elements/bannersparkling_lata1.png', '../img/elements/bannersparkling_lata2.png');
 						
 	$('.slideshow').hide();
 	$('#slideshow-nav').hide();
 	$('.slideshow').css({ opacity: '0' } );
 
 	
-	preloader.on('error', function(e){ console.error(e); });
+	preloader.on('error', function(e){});
 	preloader.on('finish', function(){
 		//console.log('ok')
 		startIt();
