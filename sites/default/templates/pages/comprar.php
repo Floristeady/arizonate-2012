@@ -51,6 +51,7 @@
 			            <li>Bandeja Té negro y Té negro diet (lata 680ml) <span>$12.000</span> </li>
 			            <li>Bandeja RX Energy (lata 680ml) <span>$16.000</span> </li>
 			            <li>Bandeja Néctar (lata 680ml)   <span>$12.000</span> </li>
+			            <li>Bandeja Sparkling Arizona (lata 680ml)   <span>$12.000</span> </li>
 		            </ul>		            
 		      </div>
 		   </div>
@@ -78,7 +79,7 @@
 	        	<p>$15.000</p>
 	        	<p>Botella 473 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[1]", range(0,15), "", $_POST["productos"][1]);?>
+	        	<?=FormHelper::select("productos[1]", range(0,18), "", $_POST["productos"][1]);?>
 	
 	    	</div>
 	        <!--/modulo_producto-->
@@ -92,7 +93,7 @@
 	        	<p>$15.000</p>
 	        	<p>Botella 473 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[3]", range(0,15), "", $_POST["productos"][3]);?>
+	        	<?=FormHelper::select("productos[3]", range(0,18), "", $_POST["productos"][3]);?>
 	
 	    	</div>
 	        <!--/modulo_producto-->
@@ -106,7 +107,7 @@
 	        	<p>$15.000</p>
 	        	<p>Botella 473 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[2]", range(0,15), "", $_POST["productos"][2]);?>
+	        	<?=FormHelper::select("productos[2]", range(0,18), "", $_POST["productos"][2]);?>
 		    </div>
 	        <!--/modulo_producto-->
 	        
@@ -120,7 +121,7 @@
 	        	<p>$15.000</p>
 	        	<p>Botella 473 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[4]", range(0,15), "", $_POST["productos"][4]);?>
+	        	<?=FormHelper::select("productos[4]", range(0,18), "", $_POST["productos"][4]);?>
 	
 	    	</div>
 	        <!--/modulo_producto-->
@@ -143,7 +144,7 @@
 	        	<p>$15.000</p>
 	        	<p>Botella 473 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[5]", range(0,15), "", $_POST["productos"][5]);?>
+	        	<?=FormHelper::select("productos[5]", range(0,18), "", $_POST["productos"][5]);?>
 	
 	    	</div>
 	        <!--/modulo_producto-->
@@ -157,7 +158,7 @@
 	        	<p>$12.000</p>
 	        	<p>Lata 680 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[15]", range(0,15), "", $_POST["productos"][15]);?>
+	        	<?=FormHelper::select("productos[15]", range(0,18), "", $_POST["productos"][15]);?>
 	    	</div>
 	        <!--/modulo_producto-->
 	        
@@ -170,7 +171,7 @@
 	        	<p>$12.000</p>
 	        	<p>Lata 680 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[7]", range(0,15), "", $_POST["productos"][7]);?>
+	        	<?=FormHelper::select("productos[7]", range(0,18), "", $_POST["productos"][7]);?>
 	    	</div>
 	        <!--/modulo_producto-->
         
@@ -184,7 +185,7 @@
 	        	<p>$12.000</p>
 	        	<p>Lata 680 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[8]", range(0,15), "", $_POST["productos"][8]);?>
+	        	<?=FormHelper::select("productos[8]", range(0,18), "", $_POST["productos"][8]);?>
 	    	</div>
 	        <!--/modulo_producto-->
 	        
@@ -205,7 +206,7 @@
 	        	<p>$12.000</p>
 	        	<p>Lata 680 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[6]", range(0,15), "", $_POST["productos"][8]);?>
+	        	<?=FormHelper::select("productos[6]", range(0,18), "", $_POST["productos"][8]);?>
 	    	</div>
 	        <!--/modulo_producto-->
 
@@ -220,7 +221,7 @@
 	        	<p>$12.000</p>
 	        	<p>Lata 680ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[10]", range(0,15), "", $_POST["productos"][10]);?>
+	        	<?=FormHelper::select("productos[10]", range(0,18), "", $_POST["productos"][10]);?>
 	
 	    	</div>
 	        <!--/modulo_producto-->
@@ -234,7 +235,7 @@
 	        	<p>$12.000</p>
 	        	<p>Lata 680 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[11]", range(0,15), "", $_POST["productos"][11]);?>
+	        	<?=FormHelper::select("productos[11]", range(0,18), "", $_POST["productos"][11]);?>
 	    	</div>
 	        <!--/modulo_producto-->
 	        
@@ -248,7 +249,7 @@
 	        	<p>$12.000</p>
 	        	<p>Lata 680 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[12]", range(0,15), "", $_POST["productos"][12]);?>
+	        	<?=FormHelper::select("productos[12]", range(0,18), "", $_POST["productos"][12]);?>
 	    	</div>
 	        <!--/modulo_producto-->
 	        
@@ -269,7 +270,7 @@
 	        	<p>$12.000</p>
 	        	<p>Lata 680 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[13]", range(0,15), "", $_POST["productos"][13]);?>
+	        	<?=FormHelper::select("productos[13]", range(0,18), "", $_POST["productos"][13]);?>
 	    	</div>
 	        <!--/modulo_producto-->
 
@@ -284,7 +285,7 @@
 	        	<p>$12.000</p>
 	        	<p>Lata 680 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[14]", range(0,15), "", $_POST["productos"][14]);?>
+	        	<?=FormHelper::select("productos[14]", range(0,18), "", $_POST["productos"][14]);?>
 	    	</div>
 	        <!--/modulo_producto-->
 	        
@@ -298,9 +299,53 @@
 	        	<p>$16.000</p>
 	        	<p>Lata 680 ml.</p>
 	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[9]", range(0,15), "", $_POST["productos"][9]);?>
+	        	<?=FormHelper::select("productos[9]", range(0,18), "", $_POST["productos"][9]);?>
 	    	</div>
 	        <!--/modulo_producto-->
+	        
+	        <!--modulo_producto-->
+			<div class="modulo_producto">
+				<h5>Sparkling Arizona sabor Cereza Lima</h5>
+				<h5 class="mar-bottom-10">RICKEY CHERRY LIME</h5>
+	    		<img src="/img/products/lata_cherrylime_small.png" />
+	    		<p class="mar-top-10">Pack 12 unidades.</p>
+	        	<p>$12.000</p>
+	        	<p>Lata 680 ml.</p>
+	        	<small>Cantidad packs</small>
+	        	<?=FormHelper::select("productos[16]", range(0,18), "", $_POST["productos"][16]);?>
+	    	</div>
+	        <!--/modulo_producto-->
+	        
+	  	</div>
+	  	<div class="modulos">
+	        
+	         <!--modulo_producto-->
+			<div class="modulo_producto">
+				<h5>Sparkling Arizona sabor Mango Lima</h5>
+				<h5 class="mar-bottom-10">RICKEY MANGO LIME</h5>
+	    		<img src="/img/products/lata_mangolime_small.png" />
+	    		<p class="mar-top-10">Pack 12 unidades.</p>
+	        	<p>$12.000</p>
+	        	<p>Lata 680 ml.</p>
+	        	<small>Cantidad packs</small>
+	        	<?=FormHelper::select("productos[17]", range(0,18), "", $_POST["productos"][17]);?>
+	    	</div>
+	        <!--/modulo_producto-->
+	        
+	          <!--modulo_producto-->
+			<div class="modulo_producto">
+				<h5>Sparkling Arizona sabor Limón Lima</h5>
+				<h5 class="mar-bottom-10">RICKEY LEMON LIME</h5>
+	    		<img src="/img/products/lata_lemonlime_small.png" />
+	    		<p class="mar-top-10">Pack 12 unidades.</p>
+	        	<p>$12.000</p>
+	        	<p>Lata 680 ml.</p>
+	        	<small>Cantidad packs</small>
+	        	<?=FormHelper::select("productos[18]", range(0,18), "", $_POST["productos"][18]);?>
+	    	</div>
+	        <!--/modulo_producto-->
+	        
+	  	  </div>
 
            <!--modulos-->
            <div class="modulo_mix" style="margin-top:20px;">
@@ -388,7 +433,7 @@
     	<p><span class="underline">Bandeja de 12 unidades.</span></p>
         <p>&nbsp;</p>
     	<p><strong>Contacto:</strong></p>
-    	<p>Teléfonos: (+56 2) 22243723 – (+56 2) 22296653 </p>
+    	<p>Teléfonos: +56 2 222 437 23 / +56 2 222 966 53 </p>
     	 <p>&nbsp;</p>    	
     	<h4>Una bebida saludable, refrescante y de gran sabor.</h4>
     	<h2>100% Natural </h2>

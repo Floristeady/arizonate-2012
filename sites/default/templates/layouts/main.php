@@ -45,12 +45,12 @@ pageTracker._trackPageview();
 
 <!--header -->
 <div class="wrapper-a">
-<!--El header posee la imagen trasera de las ilustraciones -->
+
 	<h1><a href="<?=url_for("main", "index")?>" title="Arizonate" id="logo">Arizonate</a></h1>
       
-    <!--mini-menu -->
+
     <ul id="mini_menu">
-    	<li><a title="Síguenos en Facebook!" href="http://www.facebook.com/pages/Arizona-Te/202252829802?ref=search&sid=100000487785086.2528793502..1" class="icon" target="_blank"></a></li>
+    	<li><a title="Síguenos en Facebook!" href="https://www.facebook.com/arizonatechile" class="icon" target="_blank"></a></li>
         <li><a href="<?=url_for("main", "comprar")?>" class="comprar">Comprar</a></li>
     </ul>
     <!--/mini-menu -->
@@ -85,7 +85,15 @@ pageTracker._trackPageview();
 			<li><a href="<?=url_for("main", "nectar_naranja")?>">Néctar sabor Naranja</a></li>   
 			<li><a href="<?=url_for("main", "nectar_limonada")?>">Néctar sabor Limonada con menta</a></li>  
 		</ul>   
-		</li> 
+	</li> 
+	
+	<li><a class="sparkling <? if (substr(get_current_action(), 0, 6) == "sparkling" ) {?>_ON<? } ?>"  href="<?=url_for("main", "sparkling_cherrylime")?>">Sparkling</a>
+		<ul class="subnav">
+			<li><a href="<?=url_for("main", "sparkling_cherrylime")?>">Rickey Cherry Lime</a></li> 
+			<li><a href="<?=url_for("main", "sparkling_mangolime")?>">Rickey Mango Lime</a></li>   
+			<li><a href="<?=url_for("main", "sparkling_lemonlime")?>">Rickey Lemon Lime</a></li>  
+		</ul>   
+	</li> 
 	
 	<li><a class="bebida <? if (get_current_action() == "energetica" ) {?>_ON<? } ?>" href="<?=url_for("main", "energetica")?>">Energética</a></li>
 	<li><a class="salud <? if (get_current_action() == "salud" || get_current_action() == "submit_compra") {?>_ON<? } ?>" href="<?=url_for("main", "salud")?>">Beneficios del té</a></li>
@@ -116,20 +124,17 @@ pageTracker._trackPageview();
 		<div class="column">
 			<h4>Importa y Distribuye exclusivamente para Chile:</h4> 
 			<h4><strong> Big Chile Ltda.</strong></h4>
-			<p>Teléfono: (+56 2) 2224 37 23 | (+56 2) 2229 66 53</p>  
-			<p>Fax: (+56 2) 2229 66 53</p>
+			<p>Teléfono: +56 2 222 437 23 | +56 2 222 966 53</p>  
 			<p>Alonso de Camargo 6920, Las Condes. Santiago, Chile.</p>
 		</div>
 	
 	   	<div class="column">	
 	   		<span class="logo_small"></span> 
-	   		<span class="info_fb">Conoce nuestra página en: <a href="http://www.facebook.com/pages/Arizona-Te/202252829802?ref=search&sid=100000487785086.2528793502..1" class="icon" target="_blank">Facebook</a></span>
+	   		<span class="info_fb">Visita nuestra página en: <a href="http://www.facebook.com/pages/Arizona-Te/202252829802?ref=search&sid=100000487785086.2528793502..1" class="icon" target="_blank">Facebook</a></span>
 	   		<div class="clearfix mar-top-10"></div>
 			<small>©Todos los derechos reservados - Big Chile Ltda.</small>
 			<div class="clearfix "></div>
 			<small>Diseñado por <a target="_blank" href="http://www.floristeady.com">www.floristeady.com</a> </small>
-			<div class="clearfix "></div>
-			<a  class="zet" target="_blank" title="ZET Consultora Identidad y Comunicaciones" href="http://www.zet.cl/"></a>
 		</div>
 		
 	</div>

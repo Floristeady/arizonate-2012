@@ -101,20 +101,22 @@ a#logo_mini_red {
 }
 
 #back_menu {
-	background: url("../img/CSS_sprite.png") no-repeat scroll -650px -125px transparent;
+	background: rgba(0,0,0,.08);
+	border-radius: 6px;
+	border: 1px solid #cb3e5a;
     display: block;
     height: 40px;
-    width: 321px;
+    width: 410px;
     position: absolute;
     top: 50px;
-    left: 343px;
+    left: 303px;
 }
 
 #nav-primary {
 	position: absolute;
 	top: 60px;
 	margin: 0px;
-	left: 260px;
+	left: 240px;
 	z-index: 2;
 }
 
@@ -127,7 +129,7 @@ a#logo_mini_red {
 
 #nav-primary li a{
 	display: block;
-	padding:0px 15px;
+	padding:0px 10px;
 	font-size: 14px;
 	line-height: 19px;
 	text-decoration: none;
@@ -138,23 +140,27 @@ a#logo_mini_red {
 }
 
 #nav-primary li a.inicio {
-	padding-right: 30px;
+	padding-right: 20px;
 }
 
 #nav-primary li a.salud {
-	padding-left: 30px;
+	padding-left: 20px;
 }
 
 header #nav-primary li a.nectar  {
 	 background-position: 68px center;	 
 }
 
-#nav-primary li a.te, #nav-primary li a.nectar {
+#nav-primary li a.te, #nav-primary li a.nectar, #nav-primary li a.sparkling {
 	background-image: url(../img/elements/bullet_down.png);
 	background-repeat: no-repeat;
 	background-position: 96px center;
 	border-right: 1px #c3617e solid;
 	padding-right: 22px;
+}
+
+#nav-primary li a.sparkling {
+	background-position: 86px center;
 }
 
 #nav-primary li a:hover {
@@ -267,6 +273,10 @@ header #nav-primary li a.nectar  {
 	color: #fb915b;
 }
 
+.nav_sparkling #nav_2 li a:hover, .nav_sparkling #nav_2 li a.ON {
+	color: #cc1546;
+}
+
 .nav_te #nav_2 li a{ 
 	background-image: url("/img/elements/bullet_cyan.png");
 
@@ -278,5 +288,9 @@ header #nav-primary li a.nectar  {
 
 .nav_rx #nav_2 li a{ 
 	background-image:url("/img/elements/bullet_orange.png");
+}
+
+.nav_sparkling #nav_2 li a{ 
+	background-image:url("/img/elements/bullet_magenta.png");
 }
 

@@ -33,12 +33,21 @@
 		</ul>
 	</div>
 	
+	<div class="box_nav_2 nav_sparkling">
+		<h4>Sparkling Arizona</h4>
+		<ul id="nav_2">
+
+			<li><a class="<? if (get_current_action() == "sparkling_cherrylime") { echo "ON";} ?> linea" href="<?=url_for("main", "sparkling_cherrylime")?>">Rickey Cherry Lime</a></li> 
+			<li><a class="<? if (get_current_action() == "sparkling_mangolime") { echo "ON";} ?> linea" href="<?=url_for("main", "sparkling_mangolime")?>">Rickey Mango Lime</a></li>   
+			<li><a class="<? if (get_current_action() == "sparkling_lemonlime") { echo "ON";} ?> linea" href="<?=url_for("main", "sparkling_lemonlime")?>">Rickey Lemon Lime</a></li> 
+	
+		</ul>
+	</div>
+	
 	<div class="box_nav_2 nav_rx">
 		<h4>Bebida Energética</h4>
 		<ul id="nav_2">
-	
-			<li><a class="<? if (get_current_action() == "energetica") { echo "ON";} ?> linea" href="/main/energetica">Energética RX</a></li>
-	
+			<li><a class="<? if (get_current_action() == "energetica") { echo "ON";} ?> linea" href="<?=url_for("main", "energetica")?>">Energética RX</a></li>
 		</ul>
 	</div>
 

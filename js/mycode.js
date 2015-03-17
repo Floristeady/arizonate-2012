@@ -8,7 +8,7 @@ $(document).ready(function(){
 	$('.slideshow').before('<span class="preload"></span>');
 
 /* --- preLoad --- */
-	preloader.addFiles(	'../img/elements/bannertenegro_4.png','../img/elements/bannertenegro_3.png','../img/elements/bannertenegro_1.jpg', '../img/elements/bannertenegro_2.png', '../img/elements/bannertenegro_5.png', '../img/elements/bannertenegro_6.png', '../img/elements/bannertenegro_7.png', '../img/elements/bannernectar_4.png','../img/elements/bannernectar_2.png','../img/elements/bannernectar_5.png','/img/elements/bannernectar_6.png', '../img/elements/bannernectar_3.png', '../img/elements/bannerteverde_1.jpg', '../img/elements/bannerteverde_3.png', '../img/elements/bannernectar_1.jpg' , '../img/elements/bannerbebida_1.jpg', '../img/elements/bannerbebida_4.png', '../img/elements/bannerbebida_5.png', '../img/elements/bannerbebida_3.png', '../img/elements/bannerteverde_5.png', '/img/elements/bannerteverde_6.png', '/img/elements/bannerteverde_3.png', '../img/elements/bannerteverde_2.png');
+	preloader.addFiles(	'../img/elements/bannertenegro_4.png','../img/elements/bannertenegro_3.png','../img/elements/bannertenegro_1.jpg', '../img/elements/bannertenegro_2.png', '../img/elements/bannertenegro_5.png', '../img/elements/bannertenegro_6.png', '../img/elements/bannertenegro_7.png', '../img/elements/bannernectar_4.png','../img/elements/bannernectar_2.png','../img/elements/bannernectar_5.png','/img/elements/bannernectar_6.png', '../img/elements/bannernectar_3.png', '../img/elements/bannerteverde_1.jpg', '../img/elements/bannerteverde_3.png', '../img/elements/bannernectar_1.jpg' , '../img/elements/bannerbebida_1.jpg', '../img/elements/bannerbebida_4.png', '../img/elements/bannerbebida_5.png', '../img/elements/bannerbebida_3.png', '../img/elements/bannerteverde_5.png', '/img/elements/bannerteverde_6.png', '/img/elements/bannerteverde_3.png', '../img/elements/bannerteverde_2.png', '../img/elements/bannersparkling_01.png');
 						
 	$('.slideshow').hide();
 	$('#slideshow-nav').hide();
@@ -55,7 +55,7 @@ $(function() {
 
 $(function() {
 
-$("#te a.btn_show").toggle(function() {
+	$("#te a.btn_show").toggle(function() {
 	  $(".te_list").slideDown('slow');
 	  $(this).find("span.img").animate({
         height: "245px"
@@ -64,12 +64,12 @@ $("#te a.btn_show").toggle(function() {
 	}, function() {			  
 	    $(".te_list").slideUp('fast');
 	    $(this).find("span.img").animate({
-        height: "180px"
+        height: "186px"
     },200).removeClass('img_hover');
 	});
 
 
-$("#nectar a.btn_show").toggle(function() {
+	$("#nectar a.btn_show").toggle(function() {
 	   $(".nectar_list").slideDown('slow');
 	    $(this).find("span.img").animate({
         height: "245px"
@@ -78,12 +78,12 @@ $("#nectar a.btn_show").toggle(function() {
 	}, function() {			  
 	    $(".nectar_list").slideUp('fast');
 	    $(this).find("span.img").animate({
-        height: "180px"
+        height: "186px"
     	},200).removeClass('img_hover');
 	});
 			
 			
-$("#rx a.btn_show").toggle(function() {
+	$("#rx a.btn_show").toggle(function() {
 	   $(".rx_list").slideDown('slow');
 	   $(this).find("span.img").animate({
         height: "245px"
@@ -91,10 +91,24 @@ $("#rx a.btn_show").toggle(function() {
 	}, function() {			  
 	    $(".rx_list").slideUp('fast');
 	    $(this).find("span.img").animate({
-        height: "180px"
+        height: "182px"
+    	},200).removeClass('img_hover');
+	});
+
+			
+	$("#sparkling a.btn_show").toggle(function() {
+	   $(".sparkling_list").slideDown('slow');
+	   $(this).find("span.img").animate({
+        height: "245px"
+    	},300).addClass('img_hover');
+	}, function() {			  
+	    $(".sparkling_list").slideUp('fast');
+	    $(this).find("span.img").animate({
+        height: "182px"
     	},200).removeClass('img_hover');
 	});
 });
+
 
 
 $(function() { 
@@ -106,6 +120,7 @@ $(function() {
 	$("#back").animate({
 	opacity: 1
 	}, 300);
+	
 });
 
 
@@ -137,6 +152,10 @@ $(function() {
 	 	var bebida = $('#back').hasClass('back_rx');
 	 	var neclimon = $('#back').hasClass('back_tedietlimon');
 	 	var dietlimon = $('#back').hasClass('back_limonada');
+	 	
+	 	var rickeycherry = $('#back').hasClass('back_cherry');
+	 	var rickeymango = $('#back').hasClass('back_mangolime');
+	 	var rickeylemon = $('#back').hasClass('back_lemonlime');
 	 	
 	 	if (teverde == true) {
 		 	$('#master-footer').css({'background-color' : '#9fcd93'});	
@@ -193,8 +212,21 @@ $(function() {
 		} else if(bebida == true) {
 			$('#master-footer').css({'background-color' : '#fc7532'});
 			$('.info_fb').css({'border-color' : '#fe9967'});
+			
+		} else if(rickeycherry == true) {
+			$('#master-footer').css({'background-color' : '#6c2745'});
+			$('.info_fb').css({'border-color' : '#8c3455'});
 		}
 		
+		else if(rickeymango == true) {
+			$('#master-footer').css({'background-color' : '#e79d2f'});
+			$('.info_fb').css({'border-color' : '#fcab33'});
+		}	
+		
+		else if(rickeylemon == true) {
+			$('#master-footer').css({'background-color' : '#849f27'});
+			$('.info_fb').css({'border-color' : '#9dbd2e'});
+		}		
 		
 	}
 		

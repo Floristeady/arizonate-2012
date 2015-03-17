@@ -50,15 +50,19 @@ span.deco_cyan {
 .red {color: #aa1120;}
 
 .nav_te {
-	background-color: #d9ece2;
+	background-color: rgba(219, 238, 228, 0.91);
 }
 
 .nav_nectar {
-	background-color: #f6dfa8;
+	background-color: rgba(245, 222, 168, 0.91);
 }
 
 .nav_rx {
-	background-color: #fbb996;
+	background-color: rgba(250, 185, 150, 0.91);
+}
+
+.nav_sparkling {
+	background-color: rgba(255, 166, 166, 0.92);
 }
 
 
@@ -184,6 +188,27 @@ span.deco_cyan {
 	background-image: url(../img/elements/back_limonada.png);
 	background-repeat: no-repeat;
 	background-position: 20px 176px;
+	float: left;
+}
+
+.back_cherry {
+	background-image: url(../img/elements/back_cherrylime.png);
+	background-repeat: no-repeat;
+	background-position: 20px 160px;
+	float: left;
+}
+
+.back_mangolime {
+	background-image: url(../img/elements/back_mangolime.png);
+	background-repeat: no-repeat;
+	background-position: 50px 190px;
+	float: left;
+}
+
+.back_lemonlime {
+	background-image: url(../img/elements/back_lemonlime.png);
+	background-repeat: no-repeat;
+	background-position: 30px 250px;
 	float: left;
 }
 
@@ -776,6 +801,54 @@ td.center {
 	margin-left: 200px;
 	float: left;
 	clear: left;
+}
+
+/*nectar sparkling*/
+
+.titulo_sparkling h1 {
+	color: #cc1545;
+	font-size: 3.5em;
+	text-shadow: 1px 1px 1px #aaaab3;
+	margin-top: 1em;
+}
+
+.titulo_sparkling h6 {
+	color: #618a1f;
+	font-size: 3.4em;
+	margin-left: 4em;
+	margin-top: .5em;
+	font-style: italic;
+	font-family: 'ScalaSansBold';
+}
+
+.titulo_sparkling h5 {
+	font-family: 'ScalaSansRegular';
+	font-size: 2.2em;
+	color: #c7bc10;
+		margin-left: 300px;
+	margin-top: .7em;
+	font-weight: normal;
+	font-style: italic;
+}
+
+.titulo_cherry span {
+	color: #752b4b;
+}
+
+.titulo_mangolime h1 {
+	color: #e69c2f;
+}
+
+.titulo_mangolime span {
+	color: #d65b2a;
+}
+
+.titulo_lemonlime h1 {
+	color: #0e653b;
+}
+
+.titulo_lemonlime span {
+	color: #dabd2c;
 }
 
 

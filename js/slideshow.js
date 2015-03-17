@@ -267,13 +267,44 @@ function animate_all_elements(id_next) {
 	    	top: '+=50'
 	  		}, 2000, 'easeInOutSine');
 
+	    }  else if (id_next=='sparkling') {
+	    
+	    	var contenedorCinco = $('li.show ul').children('li').append('<span class="sparkling_circles"></span><a href="/main/sparkling_lemonlime/" class="sparkling_lata3"></a><a href="/main/sparkling_mangolime/" class="sparkling_lata2"></a><a href="/main/sparkling_cherrylime" class="sparkling_lata1"></a><span class="sparkling_texto"></span>');
+	    	
+	    	$('.sparkling_texto').delay(800).animate({
+	    	opacity: 1,
+	    	marginLeft: '+=40'
+	  		},500, 'easeInOutQuad');
+	  		
+	  		 $('.sparkling_lata1').delay(200).animate({
+	    	opacity: 1,
+	    	top: '+=20'
+	  		}, 400);
+	  		
+	  		$('.sparkling_lata2').delay(300).animate({
+	    	opacity: 1, 
+	    	top: '+=20'
+	  		}, 200);
+	  		
+	  		$('.sparkling_lata3').delay(300).animate({
+	    	opacity: 1, 
+	    	top: '+=20'
+	  		}, 200);
+	  		
+	  		$('.sparkling_circles').delay(800).animate({
+	    	opacity: 1,
+	    	top: '+=50',
+	    	left: '+=80'
+	  		},4000, 'easeOutElastic'
+            );
+
 	    }
+
 }
 
 function animate_first_elements() {
 
 	var id = $('li.show ul').attr('id');
-	//console.log(id)
 
 	if(id== 'tenegro'){
 		var contenedor = $('li.show ul').children('li').append('<span class="tenegro_texto"></span><span class="tenegro_flotan"></span><a href="/main/tehelado_fram/" class="tenegro_lata1"></a><span class="tenegro_limon"></span><a href="/main/tehelado_mango/" class="tenegro_lata3"></a><a href="/main/tediet_limon/" class="tenegro_lata4"></a><a href="/main/tehelado_limon/" class="tenegro_lata2"></a>');

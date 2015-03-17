@@ -31,7 +31,7 @@
     
 	     <!--modulo_texto descripcion-->
 	    <div class="modulo_texto01">
-	    	<p>Su sabor dulce y ligero simplemente lo hacen perfecto cuando tienes antojo de un sabor exótico. Fortificado con Vitamina C y hecho sin presentantes ni colorantes artificiales. <strong> 100% Natural.</strong></p>
+	    	<p>Su sabor dulce y ligero simplemente lo hacen perfecto cuando tienes antojo de un sabor exótico. Fortificado con Vitamina C y hecho sin preservantes ni colorantes artificiales. <strong> 100% Natural.</strong></p>
 	    </div>
 	    <!--/modulo_texto descripcion-->
 	    

@@ -116,12 +116,6 @@ footer .info_fb {
     margin-left: 26px;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-	footer a.icon {
-		margin-top: -20px;
-	}
-}
-
 .lt-ie8 footer a.icon {
 		margin-top: -20px;
 	}

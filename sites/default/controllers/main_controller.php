@@ -25,6 +25,10 @@ class main_controller extends PortalController{
 	function nectar_sandia() {}
 	function nectar_limonada() {}
 	
+	function sparkling_cherrylime() {}
+	function sparkling_mangolime() {}
+	function sparkling_lemonlime() {}
+	
 	function energetica() {}
 	
 	function salud() {}

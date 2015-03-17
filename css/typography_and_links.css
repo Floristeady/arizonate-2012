@@ -141,6 +141,10 @@ p img.right { float: right; margin: 1.5em 0 1.5em 1.5em; }
 	list-style-image: url(../img/elements/bullet_green.png);
 }
 
+.sparkling .list-products li {
+	list-style-image: url(../img/elements/bullet_magenta.png);
+}
+
 .list-products li {
 	font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'LucidaSansStdRegular', sans-serif;
 	list-style: inside;

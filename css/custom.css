@@ -1,5 +1,4 @@
 #index  {
-	/*width: 100%;*/
     height: auto;
     overflow: hidden;
     padding-top: 506px;
@@ -89,8 +88,17 @@
 }
 
 #index .column {
-	width: 294px;
+	width: 443px;
 	float: left;
+}
+
+#index .column_small {
+	width: 300px;
+	float: left;
+}
+
+#index .column:hover, #index .column_small:hover {
+	opacity:.9;
 }
 
 #index .list-products {
@@ -103,35 +111,40 @@
 }
 
 #index .products #te .img_hover {
-	background-position: -303px top;
+	background-position: -451px top;
 	height: 245px;
 }
 
 #index #te .img {
-	background-image: url(../img/elements/te_lineas.png);
+	background-image: url(../img/elements/te_lineas_new.png);
 	background-repeat: no-repeat;
 	background-position: top left;
-	height: 180px;
-	width: 293px;
+	height: 186px;
+	width: 443px;
 	display: block;
 }
 
 #index .products  #nectar .img_hover {
-	background-position: -300px top;
+	background-position: -451px top;
 	height: 245px;
 }
 
 #index #nectar .img {
-	background-image: url(../img/elements/nectar_lineas.png);
+	background-image: url(../img/elements/nectar_lineas_new.png);
 	background-repeat: no-repeat;
 	background-position: top left;
-	height: 180px;
-	width: 293px;
+	height: 186px;
+	width: 443px;
 	display: block;
 }
 
 #index .products  #rx .img_hover {
-	background-position: top right;
+	background-position: -304px top;
+	height: 245px;
+}
+
+#index .products  #sparkling .img_hover {
+	background-position: -304px top;
 	height: 245px;
 }
 
@@ -139,11 +152,19 @@
 	background-image: url(../img/elements/rx_lineas.png);
 	background-repeat: no-repeat;
 	background-position: top left;
-	height: 180px;
+	height: 182px;
 	width: 300px;
 	display: block;
 }
 
+#index #sparkling .img {
+	background-image: url(../img/elements/sparkling_lineas.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	height: 182px;
+	width: 300px;
+	display: block;
+}
 
 #index a.btn_show, #index .te a:hover h3, #index .nectar a:hover h3, #index .rx a:hover h3{
 	text-decoration: none;
@@ -166,9 +187,25 @@
 	text-decoration: none;
 }
 
+#index .rx {
+	margin-left: 150px;
+	margin-right: 30px;
+}
+
+#index .rx, #index .sparkling{
+	margin-top: 40px;
+}
+
 #index .rx .subtitle h3 {
 	color: #355a0a;
 	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#index .sparkling .subtitle h3 {
+	color: #cd1546;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 
 /*Banner index
@@ -602,6 +639,73 @@ ul.slideshow .bebida_lata2 {
     opacity: 0;
 }
 
+/* sparkling arizona */
+
+ul.slideshow  .sparkling_back {
+	background-image: url(../img/elements/bannersparkling_01.jpg);
+	background-repeat: no-repeat;
+	background-color: #ebf8f5;
+}
+
+ul.slideshow .sparkling_texto {
+	background-image: url(../img/elements/bannersparkling_02.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 162px;
+    width: 444px;
+    position: absolute;
+    top:120px;
+    opacity: 0;
+    left: 0px;
+}
+
+ul.slideshow .sparkling_circles {
+	background-image: url(../img/elements/bannersparkling_03.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 460px;
+    width: 750px;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    opacity: 0;
+}
+
+ul.slideshow .sparkling_lata1 {
+	background-image: url(../img/elements/bannersparkling_lata1.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 430px;
+    width: 223px;
+    position: absolute;
+	right: 310px;
+    top: 50px;
+    opacity: 0;
+}
+
+ul.slideshow .sparkling_lata2 {
+	background-image: url(../img/elements/bannersparkling_lata2.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 456px;
+    width: 200px;
+    position: absolute;
+	right: 200px;
+    top: 70px;
+    opacity: 0;
+}
+
+ul.slideshow .sparkling_lata3 {
+	background-image: url(../img/elements/bannersparkling_lata3.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 380px;
+    width: 188px;
+    position: absolute;
+	right:100px;
+    top: 100px;
+    opacity: 0;
+}
 
 
 /*slideshow nav */
@@ -609,7 +713,7 @@ ul.slideshow .bebida_lata2 {
     position: absolute;
     right: 0;
     top:470px;
-    width: 120px;
+    width: 200px;
     z-index: 10000;
 }
 
@@ -792,6 +896,10 @@ ul.slideshow .bebida_lata2 {
 	padding-top: 16px;
 }
 
+.back_mangolime .subcol_DE a {
+	margin-top: 30px;
+}
+
 #detalle_1 .modulo_info p {
 	font-size: 13px;
 	color: #464646;
@@ -870,7 +978,6 @@ ul.slideshow .bebida_lata2 {
 	top:60px;
 	left:0px;
 }
-
 
 /* Contacto
 ---------------------------------------*/

@@ -17,6 +17,9 @@
 		        
 		        <a href="javascript:void(0)" class="nav-item nav-item-dot">
 		        </a>
+		        
+		         <a href="javascript:void(0)" class="nav-item nav-item-dot">
+		        </a>
 			</div>
 		</div>
 
@@ -24,13 +27,11 @@
          <ul class="slideshow">
          	<li class="slide" class="show">
 	         	<ul id="tenegro">
-	         		<!--nada-->
 	         	</ul>
          	</li>
          	
          	<li class="slide" class="">
          		<ul id="teverde">
-         			<!--nada-->
          		</ul>
          	</li>
          	
@@ -41,6 +42,11 @@
          	
          	<li class="slide" class="">
          		<ul id="bebida">
+         		</ul>
+         	</li>
+         	
+         	<li class="slide" class="">
+         		<ul id="sparkling">
          		</ul>
          	</li>
          
@@ -114,14 +120,28 @@
 		        </ul>
 		        
 	        </div>
+	        <div class="clearfix"></div>
 	        
-	           <div id="rx" class="column rx">
+	        <div id="rx" class="column_small rx">
 	           <a class="btn_show"  href="javascript:void(0)">
 		         <span class="img"></span>
 		        <span class="subtitle"><h3>Energética RX</h3></span>
 		        </a>
 		        <ul class="list-products rx_list">
 			       	<li><a href="<?=url_for("main", "energetica")?>">Bebida energética RX con té de hierbas</a></li>
+		        </ul>
+		        
+	        </div>
+	        
+	        <div id="sparkling" class="column_small sparkling">
+	           <a class="btn_show"  href="javascript:void(0)">
+		         <span class="img"></span>
+		        <span class="subtitle"><h3>Sparkling</h3></span>
+		        </a>
+		        <ul class="list-products sparkling_list">
+			       	<li><a href="<?=url_for("main", "sparkling_cherrylime")?>">Rickey Cherry Lima</a></li>
+			       	<li><a href="<?=url_for("main", "sparkling_mangolime")?>">Rickey Mango Lima</a></li>
+			       	<li><a href="<?=url_for("main", "sparkling_lemonlime")?>">Rickey Lemon Lima</a></li>
 		        </ul>
 		        
 	        </div>

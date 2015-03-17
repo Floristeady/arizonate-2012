@@ -10,12 +10,15 @@
 		$opciones[6] = "Té Helado con sabor de Mango";
 		$opciones[7] = "Té Helado con sabor de Frambuesa";
 		$opciones[8] = "Té Helado con sabor de Limon";
-		$opciones[9] = "Bebida Energética RX Herbal Tonic";
 		$opciones[10] = "Nectar sabor Mango";
 		$opciones[11] = "Nectar sabor Sandia";
 		$opciones[12] = "Nectar sabor Uva";
 		$opciones[13] = "Nectar sabor Naranja";
 		$opciones[14] = "Nectar sabor Limonada con menta";
+		$opciones[9] = "Bebida Energética RX Herbal Tonic";
+		$opciones[16] = "Sparkling Rickey Cherry Lime";
+		$opciones[17] = "Sparkling Rickey Mango Lime";
+		$opciones[18] = "Sparkling Rickey Lemon Lime";
 		return $opciones;
 	}
 	function get_opcion($i) {
