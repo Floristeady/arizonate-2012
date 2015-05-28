@@ -28,7 +28,7 @@
 			<li><a class="<? if (get_current_action() == "nectar_sandia") { echo "ON";} ?> linea" href="/main/nectar_sandia">Néctar sabor Sandia</a></li>
 			<li><a class="<? if (get_current_action() == "nectar_uva") { echo "ON";} ?> linea" href="/main/nectar_uva">Néctar sabor Uva</a></li>
 			<li><a class="<? if (get_current_action() == "nectar_naranja") { echo "ON";} ?> linea" href="/main/nectar_naranja">Néctar sabor Naranja</a></li>
-			<li><a class="<? if (get_current_action() == "nectar_limonada") { echo "ON";} ?> linea" href="/main/nectar_limonada">Néctar sabor Limonada con menta</a></li>
+			<li><a class="<? if (get_current_action() == "nectar_limonada") { echo "ON";} ?> linea" href="/main/nectar_limonada">Néctar sabor Limonada Original</a></li>
 	
 		</ul>
 	</div>

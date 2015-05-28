@@ -83,7 +83,7 @@ pageTracker._trackPageview();
 			<li><a href="<?=url_for("main", "nectar_sandia")?>">Néctar sabor Sandia</a></li>   
 			<li><a href="<?=url_for("main", "nectar_uva")?>">Néctar sabor Uva</a></li> 
 			<li><a href="<?=url_for("main", "nectar_naranja")?>">Néctar sabor Naranja</a></li>   
-			<li><a href="<?=url_for("main", "nectar_limonada")?>">Néctar sabor Limonada con menta</a></li>  
+			<li><a href="<?=url_for("main", "nectar_limonada")?>">Néctar sabor Limonada Original</a></li>  
 		</ul>   
 	</li> 
 	

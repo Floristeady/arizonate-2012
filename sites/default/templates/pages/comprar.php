@@ -278,7 +278,7 @@
 	  	
 	  		 <!--modulo_producto-->
 			<div class="modulo_producto">
-				<h5>Néctar sabor Limonada con Menta</h5>
+				<h5>Néctar sabor Limonada Original</h5>
 				<h5 class="mar-bottom-10">LINEA NECTAR</h5>
 	    		<img src="/img/products/lata_09_small.png" />
 	    		<p class="mar-top-10">Pack 12 unidades.</p>
