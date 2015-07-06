@@ -14,7 +14,7 @@
 		$opciones[11] = "Nectar sabor Sandia";
 		$opciones[12] = "Nectar sabor Uva";
 		$opciones[13] = "Nectar sabor Naranja";
-		$opciones[14] = "Nectar sabor Limonada con menta";
+		$opciones[14] = "Nectar sabor Limonada Original";
 		$opciones[9] = "Bebida Energética RX Herbal Tonic";
 		$opciones[16] = "Sparkling Rickey Cherry Lime";
 		$opciones[17] = "Sparkling Rickey Mango Lime";
