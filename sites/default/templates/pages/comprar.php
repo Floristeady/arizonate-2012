@@ -332,19 +332,6 @@
 	    	</div>
 	        <!--/modulo_producto-->
 	        
-	          <!--modulo_producto-->
-			<div class="modulo_producto">
-				<h5>Sparkling Arizona sabor Limón Lima</h5>
-				<h5 class="mar-bottom-10">RICKEY LEMON LIME</h5>
-	    		<img src="/img/products/lata_lemonlime_small.png" />
-	    		<p class="mar-top-10">Pack 12 unidades.</p>
-	        	<p>$12.000</p>
-	        	<p>Lata 680 ml.</p>
-	        	<small>Cantidad packs</small>
-	        	<?=FormHelper::select("productos[18]", range(0,18), "", $_POST["productos"][18]);?>
-	    	</div>
-	        <!--/modulo_producto-->
-	        
 	  	  </div>
 
            <!--modulos-->

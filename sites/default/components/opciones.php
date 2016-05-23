@@ -18,7 +18,6 @@
 		$opciones[9] = "Bebida Energética RX Herbal Tonic";
 		$opciones[16] = "Sparkling Rickey Cherry Lime";
 		$opciones[17] = "Sparkling Rickey Mango Lime";
-		$opciones[18] = "Sparkling Rickey Lemon Lime";
 		return $opciones;
 	}
 	function get_opcion($i) {

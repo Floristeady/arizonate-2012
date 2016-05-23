@@ -90,8 +90,7 @@ pageTracker._trackPageview();
 	<li><a class="sparkling <? if (substr(get_current_action(), 0, 6) == "sparkling" ) {?>_ON<? } ?>"  href="<?=url_for("main", "sparkling_cherrylime")?>">Sparkling</a>
 		<ul class="subnav">
 			<li><a href="<?=url_for("main", "sparkling_cherrylime")?>">Rickey Cherry Lime</a></li> 
-			<li><a href="<?=url_for("main", "sparkling_mangolime")?>">Rickey Mango Lime</a></li>   
-			<li><a href="<?=url_for("main", "sparkling_lemonlime")?>">Rickey Lemon Lime</a></li>  
+			<li><a href="<?=url_for("main", "sparkling_mangolime")?>">Rickey Mango Lime</a></li>    
 		</ul>   
 	</li> 
 	

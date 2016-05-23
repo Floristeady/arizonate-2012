@@ -123,7 +123,7 @@ function animate_all_elements(id_next) {
 		
 	if (id_next=='sparkling') {
 	    
-	    	var contenedorCinco = $('li.show ul').children('li').append('<span class="sparkling_circles"></span><a href="/main/sparkling_lemonlime/" class="sparkling_lata3"></a><a href="/main/sparkling_mangolime/" class="sparkling_lata2"></a><a href="/main/sparkling_cherrylime" class="sparkling_lata1"></a><span class="sparkling_texto"></span>');
+	    	var contenedorCinco = $('li.show ul').children('li').append('<span class="sparkling_circles"></span><a href="/main/sparkling_mangolime/" class="sparkling_lata2"></a><a href="/main/sparkling_cherrylime" class="sparkling_lata1"></a><span class="sparkling_texto"></span>');
 	    	
 	    	$('.sparkling_texto').delay(800).animate({
 	    	opacity: 1,
@@ -140,10 +140,10 @@ function animate_all_elements(id_next) {
 	    	top: '+=20'
 	  		}, 200);
 	  		
-	  		$('.sparkling_lata3').delay(300).animate({
+	  		/*$('.sparkling_lata3').delay(300).animate({
 	    	opacity: 1, 
 	    	top: '+=20'
-	  		}, 200);
+	  		}, 200);*/
 	  		
 	  		$('.sparkling_circles').delay(800).animate({
 	    	opacity: 1,
@@ -308,7 +308,7 @@ function animate_first_elements() {
 
 	if (id =='sparkling') {
 	    
-	    	var contenedorCinco = $('li.show ul').children('li').append('<span class="sparkling_circles"></span><a href="/main/sparkling_lemonlime/" class="sparkling_lata3"></a><a href="/main/sparkling_mangolime/" class="sparkling_lata2"></a><a href="/main/sparkling_cherrylime" class="sparkling_lata1"></a><span class="sparkling_texto"></span>');
+	    	var contenedorCinco = $('li.show ul').children('li').append('<span class="sparkling_circles"></span><a href="/main/sparkling_mangolime/" class="sparkling_lata2"></a><a href="/main/sparkling_cherrylime" class="sparkling_lata1"></a><span class="sparkling_texto"></span>');
 	    	
 	    	$('.sparkling_texto').delay(800).animate({
 	    	opacity: 1,
@@ -325,10 +325,10 @@ function animate_first_elements() {
 	    	top: '+=20'
 	  		}, 200);
 	  		
-	  		$('.sparkling_lata3').delay(300).animate({
+	  		/*$('.sparkling_lata3').delay(300).animate({
 	    	opacity: 1, 
 	    	top: '+=20'
-	  		}, 200);
+	  		}, 200);*/
 	  		
 	  		$('.sparkling_circles').delay(800).animate({
 	    	opacity: 1,

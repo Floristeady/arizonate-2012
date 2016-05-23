@@ -142,7 +142,6 @@
 		        <ul class="list-products sparkling_list">
 			       	<li><a href="<?=url_for("main", "sparkling_cherrylime")?>">Rickey Cherry Lima</a></li>
 			       	<li><a href="<?=url_for("main", "sparkling_mangolime")?>">Rickey Mango Lima</a></li>
-			       	<li><a href="<?=url_for("main", "sparkling_lemonlime")?>">Rickey Lemon Lima</a></li>
 		        </ul>
 		        
 	        </div>
