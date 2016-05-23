@@ -110,7 +110,7 @@ pageTracker._trackPageview();
 <!--container -->
 <section id="content" role="main">	
 
-			<?=yield()?>
+	<?=the_yield()?>
    
 <div class="clearfix"></div>
 

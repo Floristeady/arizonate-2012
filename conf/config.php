@@ -24,7 +24,7 @@
 	DATABASE
 */
 
-	$db["development"]["host"] = "localhost";
+	$db["development"]["host"] = "127.0.0.1";
 	$db["development"]["user"] = "root";
 	$db["development"]["pw"] = "1315frd";
 	$db["development"]["db"] = "arizonate";
