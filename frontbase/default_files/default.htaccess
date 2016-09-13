@@ -1,0 +1,19 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteBase /
+
+RewriteRule ^min/(.*)$ frontbase/min/$1 [L]
+
+RewriteRule ^assets/images/([0-9]*)/([0-9]*)/(.*)$ _portalpad_image/get_resized/$3/$1/$2 [L,QSA]
+RewriteRule ^assets/images/([0-9]*)/(.*)$ _portalpad_image/get_resized/$2/$1 [L,QSA]
+RewriteRule ^assets/images/(.*)$ _portalpad_image/get/$1 [L,QSA]
+
+RewriteRule ^assets/files/(.*)$ _portalpad_file/get_from_filename/$1 [L,QSA]
+RewriteRule ^assets/files/models/(.*)/(.*)$ _file/download_model_attachment/$1/$2 [L,QSA]
+
+# missing: añadir nuevas rutas de attachments del modelo: RewriteRule ^assets/models/([A-z]*)/images/([A-z]*)/([0-9]*)$
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php?URI=$1 [L,QSA]

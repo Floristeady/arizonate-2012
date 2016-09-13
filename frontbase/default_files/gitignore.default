@@ -1,0 +1,5 @@
+site/portalpad_upload/*
+site/form_backup/*
+site/forum/*
+site/cache/**/*
+*.tmp

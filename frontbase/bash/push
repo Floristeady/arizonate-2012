@@ -1,0 +1,16 @@
+#!/bin/sh
+echo "Se han modificado los siguiente archivos"
+git diff --stat
+echo "INGRESE UNA DESCRIPCION DEL COMMIT"
+read desc
+
+echo "* [git] Añadiendo modificaciones"
+git add .
+echo "* [git] Añadiendo eliminaciones"
+git add -u
+echo "* [git] Haciendo el commit con descripcion: " $desc
+git commit -m "$desc"
+echo "* [git] Pull"
+git pull origin master
+echo "* [git] Push"
+git push origin master

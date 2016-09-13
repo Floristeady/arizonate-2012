@@ -1,0 +1,80 @@
+#!/bin/sh
+git init
+
+
+echo "Write or paste the repo's URL leave blank if you dont know, and then press ENTER"
+read repo_URL
+
+
+
+echo "Do you need portalpad-se for this proyect? (y/n)"
+read portalpad_se
+
+echo "Do you need portalpad-ec for this proyect? (y/n)"
+read portalpad_ec
+
+
+if [ $portalpad_se = "y" ]; then
+	echo "Downloading Portalpad-se"
+	git submodule add git@zet.cl:portalpad-se.git sites/portalpad
+fi
+if [ $portalpad_ec = "y" ]; then
+	echo "Downloading Portalpad-ec"
+	git submodule add git@zet.cl:portalpad-ec.git sites/portalpad
+fi
+
+if [ $portalpad_se <> "" ]; then
+	echo "Conectando al repo..."
+	git remote add origin $repo_URL
+fi
+
+
+echo "Iniciando submodulos..."
+git submodule add git@github.com:helloguille/frontbase.git frontbase
+
+#Seccion PORTALPAD
+
+mkdir site
+mkdir site/portalpad_upload
+touch site/portalpad_upload/README
+mkdir site/cache
+
+# FIN seccion PORTALPAD
+
+
+echo "Creando directorios..."
+mkdir conf
+
+
+mkdir sites
+mkdir sites/default
+mkdir sites/default/templates
+mkdir sites/default/templates/pages
+mkdir sites/default/templates/emails
+mkdir sites/default/templates/layouts
+mkdir sites/default/templates/sublayouts
+mkdir sites/default/templates/errors
+mkdir sites/default/templates/messages
+mkdir sites/default/controllers
+mkdir sites/default/models
+mkdir sites/default/components
+
+
+
+echo "Copiando archivos base..."
+cp frontbase/default_files/gitignore.default .gitignore
+
+cp frontbase/default_files/default.htaccess .htaccess
+cp frontbase/default_files/config.default.php conf/config.php
+cp frontbase/default_files/index.php index.php
+cp frontbase/default_files/main_controller.php sites/default/controllers/
+cp frontbase/default_files/main.php sites/default/templates/layouts/
+cp frontbase/bash/pull .
+cp frontbase/bash/push .
+
+mkdir img
+mkdir img/repeat
+mkdir img/test
+
+echo "Recuerde borrarme con el comando 'rm setup'"
+

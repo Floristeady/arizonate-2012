@@ -1,0 +1,5 @@
+#!/bin/sh
+echo "* [git] Pull"
+git pull origin master
+echo "* [git] Submodule update"
+git submodule update

@@ -1,0 +1,96 @@
+body {
+	font-family: tahoma;
+	font-size: 11px;
+}	
+a {
+	color: #000080;	
+}
+.edit_area {
+	background-color: #f1f1f1;
+	padding: 5px;
+	border: 1px dotted black;
+}
+h1 {
+	font-size: 15px;
+	color: #301F52;
+	border-bottom: 1px solid #c1c1c1;
+	padding: 8px;
+	}
+h2 {
+	font-size: 14px;
+	color: #301F52;
+	background-color: #f1f1f1;
+	padding: 8px;
+	}
+td, th {
+		font-size: 11px;
+}
+.field {
+	font-size: 11px;
+	padding: 5px;
+	border-bottom: 1px solid #c1c1c1;
+	margin-bottom: 6px;
+}
+.field label{
+	width: 150px;
+	float: left;
+}
+.field .container{
+	width: 450px;
+	float: left;
+}
+.field input{
+	border: 1px solid #301F52;
+}
+.field input.error, .field textarea.error {
+	border: 2px solid red;
+}
+
+
+#FlashMessageContainer {
+	height: 18px;	
+}
+#FlashMessage {
+	background-color: #8AE109;
+	padding: 6px;
+	margin: 1px;
+	font-size: 11px;
+	padding: 3px;
+}
+#List {
+	border-collapse: collapse;
+	}
+#List table {
+	border-collapse: collapse;
+	}
+#List td{
+	border-bottom: 1px solid #c1c1c1;
+	vertical-align: top;
+	padding: 3px;
+}
+#List th{
+	background-color: #f1f1f1;
+	border-bottom: 1px solid #c1c1c1;
+	vertical-align: top;
+	padding: 3px;
+	text-align: left;
+}
+.button, .button-small {
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid #AFC5D3;
+	text-decoration: none;
+}
+a.button{
+	width: 100px;
+	line-height: 16px;
+	margin: 2px;
+}
+a.button-small{
+	width: 50px;
+	line-height: 16px;
+}
+.button:hover, .button-small:hover {
+	background-color: #c1c1c1;
+}

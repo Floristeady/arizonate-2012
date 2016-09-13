@@ -1,0 +1,4 @@
+<?
+	class TaxonomyTerm extends Translatable{
+
+	}

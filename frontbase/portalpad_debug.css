@@ -1,0 +1,85 @@
+#debug_window {
+ 	border: 1px solid #202020;
+	font-family: tahoma; 
+	font-size: 11px;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	z-index:10000;
+	width: 390px;
+	height: 100%;
+	background-color: #505050;
+	overflow: auto;
+	opacity: 0.85;
+	display: none;
+	color: #d1d1d1;
+	text-align: left;
+}
+
+#debug_launch {
+	line-height: 20px;
+	font-family: arial; 
+	font-size: 11px;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	padding: 4px;
+	z-index:10000;
+	width: 300px;
+	opacity: 0.5;
+	text-align: right;
+	
+
+}
+#debug_window h1 {
+	font-family: trebuchet ms; 
+	font-size: 19px;
+	font-weight: normal;
+	padding: 3px;
+	width: 95%;
+	clear: both;
+	margin-top: 5px;
+	float: left;
+	color: #d1d1d1;
+	border: none;
+}
+#debug_window h2 {
+	background-color:  #505050;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 3px;
+	width: 95%;
+	clear: both;
+	margin-top: 10px;
+	float: left;
+	color: #d1d1d1;
+	border: none;
+}
+
+#debug_launch a {
+		color: #c1c1c1; 
+		text-decoration: none;
+
+	}
+#debug_launch a:hover {
+		color: #d1d1d1; 
+		text-decoration: underline;
+	}
+#debug_window .fieldname {
+	width: 25%;
+	float: left;
+	font-weight: bold;
+	}
+#debug_window .fieldvalue {
+	width: 72%;
+	float: left;
+	clear: right;
+}
+#debug_window .modulo {
+	width: 95%;
+	float: left;
+	clear: both;
+	margin-bottom: 6px;
+	margin-left: 4px;
+
+}
