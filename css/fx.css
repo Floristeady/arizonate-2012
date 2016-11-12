@@ -88,7 +88,7 @@ span.deco_cyan {
 .back_temiel {
 	background-image: url(../img/elements/back_temiel.png);
 	background-repeat: no-repeat;
-	background-position: 22px 212px;
+	background-position: 16px 212px;
 	float: left;
 }
 
@@ -212,6 +212,13 @@ span.deco_cyan {
 	float: left;
 }
 
+.back_mixzanahoria {
+	background-image: url(../img/elements/back_mixzanahoria.png);
+	background-repeat: no-repeat;
+	background-position: 18px 196px;
+	float: left;
+}
+
 /* Info Cuadros Products
 -------------------------------------------------------------- */
 
@@ -279,7 +286,7 @@ span.deco_cyan {
 	background-repeat:no-repeat;
 	background-position: -1225px -825px;
 	bottom: 0;
-    height: 110px;
+    height: 170px;
     position: absolute;
     width: 110px;
 }
@@ -309,10 +316,22 @@ span.deco_cyan {
 	background:url(../img/CSS_sprite.png);
 	background-repeat:no-repeat;
 	background-position: -375px -825px;
-	height: 114px;
+	height: 174px;
     position: absolute;
     width: 110px;
 	bottom: 0px;
+}
+
+
+/*mix zanahoria*/
+.cuadro11{
+	background:url(../img/CSS_sprite.png);
+	background-repeat:no-repeat;
+	background-position: -925px -485px;
+	bottom: 0;
+    height: 126px;
+    position: absolute;
+    width: 110px;
 }
 
 
@@ -540,7 +559,7 @@ td.center {
 .titulo_tedietlimon h6 {
 	color: #eee21a;
 	font-size: 20px;
-	margin-left: 120px;
+	margin-left: 260px;
 	margin-top: 10px;
 	text-shadow: 2px 2px 2px #aaaab3;
 }
@@ -849,6 +868,69 @@ td.center {
 
 .titulo_lemonlime span {
 	color: #dabd2c;
+}
+
+/* mix zanahoria*/
+
+.titulo_mixzanahoria h1 {
+	color: #ff7733;
+	font-size: 32px;
+	text-shadow: 1px 1px 1px #aaaab3;
+	margin-top: 20px;
+	margin-left: 0px;
+	float: left;
+}
+
+.titulo_mixzanahoria h1 span {
+	text-transform: uppercase;
+	color: #ff004f;
+}
+
+.titulo_mixzanahoria h2 {
+	color:  #fad90c;
+	font-size: 31px;
+	margin-left: 60px;
+	margin-top: 14px;
+	text-shadow: 1px 1px 1px #aaaab3;
+	float: left;
+	font-style: italic;
+}
+
+.titulo_mixzanahoria h2 .zanahoria {
+	text-transform: uppercase;
+	color: #ff7b35;
+}
+
+.titulo_mixzanahoria h2 .frutas {
+	text-transform: uppercase;
+	color: #e9442c;
+}
+
+.titulo_mixzanahoria h3 {
+	color:#6c8f4b;
+	font-size: 20px;
+	margin-top: 18px;
+	margin-left: 160px;
+	float: left;
+	clear: left;
+	font-style: italic;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'LucidaSansStdRegular', Arial, sans-serif;
+}
+
+.titulo_mixzanahoria h3 span {
+	color: #44b657;
+}
+
+.titulo_mixzanahoria h4 {
+	color:#ff8d3a;
+	font-size: 20px;
+	margin-top: 8px;
+	margin-left: 160px;
+	line-height: 20px;
+	float: left;
+	font-style: italic;
+	clear: left;
+	font-family: 'ScalaSansRegular', Helvetica;
 }
 
 

@@ -12,7 +12,7 @@
 	
     <!--titulos-->
 	<div class="titulo_tediet">
-		<h1>Té verde DIET</h1>
+		<h1>Té verde ZERO calorías</h1>
 		<h5>CON GINSENG</h5>
 		<span class="splenda"></span>
 	</div>
@@ -32,7 +32,7 @@
     <div class="subcol_DE">
     
 	    <div class="modulo_texto01">
-	    	<p>El arte de nuestras bebidas recae cuidadosamente en la combinación de la belleza, calidad, salud y sabor de un producto. Nuestra versión diet del Té verde, es tan delicioso como refrescante.</p>
+	    	<p>El arte de nuestras bebidas recae cuidadosamente en la combinación de la belleza, calidad, salud y sabor de un producto. Nuestra versión zero calorías del Té verde, es tan delicioso como refrescante.</p>
 	    </div>
 	    <!--/modulo_texto descripcion-->
 	    
@@ -43,9 +43,9 @@
 	    <div class="modulo_info">
 	    	
 	    	<p><strong>PRESENTACIÓN</strong></p>
-	        <p>Botella de vidrio 473 ml</p>
+	        <p>Botella de plástico 500 ml</p>
 			<p><strong>UNIDAD DE VENTA</strong></p>
-			<p>Bandeja con 12 botellas</p>    
+			<p>Bandeja con 20 botellas</p>    
 		</div>
 	    <!--/modulo_info-->
 	

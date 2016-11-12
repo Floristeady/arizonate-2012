@@ -19,6 +19,7 @@ class main_controller extends PortalController{
 	function tehelado_limon() {}
 	function tehelado_mango() {}
 	
+	function mix_zanahoria() {}
 	function nectar_mango() {}
 	function nectar_naranja() {}
 	function nectar_uva() {}

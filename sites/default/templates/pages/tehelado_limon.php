@@ -19,8 +19,8 @@
     
     <div class="subcol_IZ">
 		
-		<div id="product" class="modulo_botella">
-			<img src="/img/products/lata_02.png" />
+		<div id="product" class="modulo_botelata">
+			<img src="/img/products/botelata_telimon.png" />
 		</div>
 		<!--/modulo_botella-->
     
@@ -43,8 +43,10 @@
 
 	    	<p><strong>PRESENTACIÓN</strong></p>
 	        <p>Lata de 680 ml</p>
+	         <p>Botella plástico de 500 ml</p><br>
 			<p><strong>UNIDAD DE VENTA</strong></p>
-			<p>Bandeja con 12 latas</p>    
+			<p>Bandeja con 12 latas</p>  
+			<p>Bandeja con 20 botellas</p>  
 		</div>
 	    <!--/modulo_info-->
 	    

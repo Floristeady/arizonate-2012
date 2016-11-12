@@ -116,7 +116,7 @@
 }
 
 #index #te .img {
-	background-image: url(../img/elements/te_lineas_new.png);
+	background-image: url(../img/elements/te_lineas.png);
 	background-repeat: no-repeat;
 	background-position: top left;
 	height: 186px;
@@ -130,7 +130,7 @@
 }
 
 #index #nectar .img {
-	background-image: url(../img/elements/nectar_lineas_new.png);
+	background-image: url(../img/elements/nectar_lineas.png);
 	background-repeat: no-repeat;
 	background-position: top left;
 	height: 186px;
@@ -465,6 +465,92 @@ ul.slideshow .teverde_subtitulos{
     opacity: 0;
 }
 
+/* nuevas botellas banner*/
+ul.slideshow .tenuevabotella1 {
+	background-image: url(../img/elements/bannernuevabot_01.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 339px;
+    width: 180px;
+    position: absolute;
+	right: 460px;
+    top: 120px;
+    opacity: 0;
+}
+
+ul.slideshow .tenuevabotella2 {
+	background-image: url(../img/elements/bannernuevabot_02.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 354px;
+    width: 140px;
+    position: absolute;
+	right: 380px;
+    top: 115px;
+    opacity: 0;
+}
+
+ul.slideshow .tenuevabotella3 {
+	background-image: url(../img/elements/bannernuevabot_03.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 364px;
+    width: 150px;
+    position: absolute;
+	right: 280px;
+    top: 90px;
+    opacity: 0;
+}
+
+ul.slideshow .jugonuevabotella1 {
+	background-image: url(../img/elements/bannernuevabot_04.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 362px;
+    width: 132px;
+    position: absolute;
+	right: 150px;
+    top: 100px;
+    opacity: 0;
+}
+
+ul.slideshow .jugonuevabotella2 {
+	background-image: url(../img/elements/bannernuevabot_05.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 352px;
+    width: 132px;
+    position: absolute;
+ 	right: 70px;
+    top: 110px;
+    opacity: 0;
+}
+
+ul.slideshow .jugonuevabotella3 {
+	background-image: url(../img/elements/bannernuevabot_06.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 362px;
+    width: 132px;
+    position: absolute;
+ 	right: -10px;
+    top: 80px;
+    opacity: 0;
+}
+
+ul.slideshow .teverde_signo {
+	background-image: url(../img/elements/bannerteverde_10.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 222px;
+    width: 160px;
+    position: absolute;
+	right: 172px;
+    top: 60px;
+    opacity: 0;
+}
+
+
 
 /* nectar elementos */
 
@@ -491,7 +577,7 @@ ul.slideshow .nectar_texto {
 	background-image: url(../img/elements/bannernectar_2.png);
 	background-repeat: no-repeat;
 	display: block;
-	height: 200px;
+	height: 240px;
     width: 430px;
     position: absolute;
     top:70px;
@@ -506,7 +592,7 @@ ul.slideshow .nectar_lata1 {
 	height: 353px;
     width: 159px;
     position: absolute;
-	right: 415px;
+	right: 500px;
     top: 98px;
     opacity: 0;
 }
@@ -519,7 +605,7 @@ ul.slideshow .nectar_lata2 {
     width: 200px;
     position: absolute;
     top:80px;
-    right: 280px;
+    right: 380px;
     opacity: 0;
 }
 
@@ -531,7 +617,7 @@ ul.slideshow .nectar_lata3 {
     width: 142px;
     position: absolute;
     top:100px;
-    right: 195px;
+    right: 300px;
     opacity: 0;
 }
 
@@ -543,7 +629,7 @@ ul.slideshow .nectar_lata4 {
     width: 135px;
     position: absolute;
     top:90px;
-    right: 90px;
+    right: 60px;
     opacity: 0;
 }
 
@@ -559,6 +645,18 @@ ul.slideshow .nectar_lata5 {
     opacity: 0;
 }
 
+ul.slideshow .nectar_botella {
+	background-image: url(../img/elements/bannernectar_11.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 370px;
+    width: 170px;
+    position: absolute;
+    top:105px;
+    right: 130px;
+    opacity: 0;
+}
+
 ul.slideshow .nectar_mango {
 	background-image: url(../img/elements/bannernectar_7.png);
 	background-repeat: no-repeat;
@@ -566,7 +664,7 @@ ul.slideshow .nectar_mango {
 	height: 110px;
     width: 200px;
     position: absolute;
-    right: 320px;
+    right:400px;
     top: 380px;
     opacity: 0;
 }
@@ -578,8 +676,8 @@ ul.slideshow .nectar_frutamango {
 	height: 129px;
     width: 105px;
     position: absolute;
-    right: 110px;
-    top: 330px;    
+    right: 210px;
+    top: 340px;    
     opacity: 0;
 }
 
@@ -876,7 +974,7 @@ ul.slideshow .sparkling_lata3 {
 
 #detalle_1 .subcol_DE {
 	float: right;
-	margin-top: 40px;
+	margin-top: 30px;
 	width: 500px;
 }
 
@@ -977,6 +1075,13 @@ ul.slideshow .sparkling_lata3 {
 	position:absolute;
 	top:60px;
 	left:0px;
+}
+
+.modulo_botelata {
+	float:left;
+	position:absolute;
+	top:60px;
+	left:-42px;
 }
 
 /* Contacto

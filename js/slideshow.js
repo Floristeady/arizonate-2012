@@ -140,11 +140,6 @@ function animate_all_elements(id_next) {
 	    	top: '+=20'
 	  		}, 200);
 	  		
-	  		/*$('.sparkling_lata3').delay(300).animate({
-	    	opacity: 1, 
-	    	top: '+=20'
-	  		}, 200);*/
-	  		
 	  		$('.sparkling_circles').delay(800).animate({
 	    	opacity: 1,
 	    	top: '+=50',
@@ -193,47 +188,11 @@ function animate_all_elements(id_next) {
 	  		  		
 	    } else if (id_next=='teverde') {
 	       
-	       var contenedordos = $('li.show ul').children('li').append('<span class="teverde_texto"></span><span class="teverde_flotan"></span><a href="/main/teverde_granada/" class="teverde_botella1"></a><span class="teverde_subtitulos"></span><a href="/main/teblanco_arandano" class="teverde_botella3"></a><a href="/main/teverde_miel" class="teverde_botella2"></a><a href="/main/tediet_fram" class="teverde_botella5"></a><a href="/main/tediet_miel" class="teverde_botella4"></a>');
+	       teverde();
 	       
-	       $('.teverde_texto').delay(800).animate({
-	    	opacity: 1,
-	    	marginLeft: '+=20'
-	  		}, 300, 'easeInBack');
-	  		
-	  		 $('.teverde_flotan').delay(100).animate({
-	    	opacity: 1,
-	    	left: '+=230',
-	    	top: '+=60'
-	  		}, 3000, 'easeOutBack');
-	  		
-	  		$('.teverde_botella1').delay(200).animate({
-	    	opacity: 1
-	  		}, 1000);
-	  		
-	  		$('.teverde_botella2').delay(400).animate({
-	    	opacity: 1
-	  		}, 1000);
-	  		
-	  		$('.teverde_botella3').delay(600).animate({
-	    	opacity: 1
-	  		}, 1000);
-	  		
-	  		$('.teverde_botella4').delay(800).animate({
-	    	opacity: 1
-	  		}, 1000);
-	  		
-	  		$('.teverde_botella5').delay(1000).animate({
-	    	opacity: 1
-	  		}, 1000);
-	  		
-	  		$('.teverde_subtitulos').delay(2000).animate({
-	    	opacity: 1, 
-	    	top: '+=90'
-	  		}, 1000);
-
 	    }  else if (id_next=='nectar') { 
 	    	
-	    	var contenedortres = $('li.show ul').children('li').append('<span class="nectar_circulos"></span><span class="nectar_texto"></span><a href="/main/nectar_sandia" class="nectar_lata1"></a><a href="/main/nectar_uva" class="nectar_lata4"></a><span class="nectar_frutamango"></span><a href="/main/nectar_mango" class="nectar_lata3"></a><a href="/main/nectar_naranja" class="nectar_lata2"></a><a href="/main/nectar_limonada" class="nectar_lata5"></a><span class="nectar_mango"></span>');
+	    	var contenedortres = $('li.show ul').children('li').append('<span class="nectar_circulos"></span><span class="nectar_texto"></span><a href="/main/nectar_sandia" class="nectar_lata1"></a><a href="/main/nectar_uva" class="nectar_lata4"></a><a href="/main/mix_zanahoria" class="nectar_botella"></a><span class="nectar_frutamango"></span><a href="/main/nectar_mango" class="nectar_lata3"></a><a href="/main/nectar_naranja" class="nectar_lata2"></a><a href="/main/nectar_limonada" class="nectar_lata5"></a><span class="nectar_mango"></span>');
 	    	
 	    	$('.nectar_texto').delay(800).animate({
 	    	opacity: 1,
@@ -261,7 +220,11 @@ function animate_all_elements(id_next) {
 	    	opacity: 1
 	  		}, 1000);
 	  		
-	  		$('.nectar_lata5').delay(2700).animate({
+	  		$('.nectar_botella').delay(2700).animate({
+	    	opacity: 1
+	  		}, 1000);
+	  		
+	  		$('.nectar_lata5').delay(2800).animate({
 	    	opacity: 1
 	  		}, 1000);
 	  		
@@ -306,39 +269,56 @@ function animate_first_elements() {
 
 	var id = $('li.show ul').attr('id');
 
-	if (id =='sparkling') {
+	if (id =='teverde') {
 	    
-	    	var contenedorCinco = $('li.show ul').children('li').append('<span class="sparkling_circles"></span><a href="/main/sparkling_mangolime/" class="sparkling_lata2"></a><a href="/main/sparkling_cherrylime" class="sparkling_lata1"></a><span class="sparkling_texto"></span>');
-	    	
-	    	$('.sparkling_texto').delay(800).animate({
-	    	opacity: 1,
-	    	marginLeft: '+=40'
-	  		},500, 'easeInOutQuad');
-	  		
-	  		 $('.sparkling_lata1').delay(200).animate({
-	    	opacity: 1,
-	    	top: '+=20'
-	  		}, 400);
-	  		
-	  		$('.sparkling_lata2').delay(300).animate({
-	    	opacity: 1, 
-	    	top: '+=20'
-	  		}, 200);
-	  		
-	  		/*$('.sparkling_lata3').delay(300).animate({
-	    	opacity: 1, 
-	    	top: '+=20'
-	  		}, 200);*/
-	  		
-	  		$('.sparkling_circles').delay(800).animate({
-	    	opacity: 1,
-	    	top: '+=50',
-	    	left: '+=80'
-	  		},4000, 'easeOutElastic'
-            );
+	teverde();
 
 	}
 
+}
+
+function teverde(){
+	    	 var contenedordos = $('li.show ul').children('li').append('<span class="teverde_texto"></span><span class="teverde_flotan"></span><a href="/main/tediet_miel/" class="tenuevabotella1"></a><span class="teverde_signo"></span><a href="/main/tehelado_limon" class="tenuevabotella3"><a href="/main/teverde_miel" class="tenuevabotella2"></a></a><a href="/main/mix_zanahoria" class="jugonuevabotella1"></a><a href="/main/nectar_sandia" class="jugonuevabotella3"></a><a href="/main/nectar_mango" class="jugonuevabotella2"></a>');
+	       
+	       $('.teverde_texto').delay(800).animate({
+	    	opacity: 1,
+	    	marginLeft: '+=20'
+	  		}, 300, 'easeInBack');
+	  		
+	  		 $('.teverde_flotan').delay(100).animate({
+	    	opacity: 1,
+	    	left: '+=130',
+	    	top: '+=100'
+	  		}, 3000, 'easeOutBack');
+	  		
+	  		$('.tenuevabotella1').delay(200).animate({
+	    	opacity: 1
+	  		}, 1000);
+	  		
+	  		$('.tenuevabotella2').delay(400).animate({
+	    	opacity: 1
+	  		}, 1000);
+	  		
+	  		$('.tenuevabotella3').delay(600).animate({
+	    	opacity: 1
+	  		}, 1000);
+	  		
+	  		$('.jugonuevabotella1').delay(800).animate({
+	    	opacity: 1
+	  		}, 1000);
+	  		
+	  		$('.jugonuevabotella2').delay(1000).animate({
+	    	opacity: 1
+	  		}, 1000);
+	  		
+	  		$('.jugonuevabotella3').delay(1200).animate({
+	    	opacity: 1
+	  		}, 1000);
+	  		
+	  		$('.teverde_signo').delay(2000).animate({
+	    	opacity: 1, 
+	    	top: '+=90'
+	  		}, 1000);
 }
 
 

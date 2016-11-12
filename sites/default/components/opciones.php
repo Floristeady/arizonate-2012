@@ -24,3 +24,29 @@
 		$opciones = get_opciones();
 		return $opciones[$i];	
 	}
+	
+	function get_opciones2() {
+		$opciones[10] = "Nectar sabor Mango";
+		$opciones[11] = "Nectar sabor Sandia";
+		$opciones[12] = "Nectar sabor Uva";
+		$opciones[13] = "Nectar sabor Naranja";
+		$opciones[14] = "Nectar sabor Limonada Original";
+		return $opciones;
+	}
+	function get_opcion2($i) {
+		$opciones = get_opciones2();
+		return $opciones[$i];	
+	}
+	
+	function get_opciones3() {
+		$opciones[1] = "Té Verde con Miel y Ginseng";
+		$opciones[2] = "Té Blanco con Ginseng y jugo de Arandano";
+		$opciones[3] = "Té Verde con Ginseng y jugo de Granada";
+		$opciones[4] = "Té Verde DIET con Ginseng y Miel";
+		$opciones[5] = "Té Negro DIET sabor Frambuesa";
+		return $opciones;
+	}
+	function get_opcion3($i) {
+		$opciones = get_opciones3();
+		return $opciones[$i];	
+	}

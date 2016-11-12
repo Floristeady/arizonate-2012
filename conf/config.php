@@ -57,13 +57,13 @@
 	$conf["development"]["mail_smtp_hostprefix"] = "ssl";
 	$conf["development"]["mail_smtp_hostname"] = "smtp.gmail.com";
 	$conf["development"]["mail_smtp_auth"] = true;
-	$conf["development"]["mail_smtp_username"] = "test@appnotion.com";
-	$conf["development"]["mail_smtp_password"] = "34er34er";
+	$conf["development"]["mail_smtp_username"] = "hola@floristeady.com";
+	$conf["development"]["mail_smtp_password"] = "Adelita13";
 	$conf["development"]["mail_smtp_port"] = "465";
 	$conf["development"]["mail_from_name"] = "Web Arizona";
-	$conf["development"]["mail_from_address"] = "test@appnotion.com";
-	$conf["development"]["web_mailbox"] = "florencia@zet.cl";
-	$conf["development"]["web_mailbox_venta"] = "florencia@zet.cl";
+	$conf["development"]["mail_from_address"] = "hola@floristeady.com";
+	$conf["development"]["web_mailbox"] = "hola@floristeady.com";
+	$conf["development"]["web_mailbox_venta"] = "hola@floristeady.com";
 
 	$conf["test"]["mail_component"] = "PHPMAILER";
 	$conf["test"]["mail_smtp_hostprefix"] = "ssl";

@@ -5,25 +5,48 @@
 	i = 0;
 	function addmix() {
 		i++;
-	$("#Mixs").append(" \
-    <p id='mix_" + i + "'> \
-    	<strong>Mix</strong>\
-      <select name='mixes[" + i + "][1]'>\
-      	<? foreach (get_opciones() as $key => $opcion) { ?>
-      	<option value='<?=$key?>'><?=$opcion?></option>\
-      	<? } ?>
-      </select>\
-       +\
-      <select name='mixes[" + i + "][2]'>\
-      	<? foreach (get_opciones() as $key => $opcion) { ?>
-      	<option value='<?=$key?>'><?=$opcion?></option>\
-      	<? } ?>
-      </select>\
-      \
-      <a  onclick=\"$('#mix_" + i + "').remove()\">x</a>\
-    </p>\
-	");
-}
+		$("#Mixs").append(" \
+	    <p id='mix_" + i + "'> \
+	    	<strong>Mix</strong>\
+	      <select name='mixes[" + i + "][1]'>\
+	      	<? foreach (get_opciones2() as $key => $opcion) { ?>
+	      	<option value='<?=$key?>'><?=$opcion?></option>\
+	      	<? } ?>
+	      </select>\
+	       +\
+	      <select name='mixes[" + i + "][2]'>\
+	      	<? foreach (get_opciones2() as $key => $opcion) { ?>
+	      	<option value='<?=$key?>'><?=$opcion?></option>\
+	      	<? } ?>
+	      </select>\
+	      \
+	      <a  onclick=\"$('#mix_" + i + "').remove()\">x</a>\
+	    </p>\
+		");
+	}
+	
+	i = 0;
+	function addmix2() {
+		i++;
+		$("#Mixs2").append(" \
+	    <p id='mix_" + i + "'> \
+	    	<strong>Mix</strong>\
+	      <select name='mixes[" + i + "][1]'>\
+	      	<? foreach (get_opciones3() as $key => $opcion) { ?>
+	      	<option value='<?=$key?>'><?=$opcion?></option>\
+	      	<? } ?>
+	      </select>\
+	       +\
+	      <select name='mixes[" + i + "][2]'>\
+	      	<? foreach (get_opciones3() as $key => $opcion) { ?>
+	      	<option value='<?=$key?>'><?=$opcion?></option>\
+	      	<? } ?>
+	      </select>\
+	      \
+	      <a  onclick=\"$('#mix_" + i + "').remove()\">x</a>\
+	    </p>\
+		");
+	}
 </script>
 
 <div id="detalle_3" class="wrapper-a">
@@ -342,13 +365,25 @@
            		</div>
            		
            		<div class="text">
-           			<p>Arma tu <strong>pack de 12 unidades</strong> con los dos sabores que prefieras. Elige <strong>6 unidades</strong> de cada sabor. </p>
+           			<p>Arma tu <strong>pack lata de 12 unidades</strong> con los dos sabores que prefieras. Elige <strong>6 unidades</strong> de cada sabor. </p>
            		</div>
             
-            <div id="Mixs" class="cerrar">
-		    </div>
+	            <div id="Mixs" class="cerrar">
+			    </div>
+	
+	        	<input class="agregar boton F-left"  name="Agregar" type="button" onclick="addmix()" value="AGREGAR MIX" />
+	        	
+	        	<div class="text">
+           			<p>Arma tu <strong>pack botella de 20 unidades</strong> con los dos sabores que prefieras. Elige <strong>10 unidades</strong> de cada sabor. </p>
+           		</div>
+	        	
+	        	<div class="clearfix"></div>
+	        	
+	        	 <div id="Mixs2" class="cerrar">
+			    </div>
+	
+	        	<input class="agregar boton F-left"  name="Agregar" type="button" onclick="addmix2()" value="AGREGAR MIX" />
 
-        	<input class="agregar boton F-left"  name="Agregar" type="button" onclick="addmix()" value="AGREGAR MIX" />
        
         	</div>
 

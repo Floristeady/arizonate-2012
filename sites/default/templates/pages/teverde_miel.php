@@ -41,9 +41,9 @@
 			
 		<div class="modulo_info">
 			<p><strong>PRESENTACIÓN</strong></p>
-		    <p>Botella de vidrio 473 ml</p>
+		    <p>Botella de plástico 500 ml</p>
 			<p class="mar-top-10"><strong>UNIDAD DE VENTA</strong></p>
-			<p>Bandeja con 12 botellas</p>    
+			<p>Bandeja con 20 botellas</p>    
 		</div>
 		<!--/modulo_info-->
 		

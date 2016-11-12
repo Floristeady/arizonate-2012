@@ -46,7 +46,7 @@ pageTracker._trackPageview();
 <!--header -->
 <div class="wrapper-a">
 
-	<h1><a href="<?=url_for("main", "index")?>" title="Arizonate" id="logo">Arizonate</a></h1>
+	<h1><a href="<?=url_for("main", "index")?>" title="Arizonate" id="logo" class="tenyears">Arizonate</a></h1>
       
 
     <ul id="mini_menu">
@@ -63,22 +63,20 @@ pageTracker._trackPageview();
 	
 	<li><a class="te <? if (substr(get_current_action(), 0, 6) == "teverd" || substr(get_current_action(), 0, 6) == "tediet" || substr(get_current_action(), 0, 6) == "teblan" || substr(get_current_action(), 0, 6) == "tehela") {?>_ON<? } ?>" href="<?=url_for("main", "teverde_miel")?>">Té Arizona</a>
 		<ul class="subnav">
-			<li class="title">Té Verde y Blanco</li>  
+			<li class="title">Té Verde</li>  
 		    <li><a href="<?=url_for("main", "teverde_miel")?>">Té verde con Ginseng y Miel</a></li> 
-		    <li><a href="<?=url_for("main", "teverde_granada")?>">Té verde sabor Granada</a></li>   
-		    <li><a href="<?=url_for("main", "teblanco_arandano")?>">Té blanco sabor Arándano</a></li>  
 			<li class="title">Té Negro</li>  
 		    <li><a href="<?=url_for("main", "tehelado_fram")?>">Té negro sabor Frambuesa</a></li> 
 		    <li><a href="<?=url_for("main", "tehelado_limon")?>">Té negro sabor Limón</a></li>   
 		    <li><a href="<?=url_for("main", "tehelado_mango")?>">Té negro sabor Mango</a></li>  
-		    <li class="title">Té Diet</li>  
-		    <li><a href="<?=url_for("main", "tediet_miel")?>">Té verde diet con Ginseng</a></li> 
-		    <li><a href="<?=url_for("main", "tediet_fram")?>">Té negro diet sabor Frambuesa</a></li> 
-		    <li><a href="<?=url_for("main", "tediet_limon")?>">Té negro diet sabor Limón</a></li>   
+		    <li class="title">Té Zero Calorías</li>  
+		    <li><a href="<?=url_for("main", "tediet_miel")?>">Té verde Zero calorías con Ginseng</a></li> 
+		    <li><a href="<?=url_for("main", "tediet_limon")?>">Té negro Zero calorías sabor Limón</a></li>   
 	    </ul>  
 	</li> 
-	<li><a class="nectar <? if (substr(get_current_action(), 0, 6) == "nectar" ) {?>_ON<? } ?>"  href="<?=url_for("main", "tehelado_fram")?>">Néctar</a>
+	<li><a class="nectar <? if (substr(get_current_action(), 0, 6) == "nectar" ) {?>_ON<? } ?>"  href="<?=url_for("main", "tehelado_fram")?>">Jugos</a>
 		<ul class="subnav">
+			<li><a href="<?=url_for("main", "mix_zanahoria")?>">Mix Zanahoria con Frutas</a></li> 
 			<li><a href="<?=url_for("main", "nectar_mango")?>">Néctar sabor Mango</a></li> 
 			<li><a href="<?=url_for("main", "nectar_sandia")?>">Néctar sabor Sandia</a></li>   
 			<li><a href="<?=url_for("main", "nectar_uva")?>">Néctar sabor Uva</a></li> 

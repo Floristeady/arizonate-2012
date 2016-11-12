@@ -36,7 +36,7 @@
 	    	<p><strong>PRESENTACIÓN</strong></p>
 	         <p>Lata de 680 ml</p>
 			<p><strong>UNIDAD DE VENTA</strong></p>
-			<p>Bandeja con 12 botellas</p>    
+			<p>Bandeja con 12 latas</p>    
 		</div>
 
 	  	<div class="modulo_datos">	

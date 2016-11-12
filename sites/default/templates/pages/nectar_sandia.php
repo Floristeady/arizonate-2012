@@ -20,8 +20,8 @@
     
     <div class="subcol_IZ">
 	    <!--modulo_botella-->
-	    <div id="product" class="modulo_lata">
-	    	<img src="/img/products/lata_06.png" />
+	    <div id="product" class="modulo_botelata">
+	    	<img src="/img/products/botelata_necsandia.png" />
 	    </div>
 	 </div><!--subcol_IZ-->
     
@@ -40,8 +40,10 @@
 		<div class="modulo_info">
 			<p><strong>PRESENTACIÓN</strong></p>
 		     <p>Lata de 680 ml</p>
+		     <p>Botella plástico de 500 ml</p><br>
 			<p><strong>UNIDAD DE VENTA</strong></p>
-			<p>Bandeja con 12 botellas</p>    
+			<p>Bandeja con 12 latas</p>    
+			<p>Bandeja con 20 botellas</p>   
 		</div>
 		<!--/modulo_info--> 
 

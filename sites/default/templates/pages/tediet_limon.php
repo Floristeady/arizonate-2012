@@ -11,7 +11,7 @@
 	
     <!--titulos-->
 	<div class="titulo_tedietlimon">
-		<h1>Té negro DIET</h1>
+		<h1>Té negro ZERO calorías</h1>
 		<h6>sabor Limón</h6>
 	</div>
     <!--/titulos-->
@@ -43,7 +43,7 @@
 		    	<p><strong>PRESENTACIÓN</strong></p>
 		        <p>Lata de 680 ml</p>
 				<p><strong>UNIDAD DE VENTA</strong></p>
-				<p>Bandeja con 12 botellas</p>    
+				<p>Bandeja con 12 latas</p>    
 			</div>
 		    <!--/modulo_info-->
 		    

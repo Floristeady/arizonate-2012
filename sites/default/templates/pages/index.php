@@ -27,16 +27,6 @@
 
          <ul class="slideshow">
 	        <li class="slide" class="">
-         		<ul id="sparkling">
-         		</ul>
-         	</li>
-         	
-         	<li class="slide" class="show">
-	         	<ul id="tenegro">
-	         	</ul>
-         	</li>
-         	
-         	<li class="slide" class="">
          		<ul id="teverde">
          		</ul>
          	</li>
@@ -44,6 +34,16 @@
          	<li class="slide" class="">
          		<ul id="nectar">
          		</ul>
+         	</li>
+         	
+	        <li class="slide" class="">
+         		<ul id="sparkling">
+         		</ul>
+         	</li>
+         	
+         	<li class="slide" class="show">
+	         	<ul id="tenegro">
+	         	</ul>
          	</li>
          	
          	<li class="slide" class="">
@@ -93,15 +93,12 @@
 		        </a>
 		        <ul class="list-products te_list">
 
-			       	<li><a href="<?=url_for("main", "teverde_miel")?>">Té verde con Ginseng y Miel</a></li>
-			       	<li><a href="<?=url_for("main", "teverde_granada")?>">Té verde sabor Granada</a></li>
-			       	<li><a href="<?=url_for("main", "teblanco_arandano")?>">Té blanco sabor Arándano</a></li>
+			       	<li><a href="<?=url_for("main", "teverde_miel")?>">Té verde con Ginseng y Miel</a></li>		       	
 			       	<li><a href="<?=url_for("main", "tehelado_fram")?>">Té negro sabor Frambuesa</a></li>
 			       	<li><a href="<?=url_for("main", "tehelado_limon")?>">Té negro sabor Limón</a></li>
 			       	<li><a href="<?=url_for("main", "tehelado_mango")?>">Té negro sabor Mango</a></li>
-			       	<li><a href="<?=url_for("main", "tediet_miel")?>">Té verde diet con Ginseng </a></li>
-			       	<li><a href="<?=url_for("main", "tediet_fram")?>">Té negro diet sabor Frambuesa</a></li>
-			       	<li><a href="<?=url_for("main", "tediet_limon")?>">Té negro diet sabor Limón</a></li>
+			       	<li><a href="<?=url_for("main", "tediet_miel")?>">Té verde Zero calorias con Ginseng </a></li>
+			       	<li><a href="<?=url_for("main", "tediet_limon")?>">Té negro Zero calorias sabor Limón</a></li>
 
 		        </ul>
 		        
@@ -110,9 +107,10 @@
 	        <div id="nectar"  class="column nectar">
 	        	<a class="btn_show"  href="javascript:void(0)">
 		         <span class="img"></span>
-		        <span class="subtitle"><h3>Nectar</h3></span>
+		        <span class="subtitle"><h3>Jugos</h3></span>
 		        </a>
 		         <ul class="list-products nectar_list">
+			         	<li><a href="<?=url_for("main", "mix_zanahoria")?>">Mix Zanahoria con Frutas</a></li>
 			       	<li><a href="<?=url_for("main", "nectar_mango")?>">Néctar sabor Mango</a></li>
 			       	<li><a href="<?=url_for("main", "nectar_sandia")?>">Néctar sabor Sandia</a></li>
 			       	<li><a href="<?=url_for("main", "nectar_uva")?>">Néctar sabor Uva </a></li>

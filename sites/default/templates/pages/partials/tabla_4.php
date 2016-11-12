@@ -1,7 +1,7 @@
 <!--te diet miel-->
 <div id="nutridiv">
 <h1>Información Nutricional</h1>
-<p>Porción 240ml (1/2 envase)<br>
+<p>Porción 240ml<br>
 Porciones por envase 2 aprox.</p>
 <table id="nutrition">
 <tbody><tr>

@@ -144,6 +144,7 @@ $(function() {
 	 	var tediet = $('#back').hasClass('back_tediet');
 	 	var tedietfram = $('#back').hasClass('back_tedietfram');
 	 	
+	 	var mixzanahoria = $('#back').hasClass('back_mixzanahoria');
 	 	var necmango = $('#back').hasClass('back_mango');
 	 	var necnaranja = $('#back').hasClass('back_naranja');
 	 	var necsandia = $('#back').hasClass('back_sandia');
@@ -173,7 +174,7 @@ $(function() {
 			$('#master-footer').css({'background-color' : '#aab237'});
 			$('.info_fb').css({'border-color' : '#7f8529'});
 		
-		} else if(heladomango == true) {
+		} else if(heladomango == true || mixzanahoria == true) {
 			$('#master-footer').css({'background-color' : '#ab2e1e'});
 			$('.info_fb').css({'border-color' : '#eb462f'});
 			

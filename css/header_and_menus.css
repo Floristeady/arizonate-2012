@@ -13,6 +13,20 @@ a#logo {
 	top: 43px;
 }
 
+a#logo.tenyears {
+	background-image: url(/img/CSS_sprite.png);
+	background-position: -776px -50px;
+	background-repeat: no-repeat;
+	display: block;
+	width: 230px;
+	height: 70px;
+	text-indent: -999em;
+	position: absolute;
+	z-index: 2;
+	left: 0px;
+	top: 35px;
+}
+
 a#logo_mini_red {
 	float: left;
 	background-image: url(../img/CSS_sprite.png);
@@ -108,15 +122,15 @@ a#logo_mini_red {
     height: 40px;
     width: 410px;
     position: absolute;
-    top: 50px;
-    left: 303px;
+    top: 50px;    
+    right: 230px;
 }
 
 #nav-primary {
 	position: absolute;
 	top: 60px;
 	margin: 0px;
-	left: 240px;
+	right: 0;
 	z-index: 2;
 }
 
@@ -148,7 +162,7 @@ a#logo_mini_red {
 }
 
 header #nav-primary li a.nectar  {
-	 background-position: 68px center;	 
+	 background-position: 58px center;	 
 }
 
 #nav-primary li a.te, #nav-primary li a.nectar, #nav-primary li a.sparkling {
