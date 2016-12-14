@@ -9,7 +9,7 @@
 
 <img style="margin:0px; padding:0px; margin-bottom:10px;" alt="Arizona" title="Arizona" src="http://<?=$_SERVER["SERVER_NAME"]?>/img/test/contacto_fondo.gif">
 
-<img style="margin:0px; padding:0px; margin-bottom:20px;" alt="Carro de Compras Arizona" title="Carro de Compras Arizona" src="http://<?=$_SERVER["SERVER_NAME"]?>/img/test/titulo_compra.png">
+<img style="margin:0px; padding:0px; margin-bottom:20px; display:none;" alt="Carro de Compras Arizona" title="Carro de Compras Arizona" src="http://<?=$_SERVER["SERVER_NAME"]?>/img/test/titulo_compra.png">
 
 <form name="form1" method="post" action="">
 
@@ -108,14 +108,16 @@
 
 <? if (is_array ($productos)) {?>
 <? foreach ($productos as $key => $cantidad) { ?>
+<? if (!$cantidad == '0') {?>
 <tr>
-<td height="27" bgcolor="#f5f5f5">
+<td height="27" bgcolor="#f5f5f5" style="border-bottom: 1px solid #ccc;">
     <p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:20px;color: #55555; padding:0px; margin:0px;"><?=get_opcion($key)?></p>
 </td>
-<td align="center" bgcolor="#f5f5f5">
+<td align="center" bgcolor="#f5f5f5"  style="border-bottom: 1px solid #ccc;">
     <p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:20px;color: #55555; padding:0px; margin:0px;"><?=$cantidad?></p>
 </td>
 </tr>
+<? } ?>
 <? } ?>
 <? } ?>
 

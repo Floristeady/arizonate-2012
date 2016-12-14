@@ -7,13 +7,16 @@ span.deco_cyan {
 	margin: 5px 5px 0px;
 }
 
-
 .mar-top-10 {
 	margin-top: 10px;
 }
 
 .mar-bottom-10 {
 	margin-bottom: 10px;
+}
+
+.mar-bottom-18 {
+	margin-bottom: 18px;
 }
 
 .mar-bottom-20 {

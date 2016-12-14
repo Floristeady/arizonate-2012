@@ -50,9 +50,7 @@
   		<p><strong>Importa y Distribuye exclusivamente para Chile: </strong> Big Chile Ltda.</p>
   		</br>
     	<p><strong>Teléfono:</strong></p>
-    	<p>(+56 2) 2224 37 23 // (+56 2) 2229 66 53</p>
-    	<p><strong>Fax: </strong></p>
-    	<p>(+56 2) 2224 37 23</p>
+    	<p>(+56 2) 2224 37 23 // (+56 2) 2229 66 53 // +56 9 7336 7940</p>
      	<p>&nbsp;</p>
     	<p>Alonso de Camargo 6920, Las Condes. </p>
     	<p>Santiago, Chile. </p>

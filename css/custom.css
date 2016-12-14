@@ -1231,7 +1231,8 @@ ul.slideshow .sparkling_lata3 {
 
 #detalle_3 .modulo_mix .text {
 	float: left;
-	padding: 15px 0px;
+	width: 100%;
+	padding: 10px 0px;
 }
 
 #detalle_3 .modulo_mix .title span {

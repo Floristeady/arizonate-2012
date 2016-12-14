@@ -61,7 +61,7 @@ class main_controller extends PortalController{
 			}
 			$found = false;
 			foreach ($_POST["productos"] as $q) {
-				if ($q > 0) {
+				if (count($q > 0)) {
 					$found = true;
 				}
 			}

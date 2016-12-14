@@ -121,7 +121,7 @@ pageTracker._trackPageview();
 		<div class="column">
 			<h4>Importa y Distribuye exclusivamente para Chile:</h4> 
 			<h4><strong> Big Chile Ltda.</strong></h4>
-			<p>Teléfono: +56 2 222 437 23 | +56 2 222 966 53</p>  
+			<p>Teléfonos: +56 2 222 437 23 | +56 2 222 966 53 | +56 9 7336 7940</p>  
 			<p>Alonso de Camargo 6920, Las Condes. Santiago, Chile.</p>
 		</div>
 	
