@@ -2,7 +2,7 @@
 
 	function get_opciones() {
 		$opciones[1] = "Té Verde con Miel y Ginseng";
-		$opciones[2] = "Té Verde ZERO calorias con Ginseng y Miel";
+		$opciones[2] = "Té Verde ZERO calorias con Ginseng y Miel Botella 500ml";
 		$opciones[3] = "Té Negro ZERO calorias sabor Limon";
 		$opciones[4] = "Té Helado con sabor de Frambuesa";
 		$opciones[5] = "Té Helado con sabor de Limon Lata";
@@ -19,6 +19,10 @@
 		$opciones[16] = "Nectar sabor Sandia Botella";
 		$opciones[17] = "Sparkling Rickey Cherry Lime";
 		$opciones[18] = "Sparkling Rickey Mango Lime";
+		$opciones[19] = "Té Verde ZERO calorias con Ginseng y Miel Botella 1.24l";
+		$opciones[20] = "Té verde DIET sabor Arándano";
+		$opciones[21] = "Té helado DIET sabor Durazno";
+		$opciones[22] = "Nectar sabor Kiwi Frutilla";
 		return $opciones;
 	}
 	function get_opcion($i) {
@@ -48,7 +52,7 @@
 	
 	function get_opciones3() {
 		$opciones[1] = "Té Verde con Miel y Ginseng";
-		$opciones[2] = "Té Verde ZERO calorias Ginseng y Miel";
+		$opciones[2] = "Té Verde ZERO calorias Ginseng y Miel 500ml";
 		$opciones[6] = "Té Helado con sabor de Limon Botella";
 		$opciones[8] = "Mix Zanahoria con Frutas";
 		$opciones[15] = "Nectar sabor Mango Botella";

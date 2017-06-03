@@ -110,6 +110,13 @@ span.deco_cyan {
 	float: left;
 }
 
+.back_tedietarandano {
+	background-image: url(../img/elements/back_tedietarandano.png);
+	background-repeat: no-repeat;
+	background-position: 20px 110px;
+	float: left;
+}
+
 .back_tediet {
 	background-image: url(../img/elements/back_tediet.png);
 	background-repeat: no-repeat;
@@ -152,6 +159,13 @@ span.deco_cyan {
 	float: left;
 }
 
+.back_durazno{
+	background-image: url(../img/elements/back_durazno.png);
+	background-repeat: no-repeat;
+	background-position: 22px 150px;
+	float: left;
+}
+
 .back_temango{
 	background-image: url(../img/elements/back_teheladomango.png);
 	background-repeat: no-repeat;
@@ -179,6 +193,14 @@ span.deco_cyan {
 	background-position: 18px 170px;
 	float: left;
 }
+
+.back_kiwi{
+	background-image: url(../img/elements/back_kiwifrutilla.png);
+	background-repeat: no-repeat;
+	background-position: 18px 170px;
+	float: left;
+}
+
 
 .back_naranja {
 	background-image: url(../img/elements/back_naranja.png);
@@ -407,7 +429,8 @@ td.center {
 .titulo_uva,
 .titulo_naranja, 
 .titulo_limonada,
-.titulo_tedietlimon  {
+.titulo_tedietlimon,
+.titulo_kiwi {
 	margin-top: 20px;
 	 width: 100%;
 	 float: left;
@@ -565,6 +588,51 @@ td.center {
 	margin-left: 260px;
 	margin-top: 10px;
 	text-shadow: 2px 2px 2px #aaaab3;
+}
+
+/*te diet durazn*/
+
+.titulo_tedietdurazno h1 {
+	color: #ff7733;
+	font-size: 36px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+
+.titulo_tedietdurazno h1 span {
+	color: #9b1e1b;
+}
+
+.titulo_tedietdurazno h6 {
+	color: #fad90c;
+	font-size: 28px;
+	margin-left: 200px;
+	margin-top: 10px;
+	font-style: normal;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #aaaab3;
+}
+
+/*te diet arandano */
+
+.titulo_tedietarandano h1 {
+	color: #5ebea3;
+	font-size: 36px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	margin-top: 20px;
+}
+
+.titulo_tedietarandano h6 {
+	color: #4b59a5;
+	font-size: 24px;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+
+.titulo_tedietarandano h6 span {
+	color: #d1c189;
+	font-weight: bold;
 }
 
 /*te bebida*/
@@ -823,6 +891,42 @@ td.center {
 	margin-left: 200px;
 	float: left;
 	clear: left;
+}
+
+/*nectar kiwi */
+
+.titulo_kiwi h1 {
+	color: #337649;
+	font-size: 36px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	margin-top: 0px;
+	margin-left: 10px;
+	float: left;
+}
+
+.titulo_kiwi h6 {
+	color: #d3d153;
+	font-size: 28px;
+	margin-left: 15px;
+	margin-top: 5px;
+	text-shadow: 1px 1px 1px #aaaab3;
+	float: left;
+	font-weight: bold;
+}
+
+.titulo_kiwi h6 span {
+	color: #ed1747;
+}
+
+.titulo_kiwi h5 {
+	color: #337649;
+	font-size: 25px;
+	text-shadow: 2px 2px 2px #aaaab3;
+	margin-top: 5px;
+	margin-left: 10px;
+	float: left;
+	font-weight: bold;
+	font-style: italic;
 }
 
 /*nectar sparkling*/

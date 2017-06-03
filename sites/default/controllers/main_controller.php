@@ -14,6 +14,7 @@ class main_controller extends PortalController{
 	function tediet_arandano() {}
 	function tediet_fram() {}
 	function tediet_limon() {}
+	function tediet_durazno() {}
 	
 	function tehelado_fram() {}
 	function tehelado_limon() {}
@@ -25,6 +26,7 @@ class main_controller extends PortalController{
 	function nectar_uva() {}
 	function nectar_sandia() {}
 	function nectar_limonada() {}
+	function nectar_kiwi() {}
 	
 	function sparkling_cherrylime() {}
 	function sparkling_mangolime() {}
@@ -69,7 +71,7 @@ class main_controller extends PortalController{
 				$found = true;
 			}
 			if (!$found) {
-				$errors["productos"] = "Debe seleccionar como mínimo algún producto o algún mix";	
+				$errors["productos"] = "Debe seleccionar como mÃ­nimo algÃºn producto o algÃºn mix";	
 			}
 			$this->setData("errors",$errors);
 

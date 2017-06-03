@@ -64,15 +64,15 @@
         <div class="description">
         	<span class="line"></span>
         	<div class="text">
-        		<h1><span class="logo"></span>El mejor, sano y m·s delicioso:<span class="magenta_1"> TE HELADO Y NECTAR</span></h1>   
+        		<h1><span class="logo"></span>El mejor, sano y m√°s delicioso:<span class="magenta_1"> TE HELADO Y NECTAR</span></h1>   
         	</div>
         	
         	<div class="text">
-        		<h2><span class="red">AutÈntico tÈ y nectar</span> - <span class="green">100% natural</span>  - Antioxidante - Bajo en sodio - Libre de gluten - Kosher - Sin preservantes - Sin colorantes artificiales - Sin sabores artificiales.</h2>  
+        		<h2><span class="red">Aut√©ntico t√© y nectar</span> - <span class="green">100% natural</span>  - Antioxidante - Bajo en sodio - Libre de gluten - Kosher - Sin preservantes - Sin colorantes artificiales - Sin sabores artificiales.</h2>  
         	</div>
         	<div class="text three">
         		<h1><span class="cyan_2">RICO, ENTRETENIDO, REFRESCANTE Y MUY SALUDABLE...</span></h1>
-        		<h1><span class="cyan_2">Bebe, sientete bien y disfruta tu dÌa con</span> <span class="cyan_1"><strong>AriZona!</strong></span></h1> 
+        		<h1><span class="cyan_2">Bebe, sientete bien y disfruta tu d√≠a con</span> <span class="cyan_1"><strong>AriZona!</strong></span></h1> 
         	</div>
         	
         	<a href="/main/salud" class="btn_mas"></a>
@@ -83,22 +83,26 @@
         <div class="products">
 	        <div class="title">
 	       		<span class="deco_cyan"></span>
-	        	<h3>LÕNEAS DE PRODUCTOS</h3>
+	        	<h3>L√çNEAS DE PRODUCTOS</h3>
 	        	<span class="deco_cyan"></span>
 	        </div>
 	        <div id="te" class="column">
 		        <a class="btn_show"  href="javascript:void(0)">
 		        <span class="img"></span>
-		        <span class="subtitle"><h3>TÈ Arizona</h3></span>
+		        <span class="subtitle"><h3>T√© Arizona</h3></span>
 		        </a>
 		        <ul class="list-products te_list">
 
-			       	<li><a href="<?=url_for("main", "teverde_miel")?>">TÈ verde con Ginseng y Miel</a></li>		       	
-			       	<li><a href="<?=url_for("main", "tehelado_fram")?>">TÈ negro sabor Frambuesa</a></li>
-			       	<li><a href="<?=url_for("main", "tehelado_limon")?>">TÈ negro sabor LimÛn</a></li>
-			       	<li><a href="<?=url_for("main", "tehelado_mango")?>">TÈ negro sabor Mango</a></li>
-			       	<li><a href="<?=url_for("main", "tediet_miel")?>">TÈ verde Zero calorias con Ginseng </a></li>
-			       	<li><a href="<?=url_for("main", "tediet_limon")?>">TÈ negro Zero calorias sabor LimÛn</a></li>
+			       	<li><a href="<?=url_for("main", "teverde_miel")?>">T√© verde con Ginseng y Miel</a></li>		       	
+			       	<li><a href="<?=url_for("main", "tehelado_fram")?>">T√© negro sabor Frambuesa</a></li>
+			       	<li><a href="<?=url_for("main", "tehelado_limon")?>">T√© negro sabor Lim√≥n</a></li>
+			       	<li><a href="<?=url_for("main", "tehelado_mango")?>">T√© negro sabor Mango</a></li>
+			       	<li><a href="<?=url_for("main", "tediet_miel")?>">T√© verde Zero calorias con Ginseng </a></li>
+			       	<li><a href="<?=url_for("main", "tediet_limon")?>">T√© negro Zero calorias sabor Lim√≥n</a></li>
+			       	<li><a href="<?=url_for("main", "tediet_arandano")?>">T√© verde Diet sabor Ar√°ndano</a></li>
+
+				   	<li><a href="<?=url_for("main", "tediet_durazno")?>">T√© helado Diet sabor Durazno</a></li>
+
 
 		        </ul>
 		        
@@ -111,11 +115,12 @@
 		        </a>
 		         <ul class="list-products nectar_list">
 			         	<li><a href="<?=url_for("main", "mix_zanahoria")?>">Mix Zanahoria con Frutas</a></li>
-			       	<li><a href="<?=url_for("main", "nectar_mango")?>">NÈctar sabor Mango</a></li>
-			       	<li><a href="<?=url_for("main", "nectar_sandia")?>">NÈctar sabor Sandia</a></li>
-			       	<li><a href="<?=url_for("main", "nectar_uva")?>">NÈctar sabor Uva </a></li>
-			       	<li><a href="<?=url_for("main", "nectar_naranja")?>">NÈctar sabor Naranja</a></li>
-			        <li><a href="<?=url_for("main", "nectar_limonada")?>">NÈctar sabor Limonada Original</a></li>
+			       	<li><a href="<?=url_for("main", "nectar_mango")?>">N√©ctar sabor Mango</a></li>
+			       	<li><a href="<?=url_for("main", "nectar_sandia")?>">N√©ctar sabor Sandia</a></li>
+			       	<li><a href="<?=url_for("main", "nectar_uva")?>">N√©ctar sabor Uva </a></li>
+			       	<li><a href="<?=url_for("main", "nectar_naranja")?>">N√©ctar sabor Naranja</a></li>
+			        <li><a href="<?=url_for("main", "nectar_limonada")?>">N√©ctar sabor Limonada Original</a></li>
+			         <li><a href="<?=url_for("main", "nectar_kiwi")?>">N√©ctar sabor Kiwi Frutilla</a></li>
 		        </ul>
 		        
 	        </div>
@@ -124,10 +129,10 @@
 	        <div id="rx" class="column_small rx">
 	           <a class="btn_show"  href="javascript:void(0)">
 		         <span class="img"></span>
-		        <span class="subtitle"><h3>EnergÈtica RX</h3></span>
+		        <span class="subtitle"><h3>Energ√©tica RX</h3></span>
 		        </a>
 		        <ul class="list-products rx_list">
-			       	<li><a href="<?=url_for("main", "energetica")?>">Bebida energÈtica RX con tÈ de hierbas</a></li>
+			       	<li><a href="<?=url_for("main", "energetica")?>">Bebida energ√©tica RX con t√© de hierbas</a></li>
 		        </ul>
 		        
 	        </div>

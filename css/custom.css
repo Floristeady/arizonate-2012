@@ -268,6 +268,10 @@ ul.slideshow li li {
     z-index: 100;
 }
 
+#nectar .x-slide, #teverde .x-slide, #tenegro .x-slide  {
+	width: 1125px;
+}
+
 
 /* te negro elementos */
 
@@ -308,7 +312,7 @@ ul.slideshow .tenegro_lata1 {
 	height: 352px;
     width: 223px;
     position: absolute;
-	right: 310px;
+	left: 410px;
     top: 90px;
     opacity: 0;
 }
@@ -320,7 +324,7 @@ ul.slideshow .tenegro_lata2 {
 	height: 456px;
     width: 200px;
     position: absolute;
-	right: 160px;
+	right: 360px;
     top: 60px;
     opacity: 0;
 }
@@ -332,7 +336,7 @@ ul.slideshow .tenegro_lata3 {
 	height: 358px;
     width: 188px;
     position: absolute;
-	right: -60px;
+	right: 260px;
     top: 98px;
     opacity: 0;
 }
@@ -344,7 +348,7 @@ ul.slideshow .tenegro_lata4 {
 	height: 358px;
     width: 188px;
     position: absolute;
-	right:40px;
+	right:100px;
     top: 90px;
     opacity: 0;
 }
@@ -361,6 +365,19 @@ ul.slideshow .tenegro_limon {
     position: absolute;
 }
 
+ul.slideshow .tediet_durazno {
+	background-image: url(../img/elements/bannertenegro_9.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 367px;
+    width: 157px;
+    top: 100px;
+    right: 20px;
+    opacity: 0;
+    position: absolute;
+}
+
+
 /* te verde elementos */
 
 ul.slideshow .teverde_back {
@@ -370,10 +387,10 @@ ul.slideshow .teverde_back {
 }
 
 ul.slideshow .teverde_texto {
-	background-image: url(../img/elements/bannerteverde_2.png);
+	background-image: url(../img/elements/bannerteverde_texto.png);
 	background-repeat: no-repeat;
 	display: block;
-	height: 200px;
+	height: 220px;
     width: 444px;
     position: absolute;
     top:70px;
@@ -473,7 +490,7 @@ ul.slideshow .tenuevabotella1 {
 	height: 339px;
     width: 180px;
     position: absolute;
-	right: 460px;
+	right: 500px;
     top: 120px;
     opacity: 0;
 }
@@ -485,7 +502,7 @@ ul.slideshow .tenuevabotella2 {
 	height: 354px;
     width: 140px;
     position: absolute;
-	right: 380px;
+	right: 420px;
     top: 115px;
     opacity: 0;
 }
@@ -497,7 +514,7 @@ ul.slideshow .tenuevabotella3 {
 	height: 364px;
     width: 150px;
     position: absolute;
-	right: 280px;
+	right: 320px;
     top: 90px;
     opacity: 0;
 }
@@ -550,6 +567,30 @@ ul.slideshow .teverde_signo {
     opacity: 0;
 }
 
+ul.slideshow .bannerteverde_grande1 {
+	background-image: url(../img/elements/bannerteverde_botellagrande1.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 394px;
+    width: 145px;
+    position: absolute;
+ 	left: 400px;
+    top: -60px;
+    opacity: 0;
+}
+
+ul.slideshow .bannerteverde_grande2 {
+	background-image: url(../img/elements/bannerteverde_botellagrande2.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 394px;
+    width: 145px;
+    position: absolute;
+ 	right: 230px;
+    top: -60px;
+    opacity: 0;
+}
+
 
 
 /* nectar elementos */
@@ -577,8 +618,8 @@ ul.slideshow .nectar_texto {
 	background-image: url(../img/elements/bannernectar_2.png);
 	background-repeat: no-repeat;
 	display: block;
-	height: 240px;
-    width: 430px;
+	height: 284px;
+    width: 302px;
     position: absolute;
     top:70px;
     opacity: 0;
@@ -592,7 +633,7 @@ ul.slideshow .nectar_lata1 {
 	height: 353px;
     width: 159px;
     position: absolute;
-	right: 500px;
+	left: 300px;
     top: 98px;
     opacity: 0;
 }
@@ -605,7 +646,7 @@ ul.slideshow .nectar_lata2 {
     width: 200px;
     position: absolute;
     top:80px;
-    right: 380px;
+    left: 400px;
     opacity: 0;
 }
 
@@ -617,7 +658,7 @@ ul.slideshow .nectar_lata3 {
     width: 142px;
     position: absolute;
     top:100px;
-    right: 300px;
+    left: 530px;
     opacity: 0;
 }
 
@@ -629,7 +670,7 @@ ul.slideshow .nectar_lata4 {
     width: 135px;
     position: absolute;
     top:90px;
-    right: 60px;
+    right: 70px;
     opacity: 0;
 }
 
@@ -645,6 +686,18 @@ ul.slideshow .nectar_lata5 {
     opacity: 0;
 }
 
+ul.slideshow .nectar_lata6 {
+	background-image: url(../img/elements/bannernectar_12.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 350px;
+    width: 170px;
+    position: absolute;
+    top:80px;
+    left: 650px;
+    opacity: 0;
+}
+
 ul.slideshow .nectar_botella {
 	background-image: url(../img/elements/bannernectar_11.png);
 	background-repeat: no-repeat;
@@ -653,7 +706,7 @@ ul.slideshow .nectar_botella {
     width: 170px;
     position: absolute;
     top:105px;
-    right: 130px;
+    right: 140px;
     opacity: 0;
 }
 
@@ -676,7 +729,7 @@ ul.slideshow .nectar_frutamango {
 	height: 129px;
     width: 105px;
     position: absolute;
-    right: 210px;
+    left: 500px;
     top: 340px;    
     opacity: 0;
 }
@@ -1030,7 +1083,6 @@ ul.slideshow .sparkling_lata3 {
 }
 
 .modulo_ingredientes_2 {
-	/*background-color: #eefcf1;*/
     background-color: rgba(247, 242, 220, 0.6);
 	border: 1px solid #e6c460;
 	float:left;
@@ -1082,6 +1134,13 @@ ul.slideshow .sparkling_lata3 {
 	position:absolute;
 	top:60px;
 	left:-42px;
+}
+
+.modulo_dosbotellas {
+	float:left;
+	position:absolute;
+	top:20px;
+	left:-35px;
 }
 
 /* Contacto
